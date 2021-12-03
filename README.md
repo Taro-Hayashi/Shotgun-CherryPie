@@ -19,7 +19,7 @@
 |12|Cherry MX ホットスワップソケット|20||
 |13|ゴム足|4||
 
-## キット以外に必要なもの
+### キット以外に必要なもの
 |部品名|数|||
 |-|-|-|-|
 |Raspberry Pi Pico|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/raspberry-pi-pico)|
@@ -29,7 +29,7 @@
 |スタビライザー|必要数|無くても動きます|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|
 |Micro USB ケーブル|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m)|
 
-## オプション
+### オプション
 |部品名|数|||
 |-|-|-|-|
 |ロータリーエンコーダ|～5|EC11/EC12||
@@ -38,7 +38,7 @@
 |1N4148W|13|表面実装タイプのダイオード|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800di-02-100)|
 
 
-## 必要な工具
+### 必要な工具
 |工具名| |
 |-|-|
 |はんだごて||
@@ -47,7 +47,7 @@
 |精密ドライバー||
 |ニッパー等ダイオードの足を切れるもの|金属用でない場合刃こぼれします。|
 
-## あると便利な工具
+### あると便利な工具
 |工具名||
 |-|-|
 |耐熱シリコンマット||
