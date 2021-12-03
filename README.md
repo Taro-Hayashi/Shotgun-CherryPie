@@ -27,7 +27,7 @@
 |キースイッチ|～20|Cherry MX互換のもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)|
 |キーキャップ|～20|Cherry MX互換のもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|
 |スタビライザー|必要数|無くても構いません|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|
-|Micro USB ケーブル|1|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m)|
+|Micro USB ケーブル|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m)|
 
 ## オプション
 |部品名|数|||
