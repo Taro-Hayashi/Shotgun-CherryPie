@@ -123,14 +123,14 @@ LEDを取り付けた場合はUSBケーブルを繋いですべてが発光す�
  - ファームウェアのコード
 
 #### PRKファームウェア
-最新版のPRKファームウェアとこちらのkeymap.rbをダウンロードしてください。
- - pico ruby / prk firmware https://github.com/picoruby/prk_firmware/releases
- - [keymap.rb]()
+最新版のPRKファームウェアとこちらのkeymap.rbをダウンロードしてください。  
+ - pico ruby / prk firmware https://github.com/picoruby/prk_firmware/releases  
+ - [keymap.rb]()  
 
-BOOTSELボタンを押しながらRaspberry Pi Picoを接続しuf2ファイルを書き込むと自動的に再起動してPRK Firmwareというドライブとして認識されます。
-そのドライブにkeymap.rbをドラッグアンドドロップするとキーボードとして使えるようになります。
-
-ドライブ上のkeymap.rbを直接編集して保存すると、その都度変更が反映されます。
+BOOTSELボタンを押しながらRaspberry Pi Picoを接続しuf2ファイルを書き込むと自動的に再起動してPRK Firmwareというドライブとして認識されます。  
+そのドライブにkeymap.rbをドラッグアンドドロップするとキーボードとして使えるようになります。  
+  
+ドライブ上のkeymap.rbを直接編集して保存すると、その都度変更が反映されます。  
 
 #### KMKファームウェア
 キーボードとして使えることは確認済みですが、私の理解が及ばないためLEDやロータリーエンコーダーの使いかたがよくわからず解説が書けませんでした。
@@ -139,7 +139,8 @@ BOOTSELボタンを押しながらRaspberry Pi Picoを接続しuf2ファイル�
 まだ試せていません。
 
 ### プレートのデータ
- - shotgun_cp_plates.zip
+ - shotgun_cp_plates.zip  
+
 発注先のルールに沿ってデータを修正してください。  
 
 
