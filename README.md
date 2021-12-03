@@ -1,1 +1,1 @@
-# Shotgun-CherryPie
+# Shotgun チェリーパイ ビルドガイド
