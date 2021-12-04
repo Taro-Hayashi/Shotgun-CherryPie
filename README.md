@@ -126,7 +126,7 @@ LEDを取り付けた場合はUSBケーブルを繋いですべてが発光す�
 
 #### PRKファームウェア
 最新版のPRKファームウェアとこちらのkeymap.rbをダウンロードしてください。  
- - pico ruby / prk firmware https://github.com/picoruby/prk_firmware/releases  
+ - pico ruby / prk firmware vvreleases  
  - [keymap.rb]()  
 
 BOOTSELボタンを押しながらRaspberry Pi Picoを接続しファームウェアのuf2ファイルを書き込むと、自動的に再起動してPRK Firmwareというドライブとして認識されます。  
@@ -149,6 +149,12 @@ BOOTSELボタンを押しながらRaspberry Pi Picoを接続しファームウ�
 foostan様のフットプリントを流用、改変して使わせていただきました。  
 https://github.com/foostan/kbd/  
 https://github.com/foostan/kbd/blob/master/LICENSE  
+
+せきごん様のRP2040ブランチ
+https://github.com/sekigon-gonnoc/qmk_firmware/tree/rp2040
+
+hasumikin様にロータリーエンコーダーを複数個使用するキット向けの対応をしていただきました。
+https://github.com/picoruby/prk_firmware/
 
 - BOOTH: https://tarohayashi.booth.pm/items/3430753
 
