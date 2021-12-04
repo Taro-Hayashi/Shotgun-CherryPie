@@ -129,7 +129,7 @@ LEDを取り付けた場合はUSBケーブルを繋いですべてが発光す�
  - pico ruby / prk firmware https://github.com/picoruby/prk_firmware/releases  
  - [keymap.rb]()  
 
-BOOTSELボタンを押しながらRaspberry Pi Picoを接続しuf2ファイルを書き込むと自動的に再起動してPRK Firmwareというドライブとして認識されます。  
+BOOTSELボタンを押しながらRaspberry Pi Picoを接続しファームウェアのuf2ファイルを書き込むと、自動的に再起動してPRK Firmwareというドライブとして認識されます。  
 そのドライブにkeymap.rbをドラッグアンドドロップするとキーボードとして使えるようになります。  
   
 ドライブ上のkeymap.rbを直接編集して保存すると、その都度変更が反映されます。  
@@ -145,7 +145,7 @@ BOOTSELボタンを押しながらRaspberry Pi Picoを接続しuf2ファイル�
 
 発注先のルールに沿ってデータを修正してください。  
 
-
+### 謝辞
 foostan様のフットプリントを流用、改変して使わせていただきました。  
 https://github.com/foostan/kbd/  
 https://github.com/foostan/kbd/blob/master/LICENSE  
