@@ -150,11 +150,12 @@ foostan様のフットプリントを流用、改変して使わせていただ�
 https://github.com/foostan/kbd/  
 https://github.com/foostan/kbd/blob/master/LICENSE  
 
-せきごん様のRP2040ブランチ
+せきごん様のRP2040ブランチ  
 https://github.com/sekigon-gonnoc/qmk_firmware/tree/rp2040
 
-hasumikin様にロータリーエンコーダーを複数個使用するキット向けの対応をしていただきました。
+hasumikin様にロータリーエンコーダーを複数個使用するキットの対応をしていただきました。  
 https://github.com/picoruby/prk_firmware/
 
+### 販売ページ
 - BOOTH: https://tarohayashi.booth.pm/items/3430753
 
