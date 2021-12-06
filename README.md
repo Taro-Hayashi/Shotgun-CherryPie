@@ -25,7 +25,7 @@
 |コンスルー 20ピン（高さ2.5mm）|2|2本必要なのでご注意ください|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/31?variant=40815840067745)|
 |キースイッチ|～20|Cherry MX互換のもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)|
 |キーキャップ|～20|Cherry MX互換のもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|
-|スタビライザー|必要数|無くても動きます|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|
+|スタビライザー|必要数|PCBマウントのもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|
 |Micro USB ケーブル|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m)|
 
 ### オプション
@@ -132,7 +132,11 @@ D1~D20まで取り付けます。
 ### 動作確認
 Raspberry Pi Picoを差し込んでUSBケーブルを繋ぎます。
 
+ソケットをピンセットで短絡したり、スイッチを挿して押したりしてキーが入力されるか調べます。
+
 ### スタビライザーの組み立てと取り付け
+
+
 ### プレートの取り付け
 ### キーマップのカスタマイズ
 
