@@ -68,10 +68,11 @@ RemapのKEYMAPのページにアクセスしてください。
 Layout Optionsの項目をオンオフすることでレイアウトを変更することができます。   
 切り替えてどのようなキーパッドにするか決めましょう。  
 このビルドガイドではロータリーエンコーダーを1つ、2Uキーを二つ使ったテンキーにします。
+キット、その他必要なものに追加でロータリーエンコーダーとノブを一つずつ、スタビライザーを2つ用意しました。
 
 ### ファームウェアの書き込み
 最新版のPRKファームウェアとこちらのkeymap.rbをダウンロードしてください。  
- - pico ruby / prk firmware vvreleases  
+ - [pico ruby / prk firmware releases]()  
  - [keymap.rb]()  
 
 Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RI-RPというUSBメモリとして認識されます。
