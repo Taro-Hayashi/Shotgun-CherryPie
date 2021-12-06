@@ -1,13 +1,21 @@
 
-KC_LCTL:   
-KC_LSFT:   
-KC_LALT:   
-KC_LGUI:   
-KC_RCTL:   
-KC_RSFT:   
-KC_RALT:   
-KC_RGUI:   
-KC_NO:   
+PRK Firmware Advent Calendar 2021
+埋まらずに終わりそうだったので、記事と言えないようなものですが、便利かと思いまして投稿いたします。
+
+キーマップを書くにあたってキーコードを一覧できるものが欲しくなったので作りました。
+12/7現在のものです。keyboard.rbから抜きだし、QMKの記述から想像して内容を書いただけで全てを試していません。
+ファームウェアが活発に更新されているので増えたり、逆に減ったりすると思います（だからこそドキュメントになっていないのでしょう）。
+MITライセンスですのでご自由にお使いください。
+
+KC_LCTL: 左CTRL  
+KC_LSFT: 左SHIFT  
+KC_LALT: 左ALT  
+KC_LGUI: 左のWIN/CMD  
+KC_RCTL: 右CTRL  
+KC_RSFT: 右SHIFT  
+KC_RALT: 右ALT  
+KC_RGUI: 右のWIN/CMD  
+KC_NO: キー割り当てなし  
 KC_ROLL_OVER:   
 KC_POST_FAIL:   
 KC_UNDEFINED:   
@@ -52,18 +60,18 @@ KC_ESCAPE:
 KC_BSPACE:   
 KC_TAB:   
 KC_SPACE:   
-KC_MINUS:   
-KC_EQUAL:   
-KC_LBRACKET:   
-KC_RBRACKET:   
-KC_BSLASH:   
+KC_MINUS: -  
+KC_EQUAL: =  
+KC_LBRACKET: [  
+KC_RBRACKET: ]  
+KC_BSLASH: \  
 KC_NONUS_HASH:   
-KC_SCOLON:   
-KC_QUOTE:   
+KC_SCOLON: ;  
+KC_QUOTE: '  
 KC_GRAVE:   
-KC_COMMA:   
-KC_DOT:   
-KC_SLASH:   
+KC_COMMA: ,  
+KC_DOT: .  
+KC_SLASH: /  
 KC_CAPSLOCK:   
 KC_F1:   
 KC_F2:   
@@ -77,24 +85,24 @@ KC_F9:
 KC_F10:   
 KC_F11:   
 KC_F12:   
-KC_PSCREEN:   
+KC_PSCREEN: PrintScreen  
 KC_SCROLLLOCK:   
 KC_PAUSE:   
 KC_INSERT:   
 KC_HOME:   
-KC_PGUP:   
+KC_PGUP: PageUp  
 KC_DELETE:   
 KC_END:   
-KC_PGDOWN:   
+KC_PGDOWN: PageDown  
 KC_RIGHT:   
 KC_LEFT:   
 KC_DOWN:   
 KC_UP:   
 KC_NUMLOCK:   
-KC_KP_SLASH:   
-KC_KP_ASTERISK:   
-KC_KP_MINUS:   
-KC_KP_PLUS:   
+KC_KP_SLASH: /  
+KC_KP_ASTERISK: *  
+KC_KP_MINUS: -  
+KC_KP_PLUS: +  
 KC_KP_ENTER:   
 KC_KP_1:   
 KC_KP_2:   
@@ -106,11 +114,11 @@ KC_KP_7:
 KC_KP_8:   
 KC_KP_9:   
 KC_KP_0:   
-KC_KP_DOT:   
+KC_KP_DOT: .  
 KC_NONUS_BSLASH:   
 KC_APPLICATION:   
 KC_POWER:   
-KC_KP_EQUAL:   
+KC_KP_EQUAL: =  
 KC_F13:   
 KC_F14:   
 KC_F15:   
