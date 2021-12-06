@@ -33,7 +33,7 @@
 |-|-|-|-|
 |ロータリーエンコーダ|～5|EC11/EC12||
 |ノブ|～5|直径19mmまで||
-|SK6812MINI-E|12、もしくは28|[取り付け方](led.md)|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
+|SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
 |1N4148W|13|表面実装タイプのダイオード|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800di-02-100)|
 
 
