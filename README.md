@@ -70,15 +70,14 @@ Layout Optionsの項目をオンオフすることでレイアウトを変更す
 このビルドガイドではロータリーエンコーダーを1つ、2Uキーを二つ使ったテンキーにします。
 
 ### ファームウェアの書き込み
+最新版のPRKファームウェアとこちらのkeymap.rbをダウンロードしてください。  
+ - pico ruby / prk firmware vvreleases  
+ - [keymap.rb]()  
 
-Raspberry Pi Picoで使える自作キーボードのファームウェア（動作ソフト）はいろいろありますが、このビルドガイドでは解説の容易さから作成済みのQMKファームウェア（せきごん様がRP2040に対応させたもの）を書き込みます。  
-uf2ファイルをダウンロードしてください。  
-- [shotgun_cp_via.uf2]()
-  
-Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続します。  
+Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RI-RPというUSBメモリとして認識されます。
 持つときは基板の表面ではなく辺を持ってください。
-RI-RPという名前のUSBディスクドライブとして接続されるので、ダウンロードしたuf2ファイルをドラッグアンドドロップしてください。  
-自動的に再起動してドライブが消えたら書き込みが成功しています。  
+uf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
+そのドライブにkeymap.rbをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。  
 
 ### はんだ付け
 はんだ付けのやり方は動画で見るとわかりやすいです。  
@@ -129,23 +128,18 @@ D1~D20まで取り付けます。
 
 
 ## その他
-### ファームウェアについて
-Raspberry Pi Picoの機能でどのファームウェアもドラッグアンドドロップだけで導入できます  。
+### その他の対応ファームウェアについて
 #### QMKファームウェア
-公式にはRaspberry Pi Picoには対応していません。使用しているQMKファームウェアはせきごん様が独自にRP2040への対応を実現したものです。  
-基本的な機能は実装済みのものを配布していますが、ご自分でコンパイルをしてみたい場合はこちらのページを参考にしてください。  
+こちらのuf2ファイルをインストールしてください。
+- [shotgun_cp_via.uf2]()
+QMKは公式にはRaspberry Pi Picoには対応していません。使用しているQMKファームウェアはせきごん様が独自にRP2040への対応を実現したものです。  
+基本的な機能は実装済みのものを配布していますが、ご自分でコンパイルをしたい場合はこちらのページを参考にしてください。  
  - [RP2040対応のQMK(非公式)を動かす](https://scrapbox.io/self-made-kbds-ja/RP2040%E5%AF%BE%E5%BF%9C%E3%81%AEQMK(%E9%9D%9E%E5%85%AC%E5%BC%8F)%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99)
  - ファームウェアのコード
 
-#### PRKファームウェア
-最新版のPRKファームウェアとこちらのkeymap.rbをダウンロードしてください。  
- - pico ruby / prk firmware vvreleases  
- - [keymap.rb]()  
-
-BOOTSELボタンを押しながらRaspberry Pi Picoを接続しファームウェアのuf2ファイルを書き込むと、自動的に再起動してPRK Firmwareというドライブとして認識されます。  
-そのドライブにkeymap.rbをドラッグアンドドロップするとキーボードとして使えるようになります。  
-  
-ドライブ上のkeymap.rbを直接編集して保存すると、その都度変更が反映されます。  
+QMKファームウェアを使うとRemapでブラウザからキーマップを変更することができます。
+Google ChromeかMicrosoft Edgeでアクセスしてください。
+ - Remap
 
 #### KMKファームウェア
 キーボードとして使えることは確認済みですが、私の理解が及ばないためLEDやロータリーエンコーダーの使いかたがよくわからず解説が書けませんでした。
@@ -163,7 +157,11 @@ foostan様のフットプリントを流用、改変して使わせていただ�
 https://github.com/foostan/kbd/  
 https://github.com/foostan/kbd/blob/master/LICENSE  
 
-せきごん様のRP2040ブランチ  
+yoichiro様のフットプリントを流用、改変して使わせていただきました。  
+https://github.com/yoichiro/yoichiro-kbd 
+https://github.com/yoichiro/yoichiro-kbd/blob/main/LICENSE 
+
+せきごん様のRP2040ブランチ。  
 https://github.com/sekigon-gonnoc/qmk_firmware/tree/rp2040
 
 hasumikin様がPRK Firmwareでロータリーエンコーダーを複数個使用できるようにしてくださいました。  
