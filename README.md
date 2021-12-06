@@ -170,7 +170,7 @@ https://github.com/foostan/kbd/
 https://github.com/foostan/kbd/blob/master/LICENSE  
 
 yoichiro様のフットプリントを流用、改変して使わせていただきました。  
-https://github.com/yoichiro/yoichiro-kbd 
+https://github.com/yoichiro/yoichiro-kbd  
 https://github.com/yoichiro/yoichiro-kbd/blob/main/LICENSE 
 
 せきごん様のRP2040ブランチ。  
