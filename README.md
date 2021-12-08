@@ -30,7 +30,7 @@
 ### オプション
 |部品名|数|||
 |-|-|-|-|
-|スタビライザー|必要数|PCBマウントのもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|
+|2スタビライザー|必要数|PCBマウントのもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|
 |ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル||
 |ノブ|～5|直径19mmまで||
 |SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
