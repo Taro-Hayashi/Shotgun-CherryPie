@@ -75,7 +75,7 @@ Layout Optionsの項目をオンオフすることでレイアウトを変更す
  - [pico ruby / prk firmware releases]()  
  - [keymap.rb]()  
 
-Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RI-RPというUSBメモリとして認識されます。
+Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。
 そこにuf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
 そのドライブにkeymap.rbをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。  
 書き込みが終わったら一旦USBケーブルは外します。  
