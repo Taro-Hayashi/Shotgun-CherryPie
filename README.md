@@ -100,10 +100,11 @@ Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接
 
 まずはRaspberry Pi Picoにコンスルーをはんだ付けします。  
 コンスルーを基板裏に立てます。窓が高く、同じ方向を向くようにします。  
-!  
+![](img/IMG_4383.jpg)   
   
-立てたコンスルーにRaspberry Pi Picoを乗せたらはんだ付けします。  
-!  
+![](img/IMG_4385.jpg)   
+立てたコンスルーにRaspberry Pi Picoを乗せたらはんだ付けします。    
+![](img/IMG_4386.jpg)   
 できるだけ垂直に力を加えてRaspberry Pi Picoを抜きます。  
 
 ### LEDのはんだ付け
