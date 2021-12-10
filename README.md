@@ -69,16 +69,20 @@
 ## 準備
 ### レイアウトを決める  
 このキットはいろいろなレイアウトから選んでお使いいただけます。  
-![](img/layout.jpg) 
+![](img/layout.jpg)   
 色のついているところが交換可能になっています。  
   
 このビルドガイドではロータリーエンコーダーを1つ、2Uキーを二つ使ったテンキーにします。  
+![](img/test.jpg)   
 キット、その他必要なものに追加でロータリーエンコーダーとノブを一つずつ、スタビライザーを2つ用意しました。  
-![](img/IMG_4358.jpg) 
+![](img/IMG_4358.jpg)   
 
 ### ファームウェアの書き込み
 最新版のPRKファームウェアのzipファイルをダウンロード、解凍します。
- - [pico ruby / prk firmware releases]()  
+ - [Releases・picoruby/prk_firmware](https://github.com/picoruby/prk_firmware/releases)  
+
+Assetsをクリックすると出てきます。
+![](img/assets.jpg) 
 
 Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。
 そこにuf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
