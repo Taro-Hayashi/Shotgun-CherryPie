@@ -210,8 +210,9 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 
 ## キーマップのカスタマイズ
 ビルドガイドと同じレイアウトにするのであればこちらをそのまままお使いください。  
-同様のテンキーとして使う場合もひな形にすると手間を省けると思います。
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/keymap.rb)
+
+同様のテンキーとして使う場合もひな形にすると手間を省けると思います。
 
 ### キーの変更
 PRK Firmwareドライブのkeymap.rbを開きます。  
