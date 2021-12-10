@@ -82,7 +82,7 @@
  - [Releases・picoruby/prk_firmware](https://github.com/picoruby/prk_firmware/releases)  
 
 Assetsをクリックすると出てきます。
-![](img/assets.jpg) 
+![](img/zip.jpg) 
 
 Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。
 そこにuf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
