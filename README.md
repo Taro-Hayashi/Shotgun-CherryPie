@@ -171,10 +171,10 @@ yoichiro様のフットプリントを流用、改変して使わせていただ
 https://github.com/yoichiro/yoichiro-kbd  
 https://github.com/yoichiro/yoichiro-kbd/blob/main/LICENSE 
 
-せきごん様のRP2040ブランチ。  
+せきごん様がGPIO15をつかっている場合でも正常に動くようにしてくださいました。 
 https://github.com/sekigon-gonnoc/qmk_firmware/tree/rp2040
 
-hasumikin様がPRK Firmwareでロータリーエンコーダーを複数個使用できるようにしてくださいました。  
+hasumikin様がPRK Firmwareでロータリーエンコーダーを複数個使用できるようにして、ロータリーエンコーダーの感度も上げてくださいました。  
 https://github.com/picoruby/prk_firmware/
 
 ### 販売ページ
