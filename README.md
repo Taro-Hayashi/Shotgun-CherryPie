@@ -88,7 +88,7 @@ Assetsをクリックすると出てきます。
 Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。  
 そこにuf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
 そのドライブにこちらのkeymap.rbをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。 
- - [keymap.rb]()  
+ - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.1/keymap.rb)  
 
 書き込みが終わったら一旦USBケーブルは外します。  
 
@@ -211,7 +211,7 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 ## キーマップのカスタマイズ
 ビルドガイドと同じレイアウトにするのであればこちらをそのまままお使いください。  
 同様のテンキーとして使う場合もひな形にすると手間を省けると思います。
- - [keymap.rb]()
+ - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/keymap.rb)
 
 ### キーコードの変更
 PRK Firmwareドライブのkeymap.rbを開きます。  
@@ -282,15 +282,15 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 ### 他の対応ファームウェアについて
 #### QMKファームウェア
 こちらのuf2ファイルをインストールしてください。
-- [shotgun_cp_via.uf2]()
+- [shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_via.uf2)
 
 QMKは公式にはRaspberry Pi Picoには対応していません。使用しているQMKファームウェアはせきごん様が独自にRP2040への対応を実現したものです。  
 基本的な機能は実装済みのものを配布していますが、ご自分でコンパイルをしたい場合はこちらのページを参考にしてください。  
  - [RP2040対応のQMK(非公式)を動かす](https://scrapbox.io/self-made-kbds-ja/RP2040%E5%AF%BE%E5%BF%9C%E3%81%AEQMK(%E9%9D%9E%E5%85%AC%E5%BC%8F)%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99)
  - [ファームウェアのコード](https://github.com/Taro-Hayashi/Shotgun-CherryPie/tree/main/qmk/keyboards/shotgun_cp)
 
-VIAを使ってGUIでキーを入れ替えることができます。
- - [shotgun_cp.json]()
+Remap/VIAを使ってGUIでキーを入れ替えることができます。
+ - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)
 
 #### KMKファームウェア
 キーボードとして使えることは確認済みですが、私の理解が及ばないためLEDやロータリーエンコーダーの使いかたがよくわからず解説が書けませんでした。
@@ -299,7 +299,7 @@ VIAを使ってGUIでキーを入れ替えることができます。
 まだ試せていません。
 
 ### プレートのデータ
- - [shotgun_cp_plates.zip]()  
+ - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_plates.zip)  
 
 発注先のルールに沿ってデータを修正してください。  
 
