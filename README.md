@@ -3,7 +3,7 @@
 - [準備](#準備)
 - [はんだ付け](#はんだ付け)
 - [組み立て](#組み立て)
-- [キーマップの変更](#キーマップの変更)
+- [キーマップのカスタマイズ](#キーマップのカスタマイズ)
 - [その他](#その他)
 
 ## キット内容
@@ -213,7 +213,7 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 同様のテンキーとして使う場合もひな形にすると手間を省けると思います。
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/keymap.rb)
 
-### キーコードの変更
+### キーの変更
 PRK Firmwareドライブのkeymap.rbを開きます。  
 
 ~~~
@@ -232,7 +232,7 @@ kbd.add_layer :default, %i[
 
 上書き保存をするとその場で変更が反映されます。  
 
-### ロータリーエンコーダーのキーコード
+### ロータリーエンコーダー
 ~~~
 encoder_1 = RotaryEncoder.new(27, 28)
 encoder_1.clockwise do
