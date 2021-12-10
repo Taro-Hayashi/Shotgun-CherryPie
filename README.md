@@ -208,11 +208,23 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 早速USBケーブルでPCと接続しましょう。
 
 ## キーマップのカスタマイズ
+ビルドガイドと同じレイアウトにするのであればこちらをそのまままお使いください。  
+同様のテンキーとして使う場合もひな形にすると手間を省けると思います。
+ - [keymap.rb]()
 
-
-
+PRK Firmwareドライブのkeymap.rbを開きます。
+~~~
+kbd.add_layer :default, %i[
+  KC_A  KC_B  KC_C  KC_D
+  KC_E  KC_F  KC_G  KC_H
+  KC_I  KC_J  KC_K  KC_L
+  KC_M  KC_N  KC_O  KC_P
+  KC_Q  KC_R  KC_S  KC_T
+]
+~~~
+ここのKC_*を書き換えて
 ## その他
-### その他の対応ファームウェアについて
+### 他の対応ファームウェアについて
 #### QMKファームウェア
 こちらのuf2ファイルをインストールしてください。
 - [shotgun_cp_via.uf2]()
@@ -220,10 +232,10 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 QMKは公式にはRaspberry Pi Picoには対応していません。使用しているQMKファームウェアはせきごん様が独自にRP2040への対応を実現したものです。  
 基本的な機能は実装済みのものを配布していますが、ご自分でコンパイルをしたい場合はこちらのページを参考にしてください。  
  - [RP2040対応のQMK(非公式)を動かす](https://scrapbox.io/self-made-kbds-ja/RP2040%E5%AF%BE%E5%BF%9C%E3%81%AEQMK(%E9%9D%9E%E5%85%AC%E5%BC%8F)%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99)
- - ファームウェアのコード
+ - [ファームウェアのコード](https://github.com/Taro-Hayashi/Shotgun-CherryPie/tree/main/qmk/keyboards/shotgun_cp)
 
 VIAを使ってGUIでキーを入れ替えることができます。
- - shotgun_cp.json
+ - [shotgun_cp.json]()
 
 #### KMKファームウェア
 キーボードとして使えることは確認済みですが、私の理解が及ばないためLEDやロータリーエンコーダーの使いかたがよくわからず解説が書けませんでした。
