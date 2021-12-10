@@ -271,7 +271,7 @@ kbd.define_mode_key :UNDO,   [ %i(KC_Z KC_LCTL), :nil, 150, 150 ]
 ~~~
 kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 ~~~
-こう定義するとaaaaが入力されました（合っているかわかりません）。  
+ruby触ったことがないのであっているかわかりませんが、こう定義するとaaaaが入力されました。  
 00キーの場合上の同時押しの方が早かったのでそちらを使っています。  
   
 キーの設定が終わったら完成です！
