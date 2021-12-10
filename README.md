@@ -86,7 +86,9 @@ Assetsをクリックすると出てきます。
 ![](img/zip.jpg) 
 
 Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。  
-そこにuf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
+![](img/IMG_4361.jpg)   
+  
+そこに解凍したuf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
 そのドライブにこちらのkeymap.rbをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。 
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.1/keymap.rb)  
 
@@ -271,7 +273,7 @@ kbd.define_mode_key :UNDO,   [ %i(KC_Z KC_LCTL), :nil, 150, 150 ]
 ~~~
 kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 ~~~
-ruby触ったことがないのであっているかわかりませんが、こう定義するとaaaaが入力されました。  
+あっているかわかりませんがこう定義するとaaaaが入力されました。  
 00キーの場合上の同時押しの方が早かったのでそちらを使っています。  
   
 キーの設定が終わったら完成です！
