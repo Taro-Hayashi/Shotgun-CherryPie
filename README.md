@@ -212,7 +212,10 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 同様のテンキーとして使う場合もひな形にすると手間を省けると思います。
  - [keymap.rb]()
 
-PRK Firmwareドライブのkeymap.rbを開きます。
+### キーコードの変更
+PRK Firmwareドライブのkeymap.rbを開きます。  
+上書き保存をするとその場で変更が反映されます。  
+
 ~~~
 kbd.add_layer :default, %i[
   KC_A  KC_B  KC_C  KC_D
@@ -222,7 +225,38 @@ kbd.add_layer :default, %i[
   KC_Q  KC_R  KC_S  KC_T
 ]
 ~~~
-ここのKC_*を書き換えて
+ここのKC_*を書き換えてキーを設定します。  
+  
+キーコードはこちらに載せていますので参考にしてください（バージョンによって違う可能性があります）。  
+- https://github.com/Taro-Hayashi/PRKFirmware0.9.7Keycode  
+
+### ロータリーエンコーダーのキーコード
+~~~
+encoder_1 = RotaryEncoder.new(27, 28)
+encoder_1.clockwise do
+  kbd.send_key :KC_1
+end
+encoder_1.counterclockwise do
+  kbd.send_key :KC_2
+end
+kbd.append encoder_1
+~~~
+kbd.send_keyのKC_*を変更すると該当のロータリーエンコーダーのキーが変更されます。  
+ロータリーエンコーダーはUSB差込側から順に1～5が割り振られています。
+
+### レイヤーの追加
+~~~
+kbd.add_layer :lower, %i[
+  KC_NO  KC_NO  KC_NO  KC_NO
+  KC_NO  KC_NO  KC_NO  KC_NO
+  KC_NO  KC_NO  KC_NO  KC_NO
+  KC_NO  KC_NO  KC_NO  KC_NO
+  KC_NO  KC_NO  KC_NO  KC_NO
+]
+~~~
+レイヤーの名前を変更したキーマップを追加するとレイヤーが増えます。
+
+
 ## その他
 ### 他の対応ファームウェアについて
 #### QMKファームウェア
