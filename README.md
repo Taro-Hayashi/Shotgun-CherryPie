@@ -25,12 +25,12 @@
 |コンスルー 20ピン（高さ2.5mm）|2|2本必要なのでご注意ください|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/31?variant=40815840067745)|
 |キースイッチ|～20|Cherry MX互換のもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)|
 |キーキャップ|～20|Cherry MX互換のもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|
-|スタビライザー|必要数|無くても動きます|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|
 |Micro USB ケーブル|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m)|
 
 ### オプション
 |部品名|数|||
 |-|-|-|-|
+|2Uスタビライザー|必要数|PCBマウントのもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|
 |ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル||
 |ノブ|～5|直径19mmまで||
 |SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
@@ -61,34 +61,23 @@
 |はんだ吸い取り器||
 
 ## 組み立て
-### レイアウトの決め方  
-RemapのKEYMAPのページにアクセスしてください。  
- - aaaa
-
-Layout Optionsの項目をオンオフすることでレイアウトを変更することができます。   
-切り替えてどのようなキーパッドにするか決めましょう。  
-このビルドガイドではロータリーエンコーダーを1つ、2Uキーを二つ使ったテンキーにします。  
-キット、その他必要なものに追加でロータリーエンコーダーとノブを一つずつ、スタビライザーを2つ用意しました。
+### レイアウトを決める  
 
 ### ファームウェアの書き込み
-最新版のPRKファームウェアとこちらのkeymap.rbをダウンロードしてください。  
+最新版のPRKファームウェアのzipファイルをダウンロード、解凍します。
  - [pico ruby / prk firmware releases]()  
+
+Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。
+そこにuf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
+そのドライブにこちらのkeymap.rbをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。 
  - [keymap.rb]()  
 
-Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RI-RPというUSBメモリとして認識されます。
-そこにuf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
-そのドライブにkeymap.rbをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。  
 書き込みが終わったら一旦USBケーブルは外します。  
 
 ### はんだ付け
 はんだ付けのやり方は動画で見るとわかりやすいです。  
 パーツは思ったより壊れないので落ち着いて作業すると失敗しにくいです。  
  - ホームセンターのDCMさんの解説動画(58秒～) https://www.youtube.com/watch?v=JFQg_ObITYE&t=58s  
-  
-LEDを取り付ける場合は最初にはんだ付けします。  
- - [LEDの取り付け方](led.md)  
-
-後からでも可能ですがホットスワップソケットにこてが当たり溶かしてしまう可能性があります。  
   
 #### Raspberry Pi Picoのはんだ付け
 
@@ -98,8 +87,13 @@ LEDを取り付ける場合は最初にはんだ付けします。
   
 立てたコンスルーにRaspberry Pi Picoを乗せたらはんだ付けします。  
 !  
-LEDを取り付けた場合は一度PCと繋いで少し待ち、すべてが発光するかを確認してください。  
 できるだけ垂直に力を加えてRaspberry Pi Picoを抜きます。  
+
+#### LEDのはんだ付け
+LEDを取り付ける場合は最初にはんだ付けします。  
+ - [LEDの取り付け方](led.md)  
+
+後からでも可能ですがホットスワップソケットにこてが当たり溶かしてしまう可能性があります。  
 
 #### ダイオード、リセットスイッチのはんだ付け
 
@@ -132,7 +126,11 @@ D1~D20まで取り付けます。
 ### 動作確認
 Raspberry Pi Picoを差し込んでUSBケーブルを繋ぎます。
 
+ソケットをピンセットで短絡したり、スイッチを挿して押したりしてキーが入力されるか調べます。
+
 ### スタビライザーの組み立てと取り付け
+
+
 ### プレートの取り付け
 ### キーマップのカスタマイズ
 
@@ -170,7 +168,7 @@ https://github.com/foostan/kbd/
 https://github.com/foostan/kbd/blob/master/LICENSE  
 
 yoichiro様のフットプリントを流用、改変して使わせていただきました。  
-https://github.com/yoichiro/yoichiro-kbd 
+https://github.com/yoichiro/yoichiro-kbd  
 https://github.com/yoichiro/yoichiro-kbd/blob/main/LICENSE 
 
 せきごん様のRP2040ブランチ。  
