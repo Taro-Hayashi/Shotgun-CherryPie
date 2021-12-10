@@ -215,7 +215,6 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 
 ### キーコードの変更
 PRK Firmwareドライブのkeymap.rbを開きます。  
-上書き保存をするとその場で変更が反映されます。  
 
 ~~~
 kbd.add_layer :default, %i[
@@ -230,6 +229,8 @@ kbd.add_layer :default, %i[
   
 キーコードはこちらに載せていますので参考にしてください（バージョンによって違う可能性があります）。  
 - https://github.com/Taro-Hayashi/PRKFirmware0.9.7Keycode  
+
+上書き保存をするとその場で変更が反映されます。  
 
 ### ロータリーエンコーダーのキーコード
 ~~~
