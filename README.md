@@ -263,11 +263,16 @@ kbd.add_layer :lower, %i[
 kbd.define_mode_key :0_LOW, [ :KC_KP_0, :lower, 150, 150 ]
 ~~~
 
-キーの設定が終わったら完成です。  
+### 同時押しのキーコード
+~~~
+kbd.define_mode_key :UNDO,   [ %i(KC_Z KC_LCTL), :nil, 150, 150 ]
+~~~
+例えばCtrl＋Zであればこのように定義します。  
 
 ### 文字列を入力するキーコード
 
 
+キーの設定が終わったら完成です。  
 ## その他
 ### 他の対応ファームウェアについて
 #### QMKファームウェア
