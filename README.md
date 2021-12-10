@@ -220,9 +220,8 @@ QMKは公式にはRaspberry Pi Picoには対応していません。使用して
  - [RP2040対応のQMK(非公式)を動かす](https://scrapbox.io/self-made-kbds-ja/RP2040%E5%AF%BE%E5%BF%9C%E3%81%AEQMK(%E9%9D%9E%E5%85%AC%E5%BC%8F)%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99)
  - ファームウェアのコード
 
-QMKファームウェアを使うとRemapでブラウザからキーマップを変更することができます。
-Google ChromeかMicrosoft Edgeでアクセスしてください。
- - Remap
+VIAを使ってGUIでキーを入れ替えることができます。
+ - shotgun_cp.json
 
 #### KMKファームウェア
 キーボードとして使えることは確認済みですが、私の理解が及ばないためLEDやロータリーエンコーダーの使いかたがよくわからず解説が書けませんでした。
@@ -231,7 +230,7 @@ Google ChromeかMicrosoft Edgeでアクセスしてください。
 まだ試せていません。
 
 ### プレートのデータ
- - shotgun_cp_plates.zip  
+ - [shotgun_cp_plates.zip]()  
 
 発注先のルールに沿ってデータを修正してください。  
 
@@ -244,7 +243,7 @@ yoichiro様のフットプリントを流用、改変して使わせていただ
 https://github.com/yoichiro/yoichiro-kbd  
 https://github.com/yoichiro/yoichiro-kbd/blob/main/LICENSE 
 
-せきごん様がGPIO15をつかっている場合でも正常に動くようにしてくださいました。 
+せきごん様がGPIO15を使っている場合でも正常に動くようにしてくださいました。 
 https://github.com/sekigon-gonnoc/qmk_firmware/tree/rp2040
 
 hasumikin様がPRK Firmwareでロータリーエンコーダーを複数個使用できるようにして、ロータリーエンコーダーの感度も上げてくださいました。  
