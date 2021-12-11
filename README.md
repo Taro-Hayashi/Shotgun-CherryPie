@@ -50,22 +50,22 @@
 |はんだごて|[FX511-01](https://amzn.to/3IEGO5w)、[FX600-02](https://amzn.to/3oKNQOg)||
 |こて先クリーナー（こて台）|[FH300-81](https://amzn.to/3yuB3CV)、[599B-01](https://amzn.to/3DFsZjD)|
 |鉛入りはんだ|[FS407-01](https://amzn.to/31S71fO)|
-|ピンセット|[ANEX ピンセット No.126](https://amzn.to/31S71fO)|
+|ピンセット|[ANEX ピンセット No.126](https://amzn.to/3GxKNPp)|
 |精密ドライバー|[TSD-6](https://amzn.to/3dEQvm7)|
 |ニッパー等ダイオードの足を切れるもの|[エコー金属 鍛造ニッパー](https://amzn.to/31S75fU)|
 
 ### あると便利な工具（★は特におすすめです）
 |工具名|||
 |-|-|-|
-|耐熱シリコンマット||[]()|
-|斜めに切ったタイプのこて先|★|[]()|
-|温度調節可能なはんだごて|300度-350度前後|[FX600-02](https://amzn.to/3oKNQOg)|[]()|
-|フラックス|★|[]()|
-|フラックスリムーバー、IPA|★|[]()|
-|テスター||[]()|
-|マスキングテープ||[]()|
-|はんだ吸い取り線||[]()|
-|はんだ吸い取り器||[]()|
+|耐熱シリコンマット||[ノーブランド](https://amzn.to/3rYlcuW)|
+|温度調節可能なはんだごて|★|[FX600-02](https://amzn.to/3oKNQOg)|[]()|
+|斜めに切ったタイプのこて先|★|[FX600用 T18-C2](https://amzn.to/3pGqbNW)|
+|フラックス|★|[HAKKO 001-01](https://amzn.to/3dNy4vr)|
+|フラックスリムーバー、IPA|★|[GZ901](https://amzn.to/3yeiMtj)|
+|テスター||[https://amzn.to/3rXlaDI](https://amzn.to/3rXlaDI)|
+|マスキングテープ||[3M マスキングテープ 8巻パック](https://amzn.to/31G4Qwt)|
+|はんだ吸い取り線||[FR150-88](https://amzn.to/3pPWWZ5)|
+|はんだ吸い取り器||[DS01P](https://amzn.to/31RlusN)|
 
 ## 準備
 ### レイアウトを決める  
