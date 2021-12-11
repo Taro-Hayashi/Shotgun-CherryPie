@@ -62,7 +62,7 @@
 |斜めに切ったタイプのこて先|★|[FX600用 T18-C2](https://amzn.to/3pGqbNW)|
 |フラックス|★|[HAKKO 001-01](https://amzn.to/3dNy4vr)|
 |フラックスリムーバー、IPA|★|[GZ901](https://amzn.to/3yeiMtj)|
-|テスター||[https://amzn.to/3rXlaDI](https://amzn.to/3rXlaDI)|
+|テスター||[TDX-200](https://amzn.to/3rXlaDI)|
 |マスキングテープ||[3M マスキングテープ 8巻パック](https://amzn.to/31G4Qwt)|
 |はんだ吸い取り線||[FR150-88](https://amzn.to/3pPWWZ5)|
 |はんだ吸い取り器||[DS01P](https://amzn.to/31RlusN)|
