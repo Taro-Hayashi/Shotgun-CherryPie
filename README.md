@@ -34,22 +34,22 @@
 |Micro USB ケーブル|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m)|
 
 ### オプション
-|部品名|数|||
+|部品名|数||Amazonリンクはアフィ付きです。|
 |-|-|-|-|
 |2Uスタビライザー|必要数|PCBマウントのもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|
-|ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[Amazon](https://www.amazon.co.jp/s?k=EC11+%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC)|
-|ノブ|～5|外径19mmまで|[Amazon](https://www.amazon.co.jp/s?k=%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC+%E3%83%8E%E3%83%96)|
+|ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[Amazon](https://amzn.to/3oIYPrg)、品切れでなければキーボード専門のショップで購入した方が確実です。|
+|ノブ|～5|外径19mmまで|[Amazon](https://amzn.to/3oHY2ae)|
 |SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
 |1N4148W|13|表面実装タイプのダイオード|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800di-02-100)|
 
 
 ### 必要な工具
-|工具名| |
+|工具名||
 |-|-|
-|はんだごて||
-|はんだごて置き場||
-|鉛入りはんだ||
-|ピンセット||
+|はんだごて|[FX511-01](https://amzn.to/3IEGO5w)、[FX600-02](https://amzn.to/3oKNQOg)||
+|こて先クリーナー（こて台）|[FH300-81](https://amzn.to/3yuB3CV)、[https://amzn.to/3DFsZjD](https://amzn.to/3DFsZjD)|
+|鉛入りはんだ|[FS407-01](https://amzn.to/31S71fO)|
+|ピンセット|[FS407-01](https://amzn.to/31S71fO)|
 |精密ドライバー||
 |ニッパー等ダイオードの足を切れるもの|金属用でない場合刃こぼれします。|
 
