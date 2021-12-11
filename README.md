@@ -37,8 +37,8 @@
 |部品名|数|||
 |-|-|-|-|
 |2Uスタビライザー|必要数|PCBマウントのもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|
-|ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル||
-|ノブ|～5|直径19mmまで||
+|ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[Amazon](https://www.amazon.co.jp/s?k=EC11+%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC)|
+|ノブ|～5|外径19mmまで|[Amazon](https://www.amazon.co.jp/s?k=%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC+%E3%83%8E%E3%83%96)|
 |SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
 |1N4148W|13|表面実装タイプのダイオード|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800di-02-100)|
 
