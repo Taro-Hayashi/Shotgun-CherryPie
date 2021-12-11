@@ -40,7 +40,7 @@
 |ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[Amazon](https://amzn.to/3oIYPrg)  品切れでなければキーボード専門のショップで購入した方が早くて確実です。|
 |ノブ|～5|外径19mmまで|[Amazon](https://amzn.to/3oHY2ae)|
 |SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
-|1N4148W|13|表面実装タイプのダイオード|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800di-02-100)|
+|1N4148W|20|表面実装タイプのダイオード|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800di-02-100)|
 
 
 ### 必要な工具
@@ -73,7 +73,7 @@
 ![](img/layout.jpg)   
 色のついているところが交換可能になっています。  
   
-このビルドガイドではロータリーエンコーダーを1つ、幅が2倍（2U）のキーを二つ使ったテンキーにします。  
+ビルドガイドではロータリーエンコーダーを1つ、幅が2倍（2U）のキーを二つ使ったテンキーにします。  
 ![](img/test.jpg)   
 キット、その他必要なものに追加でロータリーエンコーダーとノブを一つずつ、スタビライザーを2つ用意しました。  
 ![](img/IMG_4358.jpg)   
@@ -204,7 +204,7 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 バックプレートをネジ（長）で組付けてゴム足を4隅に貼ります。  
 ![](img/IMG_4454.jpg)  
 
-キーキャップを乗せたら組み立ては終わりです。
+キーキャップを乗せたら組み立ては終了です。
 ![](img/IMG_4460.jpg)  
 
 早速USBケーブルでPCと接続しましょう。
@@ -213,6 +213,7 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 ビルドガイドと同じレイアウトにするのであればこちらをそのまままお使いください。  
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/keymap.rb)
 
+最初にダウンロードしたものとファイル名が同じなので気を付けてください。
 同様のテンキーとして使う場合もひな形にすると楽になると思います。
 
 ### キーの変更
@@ -279,10 +280,16 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 あっているかわかりませんがこう定義するとaaaaが入力されました。  
 00キーの場合上の同時押しの方が早かったのでそちらを使っています。  
   
-キーの設定が終わったら完成です！
+キーの設定が終わったら完成です！  
+  
 ![](img/done.jpg)  
 
 ## その他
+### おまけ
+小袋のアクリル片とスペーサーを組み合わせると裏面のボタンを押す治具を作れます。
+![](img/switchpusher.jpg)  
+※アクリルの形状は違うことがあります。
+
 ### 他の対応ファームウェアについて
 #### QMKファームウェア
 こちらのuf2ファイルをインストールしてください。
@@ -316,10 +323,10 @@ yoichiro様のフットプリントを流用、改変して使わせていただ
 https://github.com/yoichiro/yoichiro-kbd  
 https://github.com/yoichiro/yoichiro-kbd/blob/main/LICENSE 
 
-せきごん様がGPIO15を使っている場合でも正常に動くようにしてくださいました。 
+せきごん様がGPIO15を使っている場合でも正常に動くようにしてくださいました。  
 https://github.com/sekigon-gonnoc/qmk_firmware/tree/rp2040
 
-hasumikin様がPRK Firmwareでロータリーエンコーダーを複数個使用できるようにして、ロータリーエンコーダーの感度も上げてくださいました。  
+hasumikin様がPRK Firmwareでロータリーエンコーダーを複数個使用できるようにして、感度も上げてくださいました。  
 https://github.com/picoruby/prk_firmware/
 
 ### 販売ページ
