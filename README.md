@@ -285,6 +285,11 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 ![](img/done.jpg)  
 
 ## その他
+### おまけ
+小袋のアクリル片とスペーサーを組み合わせると裏面のボタンを押す治具を作れます。
+![](img/switchpusher.jpg)  
+※アクリルの形状は違うことがあります。
+
 ### 他の対応ファームウェアについて
 #### QMKファームウェア
 こちらのuf2ファイルをインストールしてください。
