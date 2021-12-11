@@ -34,37 +34,38 @@
 |Micro USB ケーブル|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m)|
 
 ### オプション
-|部品名|数|||
+|部品名|数||Amazonリンクはアフィリエイト付きです。|
 |-|-|-|-|
 |2Uスタビライザー|必要数|PCBマウントのもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|
-|ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[Amazon](https://www.amazon.co.jp/s?k=EC11+%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC)|
-|ノブ|～5|外径19mmまで|[Amazon](https://www.amazon.co.jp/s?k=%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC+%E3%83%8E%E3%83%96)|
+|ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[Amazon](https://amzn.to/3oIYPrg)  品切れでなければキーボード専門のショップで購入した方が早くて確実です。|
+|ノブ|～5|外径19mmまで|[Amazon](https://amzn.to/3oHY2ae)|
 |SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
 |1N4148W|13|表面実装タイプのダイオード|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800di-02-100)|
 
 
 ### 必要な工具
-|工具名| |
-|-|-|
-|はんだごて||
-|はんだごて置き場||
-|鉛入りはんだ||
-|ピンセット||
-|精密ドライバー||
-|ニッパー等ダイオードの足を切れるもの|金属用でない場合刃こぼれします。|
-
-### あると便利な工具（★は特におすすめです）
+100円ショップで売っているもので十分ですが、はんだごては500円商品なので同程度の価格のFX511-01がおすすめです。
 |工具名||
 |-|-|
-|耐熱シリコンマット||
-|斜めに切ったタイプのこて先|★|
-|温度調節可能なはんだごて|300度-350度前後|
-|フラックス|★|
-|テスター||
-|フラックスリムーバー|★|
-|マスキングテープ||
-|はんだ吸い取り線||
-|はんだ吸い取り器||
+|はんだごて|[FX511-01](https://amzn.to/3IEGO5w)、[FX600-02](https://amzn.to/3oKNQOg)||
+|こて先クリーナー（こて台）|[FH300-81](https://amzn.to/3yuB3CV)、[599B-01](https://amzn.to/3DFsZjD)|
+|鉛入りはんだ|[FS407-01](https://amzn.to/31S71fO)|
+|ピンセット|[ANEX ピンセット No.126](https://amzn.to/3GxKNPp)|
+|精密ドライバー|[TSD-6](https://amzn.to/3dEQvm7)|
+|ニッパー等ダイオードの足を切れるもの|[エコー金属 鍛造ニッパー](https://amzn.to/31S75fU)|
+
+### あると便利な工具（★は特におすすめです）
+|工具名|||
+|-|-|-|
+|耐熱シリコンマット||[ノーブランド](https://amzn.to/3rYlcuW)|
+|温度調節可能なはんだごて|★|[FX600-02](https://amzn.to/3oKNQOg)|[]()|
+|斜めに切ったタイプのこて先|★|[FX600用 T18-C2](https://amzn.to/3pGqbNW)|
+|フラックス|★|[HAKKO 001-01](https://amzn.to/3dNy4vr)|
+|フラックスリムーバー、IPA|★|[GZ901](https://amzn.to/3yeiMtj)|
+|テスター||[TDX-200](https://amzn.to/3rXlaDI)|
+|マスキングテープ||[3M マスキングテープ 8巻パック](https://amzn.to/31G4Qwt)|
+|はんだ吸い取り線||[FR150-88](https://amzn.to/3pPWWZ5)|
+|はんだ吸い取り器||[DS01P](https://amzn.to/31RlusN)|
 
 ## 準備
 ### レイアウトを決める  
@@ -212,7 +213,7 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 ビルドガイドと同じレイアウトにするのであればこちらをそのまままお使いください。  
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/keymap.rb)
 
-同様のテンキーとして使う場合もひな形にすると手間を省けると思います。
+同様のテンキーとして使う場合もひな形にすると楽になると思います。
 
 ### キーの変更
 PRK Firmwareドライブのkeymap.rbを開きます。  
@@ -279,6 +280,7 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 00キーの場合上の同時押しの方が早かったのでそちらを使っています。  
   
 キーの設定が終わったら完成です！
+![](img/done.jpg)  
 
 ## その他
 ### 他の対応ファームウェアについて
