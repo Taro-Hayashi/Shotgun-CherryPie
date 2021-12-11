@@ -280,6 +280,7 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 00キーの場合上の同時押しの方が早かったのでそちらを使っています。  
   
 キーの設定が終わったら完成です！
+![](img/done.jpg)  
 
 ## その他
 ### 他の対応ファームウェアについて
