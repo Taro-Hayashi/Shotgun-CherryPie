@@ -321,7 +321,7 @@ https://github.com/yoichiro/yoichiro-kbd/blob/main/LICENSE
 せきごん様がGPIO15を使っている場合でも正常に動くようにしてくださいました。  
 https://github.com/sekigon-gonnoc/qmk_firmware/tree/rp2040
 
-hasumikin様がPRK Firmwareでロータリーエンコーダーを複数個使用できるようにして、ロータリーエンコーダーの感度も上げてくださいました。  
+hasumikin様がPRK Firmwareでロータリーエンコーダーを複数個使用できるようにして、感度も上げてくださいました。  
 https://github.com/picoruby/prk_firmware/
 
 ### 販売ページ
