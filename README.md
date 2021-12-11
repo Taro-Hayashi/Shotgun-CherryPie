@@ -40,7 +40,7 @@
 |ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[Amazon](https://amzn.to/3oIYPrg)  品切れでなければキーボード専門のショップで購入した方が早くて確実です。|
 |ノブ|～5|外径19mmまで|[Amazon](https://amzn.to/3oHY2ae)|
 |SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
-|1N4148W|13|表面実装タイプのダイオード|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800di-02-100)|
+|1N4148W|20|表面実装タイプのダイオード|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800di-02-100)|
 
 
 ### 必要な工具
