@@ -34,7 +34,7 @@
 |Micro USB ケーブル|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m)|
 
 ### オプション
-|部品名|数||Amazonリンクはアフィ付きです。|
+|部品名|数||Amazonリンクはアフィリエイト付きです。|
 |-|-|-|-|
 |2Uスタビライザー|必要数|PCBマウントのもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|
 |ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[Amazon](https://amzn.to/3oIYPrg)  品切れでなければキーボード専門のショップで購入した方が早くて確実です。|
@@ -45,7 +45,7 @@
 
 ### 必要な工具
 100円ショップで売っているもので十分ですが、はんだごては500円商品なのでHAKKOのものがおすすめです。
-|工具名||
+|工具名|リンクはアフィリエイト付きです。|
 |-|-|
 |はんだごて|[FX511-01](https://amzn.to/3IEGO5w)、[FX600-02](https://amzn.to/3oKNQOg)||
 |こて先クリーナー（こて台）|[FH300-81](https://amzn.to/3yuB3CV)、[599B-01](https://amzn.to/3DFsZjD)|
@@ -55,7 +55,7 @@
 |ニッパー等ダイオードの足を切れるもの|[エコー金属 鍛造ニッパー](https://amzn.to/31S75fU)|
 
 ### あると便利な工具（★は特におすすめです）
-|工具名|||
+|工具名||リンクはアフィリエイト付きです。|
 |-|-|-|
 |耐熱シリコンマット||[ノーブランド](https://amzn.to/3rYlcuW)|
 |温度調節可能なはんだごて|★|[FX600-02](https://amzn.to/3oKNQOg)|[]()|
