@@ -28,7 +28,7 @@
 |部品名|数||遊舎工房|TALPKEYBOARD|Daily Craft Keyboard|一般ECサイト|
 |-|-|-|-|-|-|-|
 |Raspberry Pi Pico|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/raspberry-pi-pico)||||
-|コンスルー 20ピン（高さ2.5mm）|2|2本必要なのでご注意ください。  [20ピンが手に入らない場合は12ピンや13ピンを4本で代用できます。](conthrough.md)|[遊舎工房様販売ページ]||||(https://shop.yushakobo.jp/products/31?variant=40815840067745)||||
+|コンスルー 20ピン（高さ2.5mm）|2|2本必要なのでご注意ください。  [12、13ピンを4本でも代用できます。](conthrough.md)|[遊舎工房様販売ページ]||||(https://shop.yushakobo.jp/products/31?variant=40815840067745)||||
 |キースイッチ|～20|Cherry MX互換のもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)||||
 |キーキャップ|～20|Cherry MX互換のもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)||||
 |Micro USB ケーブル|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m)||||
