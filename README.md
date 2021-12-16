@@ -27,7 +27,7 @@
 ### キット以外に必要なもの
 |部品名|数|||
 |-|-|-|-|
-|Raspberry Pi Pico|1||[遊舎工房](https://shop.yushakobo.jp/products/raspberry-pi-pico)、[秋月電子通商](https://akizukidenshi.com/catalog/g/gM-16132/)、[マルツオンライン](https://www.marutsu.co.jp/pc/i/2194960/)|
+|Raspberry Pi Pico|1||[遊舎工房](https://shop.yushakobo.jp/products/raspberry-pi-pico)|
 |コンスルー 20ピン（高さ2.5mm）|2|2本必要なのでご注意ください。  [12、13ピンを4本でも代用できます。](conthrough.md)|[遊舎工房](https://shop.yushakobo.jp/products/31?variant=40815840067745)|
 |キースイッチ|～20|Cherry MX互換のもの|[遊舎工房](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)、[TALPKEYBOARD](https://talpkeyboard.net/?category_id=59cf8860ed05e668db003f5d)、[Daily Craft Keyboard](https://shop.dailycraft.jp/collections/mx-switches)|
 |キーキャップ|～20|Cherry MX互換のもの|[遊舎工房](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)、[TALPKEYBOARD](https://talpkeyboard.net/?category_id=59e2acfaed05e644fd004008)|
@@ -36,11 +36,11 @@
 ### オプション
 |部品名|数||Amazonリンクはアフィリエイト付きです。|
 |-|-|-|-|
-|2Uスタビライザー|必要数|PCBマウントのもの|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|
-|ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[Amazon](https://amzn.to/3oIYPrg)  品切れでなければキーボード専門のショップで購入した方が早くて確実です。|
+|2Uスタビライザー|必要数|PCBマウントのもの|[遊舎工房](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)、[TALPKEYBOARD](https://talpkeyboard.net/?category_id=5f884b9b3313d216eb50558a)|
+|ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[Amazon](https://amzn.to/3oIYPrg)|
 |ノブ|～5|外径19mmまで|[Amazon](https://amzn.to/3oHY2ae)|
-|SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
-|1N4148W|20|表面実装タイプのダイオード|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800di-02-100)|
+|SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
+|1N4148W|20|表面実装タイプのダイオード|[遊舎工房](https://shop.yushakobo.jp/products/a0800di-02-100)|
 
 
 ### 必要な工具
