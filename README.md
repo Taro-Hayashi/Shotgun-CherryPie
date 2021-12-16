@@ -25,7 +25,7 @@
 |13|ゴム足|4||
 
 ### キット以外に必要なもの
-|部品名|数||遊舎工房|TALPKEYBOARD|Dail Craft Keyboard|一般ECサイト|
+|部品名|数||遊舎工房|TALPKEYBOARD|Daily Craft Keyboard|一般ECサイト|
 |-|-|-|-|-|-|-|
 |Raspberry Pi Pico|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/raspberry-pi-pico)||||
 |コンスルー 20ピン（高さ2.5mm）|2|2本必要なのでご注意ください。  [20ピンが手に入らない場合は12ピンや13ピンを4本で代用できます。](conthrough.md)|[遊舎工房様販売ページ]||||(https://shop.yushakobo.jp/products/31?variant=40815840067745)||||
