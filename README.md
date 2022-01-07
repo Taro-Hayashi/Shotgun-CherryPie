@@ -270,7 +270,7 @@ kbd.define_mode_key :0_LOW, [ :KC_KP_0, :lower, 150, 150 ]
 
 ### 同時押しのキーコード
 ~~~
-kbd.define_mode_key :UNDO,   [ %i(KC_Z KC_LCTL), :nil, 150, 150 ]
+kbd.define_composite_key :UNDO,  %i(KC_Z KC_LCTL)
 ~~~
 例えばCtrl＋Zであればこのように定義します。  
 
