@@ -1,4 +1,4 @@
-// Copyright 2021 Hayashi (@w_vwbw)
+/// Copyright 2021 Hayashi (@w_vwbw)
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include QMK_KEYBOARD_H
@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         XXXXXXX, RGB_SAI, RGB_SAD, XXXXXXX,
         XXXXXXX, RGB_VAI, RGB_VAD, XXXXXXX,
         XXXXXXX, RGB_SPI, RGB_SPD, XXXXXXX,
-        XXXXXXX, RGB_MOD, RGB_RMOD, XXXXXXX,
+        LT(LIGHT, KC_P0), RGB_MOD, RGB_RMOD, XXXXXXX,
         // ROTARY ENCODERc
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,XXXXXXX, XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX

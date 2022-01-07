@@ -6,7 +6,7 @@ kbd.init_pins(
 )
 
 kbd.add_layer :default, %i[
-  RGB_TOG  KC_KP_SLASH  KC_KP_ASTERISK  KC_KP_MINUS
+  KC_ESC  KC_KP_SLASH  KC_KP_ASTERISK  KC_KP_MINUS
   KC_KP_7  KC_KP_8  KC_KP_9   KC_KP_PLUS
   KC_KP_4  KC_KP_5  KC_KP_6   KC_KP_PLUS
   KC_KP_1  KC_KP_2  KC_KP_3   KC_KP_ENTER
@@ -18,18 +18,18 @@ kbd.add_layer :lower, %i[
   KC_NO  RGB_SAI  RGB_SAD  KC_NO
   KC_NO  RGB_VAI  RGB_VAD  KC_NO
   KC_NO  RGB_SPI  RGB_SPD  KC_NO
-  KC_NO  RGB_MOD  RGB_RMOD  KC_NO
+  0_LOW  RGB_MOD  RGB_RMOD  KC_NO
 ]
 
 kbd.define_mode_key :0_LOW, [ :KC_KP_0, :lower, 150, 150 ]
-kbd.define_mode_key :00,   [ %i(KC_KP_0 KC_KP_0), nil, 150, 150 ]
+kbd.define_composite_key :00,   %i(KC_KP_0 KC_KP_0)
 
 encoder_1 = RotaryEncoder.new(27, 28)
 encoder_1.clockwise do
-  kbd.send_key :RGB_MOD
+  kbd.send_key :KC_1
 end
 encoder_1.counterclockwise do
-  kbd.send_key :RGB_RMOD
+  kbd.send_key :KC_2
 end
 kbd.append encoder_1
 
