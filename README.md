@@ -109,6 +109,7 @@ Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接
 ![](img/IMG_4385.jpg)   
 立てたコンスルーにRaspberry Pi Picoを乗せたらはんだ付けします。    
 ![](img/IMG_4386.jpg)   
+これで抜き差しできるようになりました。  
 できるだけ垂直に力を加えてRaspberry Pi Picoを抜きます。  
 
 ### LEDのはんだ付け
@@ -213,8 +214,8 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 ビルドガイドと同じレイアウトにするのであればこちらをそのまままお使いください。  
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/keymap.rb)
 
-最初にダウンロードしたものとファイル名が同じなので気を付けてください。
-同様のテンキーとして使う場合もひな形にすると楽になると思います。
+最初にダウンロードしたものとファイル名が同じなので気を付けてください。  
+同様のテンキーとして使う場合もひな形にすると楽になると思います。  
 
 ### キーの変更
 PRK Firmwareドライブのkeymap.rbを開きます。  
@@ -269,7 +270,7 @@ kbd.define_mode_key :0_LOW, [ :KC_KP_0, :lower, 150, 150 ]
 
 ### 同時押しのキーコード
 ~~~
-kbd.define_mode_key :UNDO,   [ %i(KC_Z KC_LCTL), :nil, 150, 150 ]
+kbd.define_composite_key :UNDO,  %i(KC_Z KC_LCTL)
 ~~~
 例えばCtrl＋Zであればこのように定義します。  
 
