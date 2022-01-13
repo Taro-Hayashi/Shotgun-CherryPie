@@ -73,13 +73,16 @@ Detouch the USB cable.
 
 Stand the consule on the back side of the board.
 ![](img/IMG_4383.jpg)   
-Make sure that the windows of the conthrough are high and facing the same direction.
-There is no soldering on the board side.
-  
+Make sure that the windows of the conthrough are high and facing the same direction.  
+There is no soldering on the board side.  
+
+Place the Pro Micro on it.
 ![](img/IMG_4385.jpg)   
 
+Solder the Pro Micro.  
 ![](img/IMG_4386.jpg)   
-できるだけ垂直に力を加えてRaspberry Pi Picoを抜きます。  
+  
+pull out the Raspberry Pi Pico.  
 
 ### LEDs
 LEDを取り付ける場合はメインボードに最初にはんだ付けします。  
