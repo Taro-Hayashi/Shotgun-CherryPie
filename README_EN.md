@@ -183,6 +183,9 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 Keycodes are here.
 - https://github.com/Taro-Hayashi/PRKFirmware0.9.7Keycode/blob/main/README_EN.md
 
+Sample keymap from the build manual.
+- https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/keymap.rb
+
 ### Change keys
 Open keymap.rb in PRK Firmware drive.
 ~~~
@@ -219,6 +222,9 @@ kbd.add_layer :lower, %i[
 ]
 ~~~
 
+Layer key is same as layer name.
+
+### Tap and hold key
 ~~~
 kbd.define_mode_key :0_LOW, [ :KC_KP_0, :lower, 150, 150 ]
 ~~~
