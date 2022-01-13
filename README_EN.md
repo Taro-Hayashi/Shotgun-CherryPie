@@ -85,7 +85,7 @@ pull out the Raspberry Pi Pico.
 
 ### LED
 If use LED, install first.  
- - [LED Installation](led.md)  
+ - [LED Installation](led_EN.md)  
 
 ### Diodes and tactile switch
 
