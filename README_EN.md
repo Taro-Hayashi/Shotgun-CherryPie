@@ -181,7 +181,7 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 
 ## Customise
 Keycodes are here.
-- https://github.com/Taro-Hayashi/PRKFirmware0.9.7Keycode/blob/main/README.md
+- https://github.com/Taro-Hayashi/PRKFirmware0.9.7Keycode/blob/main/README_EN.md
 
 ### Change keys
 Open keymap.rb in PRK Firmware drive.
