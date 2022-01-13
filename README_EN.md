@@ -71,10 +71,9 @@ Detouch the USB cable.
 
 ### Raspberry Pi Pico and conthrough
 
-Stand the consule on the back side of the board.
+Stand the consule on the back side of the board.No soldering on the board side.  
 ![](img/IMG_4383.jpg)   
 Make sure that the windows of the conthrough are high and facing the same direction.  
-There is no soldering on the board side.  
 
 Place the Pro Micro on it.
 ![](img/IMG_4385.jpg)   
@@ -84,11 +83,9 @@ Solder the Pro Micro.
   
 pull out the Raspberry Pi Pico.  
 
-### LEDs
-LEDを取り付ける場合はメインボードに最初にはんだ付けします。  
- - [LEDの取り付け方](led.md)  
-
-後からでも可能ですがホットスワップソケットにこてが当たり溶かしてしまう可能性があります。  
+### LED
+If use LED, install first.  
+ - [LED Installation](led.md)  
 
 ### Diodes and reset switch
 
