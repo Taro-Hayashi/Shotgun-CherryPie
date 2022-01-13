@@ -87,48 +87,39 @@ pull out the Raspberry Pi Pico.
 If use LED, install first.  
  - [LED Installation](led.md)  
 
-### Diodes and reset switch
+### Diodes and tactile switch
 
-D1~D20まで取り付けます。  
-足を曲げて裏から差し込みます。  
+Install the diodes from D1 to D26.
 ![](img/IMG_4392.jpg)   
-ダイオードには向きがあります。三角形の先の棒と黒線を合わせましょう。  
+Diodes have a direction.  
   
-表で更に足を曲げて抜けないようにします。  
+Bend the legs parallel to the diode to prevent interference with the key switch later.  
 ![](img/IMG_4395.jpg)   
-ダイオードと並行に曲げるとあとでキースイッチに干渉しにくいです。 
   
-はんだ付けをして足を切ります。  
+Solder and cut the legs.  
 ![](img/IMG_4396.jpg)   
   
-  
-リセットスイッチを裏から差し込み表ではんだ付けします。  
+Solder Tactile Switches.   
 ![](img/IMG_4397.jpg)   
 
 ### Hotswap sockets
-使うソケットの足に予備はんだをします。あらかじめ薄くはんだを乗せます。  
+Apply a thin layer of solder beforehand.  
 ![](img/IMG_4401.jpg)    
-ソケットを置いたらピンセットで押さえつけながらはんだを注いでいきます。入り組んでいて表面積が多いので多めに必要になります。  
+Solder sockets.  
 ![](img/IMG_4405.jpg)     
 
-裏から見ると左右逆になっているのでソケットの位置に注意しましょう。  
+Be careful to keep the socket close to the board at the blue frame.  
 ![](img/IMG_4407.jpg)   
 
-### Rotary encoder
-足を折らないようにホールに通します。  
-![](img/IMG_4410.jpg)   
-クリップの部分ははんだ付けしなくて大丈夫です。  
+### Rotary encoder  
+![](img/IMG_4410.jpg)     
 ![](img/IMG_4412.jpg)   
 
 ### Testing
-Raspberry Pi Picoを差し込んでUSBケーブルを繋ぎます。  
-  
+Plug in the Raspberry Pi Pico and connect it to PC.  
 ![](img/IMG_4414s.jpg)   
-ソケットをピンセットで短絡したり、スイッチを挿して押したりしてキーが入力されるか調べます。  
-  
-問題がなければはんだ付けは終了です。お疲れ様でした。  
-Raspberry Pi Picoを取り外して次の工程に進みましょう。  
-  
+   
+After testing, remove the Raspberry Pi Pico.  
 ## Assembling
 ### Stabilizers
 スタビライザーがあると2Uのキーの押下が安定します。無くても使えるのでお好みでお使いください。  
