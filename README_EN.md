@@ -180,7 +180,7 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 早速USBケーブルでPCと接続しましょう。
 
 ## Customise
-Keycodes are here.
+These Keycodes are avilable.
 - https://github.com/Taro-Hayashi/PRKFirmware0.9.7Keycode/blob/main/README_EN.md
 
 Sample keymap from the build manual.
