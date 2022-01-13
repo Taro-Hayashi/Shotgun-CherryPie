@@ -1,4 +1,4 @@
-# Shotgun チェリーパイ Build Manual
+# Shotgun チェリーパイ Build Manual（[日本語](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/README.md)）
 - [Contens](#Contens)
 - [Soldering](#Soldering)
 - [Assembling](#Assembling)
