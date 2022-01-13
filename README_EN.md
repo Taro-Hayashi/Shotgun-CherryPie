@@ -23,13 +23,13 @@
 |13|Rubber feet|4||
 
 ### Additional required
-|Name|Quantities||
-|-|-|-|
-|Raspberry Pi Pico|1|[Yushakobo](https://shop.yushakobo.jp/en/products/raspberry-pi-pico)|
+|Name|Quantities|||
+|-|-|-|-|
+|Raspberry Pi Pico|1||[Yushakobo](https://shop.yushakobo.jp/en/products/raspberry-pi-pico)|
 |Conthrough|2|[Usage](conthrough_EN.md)|[Yushakobo](https://shop.yushakobo.jp/en/products/31?_pos=1&_sid=ca92edae3&_ss=r&variant=40815837610145)|
-|Switches|11 - 20|Cherry MX|
-|Keycaps|11 - 20|Cherry MX|
-|Micro-USB Cable|1|[Yushakobo](https://shop.yushakobo.jp/en/products/usb-cable-micro-b-0-8m)|
+|Switches|11 - 20|Cherry MX||
+|Keycaps|11 - 20|Cherry MX||
+|Micro-USB Cable|1||[Yushakobo](https://shop.yushakobo.jp/en/products/usb-cable-micro-b-0-8m)|
 
 ### オプション
 |部品名|数|||
