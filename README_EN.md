@@ -69,15 +69,15 @@ Detouch the USB cable.
 
 ## Soldering
 
-### Raspberry Pi Pico
+### Raspberry Pi Pico and conthrough
 
-まずはRaspberry Pi Picoにコンスルーをはんだ付けします。  
-コンスルーを基板裏に立てます。窓が高く、同じ方向を向くようにします。  
+Stand the consule on the back side of the board.
 ![](img/IMG_4383.jpg)   
-基板側ははんだ付けしません。  
+Make sure that the windows of the conthrough are high and facing the same direction.
+There is no soldering on the board side.
   
 ![](img/IMG_4385.jpg)   
-立てたコンスルーにRaspberry Pi Picoを乗せたらはんだ付けします。    
+
 ![](img/IMG_4386.jpg)   
 できるだけ垂直に力を加えてRaspberry Pi Picoを抜きます。  
 
