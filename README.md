@@ -332,4 +332,5 @@ https://github.com/picoruby/prk_firmware/
 
 ### 販売ページ
 - BOOTH: https://tarohayashi.booth.pm/items/3430753
+- 遊舎工房: https://shop.yushakobo.jp/products/3415
 
