@@ -124,38 +124,36 @@ After testing, remove the Raspberry Pi Pico.
 ### Stabilizers
 ![](img/IMG_4416.jpg)  
 ![](img/IMG_4420.jpg)    
-    
+![](img/IMG_4426.jpg)   
+
 Cut off the corners of the stabilizer because it would interfere with the acrylic.    
 ![](img/IMG_4434.jpg)   
   
 
 ### Plates
-メインボードにトッププレートを乗せます。裏表、上下左右に気を付けましょう。  
+Place the top plate on the main board.  
 ![](img/IMG_4437.jpg)  
-
-隅のキースイッチから差し込んで、トッププレートにツメを咬ませます。  
+  
+Install Switches.
 ![](img/IMG_4438.jpg)  
-
-全てのスイッチを取り付けました。  
 ![](img/IMG_4440.jpg)  
-トッププレートは浮いていますが、スイッチのツメに引っかかっているため安定しているはずです。  
 
-裏返して4隅にスペーサーを、ネジ（短）で取り付けます。  
+Attach spacers with short screws.  
 ![](img/IMG_4447.jpg)  
 
-ミドルプレート1（5mm厚、穴が長方形に近い）、ミドルプレート2（3mm厚、穴が少し狭い）の順にスペーサーに通します。  
+Place thicker middle plate #1 and thiner middle plate #2 on it.  
 ![](img/IMG_4448.jpg)  
 
-Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレート3を乗せます。  
+Attach the Raspberry Pi Pico and put the middle plate #3.   
 ![](img/IMG_4451.jpg)  
 
-バックプレートをネジ（長）で組付けてゴム足を4隅に貼ります。  
+Fasten the back plate with long screws and put the rubber feet.  
 ![](img/IMG_4454.jpg)  
 
-キーキャップを乗せたら組み立ては終了です。
+Install the Keycaps.
 ![](img/IMG_4460.jpg)  
 
-早速USBケーブルでPCと接続しましょう。
+Then connect to PC.
 
 ## Customise
 These Keycodes are avilable.
