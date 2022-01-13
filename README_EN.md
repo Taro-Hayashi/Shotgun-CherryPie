@@ -64,14 +64,12 @@ Writing the uf2 file, it will automatically reboot and be recognized as a drive 
 ![](img/prd.jpg)   
 Drag and drop this keymap.rb onto the drive.
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.1/keymap.rb)  
+
 Detouch the USB cable.
 
 ## Soldering
-はんだ付けのやり方は動画で見るとわかりやすいです。  
-パーツは思ったより壊れないので落ち着いて作業すると失敗しにくいです。  
- - ホームセンターのDCMさんの解説動画(58秒～) https://www.youtube.com/watch?v=JFQg_ObITYE&t=58s  
-  
-### Raspberry Pi Picoのはんだ付け
+
+### Raspberry Pi Pico
 
 まずはRaspberry Pi Picoにコンスルーをはんだ付けします。  
 コンスルーを基板裏に立てます。窓が高く、同じ方向を向くようにします。  
@@ -83,13 +81,13 @@ Detouch the USB cable.
 ![](img/IMG_4386.jpg)   
 できるだけ垂直に力を加えてRaspberry Pi Picoを抜きます。  
 
-### LEDのはんだ付け
+### LEDs
 LEDを取り付ける場合はメインボードに最初にはんだ付けします。  
  - [LEDの取り付け方](led.md)  
 
 後からでも可能ですがホットスワップソケットにこてが当たり溶かしてしまう可能性があります。  
 
-### ダイオード、リセットスイッチのはんだ付け
+### Diodes and reset switch
 
 D1~D20まで取り付けます。  
 足を曲げて裏から差し込みます。  
@@ -107,7 +105,7 @@ D1~D20まで取り付けます。
 リセットスイッチを裏から差し込み表ではんだ付けします。  
 ![](img/IMG_4397.jpg)   
 
-### ソケットのはんだ付け
+### Hotswap sockets
 使うソケットの足に予備はんだをします。あらかじめ薄くはんだを乗せます。  
 ![](img/IMG_4401.jpg)    
 ソケットを置いたらピンセットで押さえつけながらはんだを注いでいきます。入り組んでいて表面積が多いので多めに必要になります。  
@@ -116,13 +114,13 @@ D1~D20まで取り付けます。
 裏から見ると左右逆になっているのでソケットの位置に注意しましょう。  
 ![](img/IMG_4407.jpg)   
 
-### ロータリーエンコーダーのはんだ付け
+### Rotary encoder
 足を折らないようにホールに通します。  
 ![](img/IMG_4410.jpg)   
 クリップの部分ははんだ付けしなくて大丈夫です。  
 ![](img/IMG_4412.jpg)   
 
-### 動作確認
+### Testing
 Raspberry Pi Picoを差し込んでUSBケーブルを繋ぎます。  
   
 ![](img/IMG_4414s.jpg)   
@@ -131,8 +129,8 @@ Raspberry Pi Picoを差し込んでUSBケーブルを繋ぎます。
 問題がなければはんだ付けは終了です。お疲れ様でした。  
 Raspberry Pi Picoを取り外して次の工程に進みましょう。  
   
-## 組み立て
-### スタビライザーの組み立てと取り付け
+## Assembling
+### Stabilizers
 スタビライザーがあると2Uのキーの押下が安定します。無くても使えるのでお好みでお使いください。  
   
 小さい方のパーツの穴が二つ開いている側を、大きいパーツの穴が開いている方向に合わせて組み合わせます。  
@@ -151,7 +149,7 @@ Raspberry Pi Picoを取り外して次の工程に進みましょう。
 基板の大きい方の穴にツメをひっかけながら取り付けます。  
 ![](img/IMG_4426.jpg)  
 
-### プレートの取り付け
+### Plates
 アクリルから保護フィルムをはがします。割れやすいパーツもあるので気をつけてください。  
 
 メインボードにトッププレートを乗せます。裏表、上下左右に気を付けましょう。  
@@ -181,14 +179,14 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 
 早速USBケーブルでPCと接続しましょう。
 
-## キーマップのカスタマイズ
+## Customise
 ビルドガイドと同じレイアウトにするのであればこちらをそのまままお使いください。  
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/keymap.rb)
 
 最初にダウンロードしたものとファイル名が同じなので気を付けてください。
 同様のテンキーとして使う場合もひな形にすると楽になると思います。
 
-### キーの変更
+### Change keys
 PRK Firmwareドライブのkeymap.rbを開きます。  
 
 ~~~
@@ -207,7 +205,7 @@ kbd.add_layer :default, %i[
 
 上書き保存をするとその場で変更が反映されます。  
 
-### ロータリーエンコーダー
+### Rotary Encoder
 ~~~
 encoder_1 = RotaryEncoder.new(27, 28)
 encoder_1.clockwise do
@@ -221,7 +219,7 @@ kbd.append encoder_1
 kbd.send_keyのKC_*を変更すると該当のロータリーエンコーダーのキーが変更されます。  
 ロータリーエンコーダーはUSB差込側から順に1～5が割り振られています。  
 
-### レイヤーの追加
+### Add layer
 ~~~
 kbd.add_layer :lower, %i[
   KC_NO  KC_NO  KC_NO  KC_NO
@@ -256,51 +254,38 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
   
 ![](img/done.jpg)  
 
-## その他
-### おまけ
+## Etc
+### Switch pusher
 小袋のアクリル片とスペーサーを組み合わせると裏面のボタンを押す治具を作れます。
 ![](img/switchpusher.jpg)  
 ※アクリルの形状は違うことがあります。
 
 ### 他の対応ファームウェアについて
-#### QMKファームウェア
-こちらのuf2ファイルをインストールしてください。
+#### QMK Firmware
+Install qmk uf2 file.
 - [shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_via.uf2)
 
-QMKは公式にはRaspberry Pi Picoには対応していません。使用しているQMKファームウェアはせきごん様が独自にRP2040への対応を実現したものです。  
-基本的な機能は実装済みのものを配布していますが、ご自分でコンパイルをしたい場合はこちらのページを参考にしてください。  
- - [RP2040対応のQMK(非公式)を動かす](https://scrapbox.io/self-made-kbds-ja/RP2040%E5%AF%BE%E5%BF%9C%E3%81%AEQMK(%E9%9D%9E%E5%85%AC%E5%BC%8F)%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99)
- - [ファームウェアのコード](https://github.com/Taro-Hayashi/Shotgun-CherryPie/tree/main/qmk/keyboards/shotgun_cp)
-
-Remap/VIAを使ってGUIでキーを入れ替えることができます。
+JSON for Remap/VIA
  - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)
 
-#### KMKファームウェア
-キーボードとして使えることは確認済みですが、私の理解が及ばないためLEDやロータリーエンコーダーの使いかたがよくわからず解説が書けませんでした。
-
-#### ZMKファームウェア
-まだ試せていません。
-
-### プレートのデータ
+### Misc
+Plates data
  - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_plates.zip)  
 
-発注先のルールに沿ってデータを修正してください。  
-
-### 謝辞
-foostan様のフットプリントを流用、改変して使わせていただきました。  
+Used foostan's footprint.
 https://github.com/foostan/kbd/  
 https://github.com/foostan/kbd/blob/master/LICENSE  
 
-yoichiro様のフットプリントを流用、改変して使わせていただきました。  
+Used Yoichiro's footprint.
 https://github.com/yoichiro/yoichiro-kbd  
 https://github.com/yoichiro/yoichiro-kbd/blob/main/LICENSE 
 
-せきごん様がGPIO15を使っている場合でも正常に動くようにしてくださいました。  
+Sekigon's qmk firmware branch 
 https://github.com/sekigon-gonnoc/qmk_firmware/tree/rp2040
 
-hasumikin様がPRK Firmwareでロータリーエンコーダーを複数個使用できるようにして、感度も上げてくださいました。  
+PRK Firmware
 https://github.com/picoruby/prk_firmware/
 
-### 販売ページ
 - BOOTH: https://tarohayashi.booth.pm/items/3430753
+- Yushakobo: https://shop.yushakobo.jp/en/products/3415
 
