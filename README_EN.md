@@ -125,13 +125,11 @@ After testing, remove the Raspberry Pi Pico.
 ![](img/IMG_4416.jpg)  
 ![](img/IMG_4420.jpg)    
     
-角にスタビライザーを付けるとケースと干渉するためニッパーで切り落としています。  
+Cut off the corners of the stabilizer because it would interfere with the acrylic.    
 ![](img/IMG_4434.jpg)   
   
 
 ### Plates
-アクリルから保護フィルムをはがします。割れやすいパーツもあるので気をつけてください。  
-
 メインボードにトッププレートを乗せます。裏表、上下左右に気を付けましょう。  
 ![](img/IMG_4437.jpg)  
 
