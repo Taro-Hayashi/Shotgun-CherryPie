@@ -50,7 +50,7 @@ In this manual, we use rotary encoder and 2 2U keys.
 ![](img/test.jpg)    
 ![](img/IMG_4358.jpg)   
 
-### ファームウェアの書き込み
+### Write firmware
 Download PRK Firmware.
  - [Releases・picoruby/prk_firmware](https://github.com/picoruby/prk_firmware/releases)  
 Click "Assets"
@@ -59,14 +59,13 @@ Click "Assets"
 Connect the Raspberry Pi Pico to the PC while holding down the BOOTSEL button, it will be recognized as a USB memory device called RPI-RP2.    
 ![](img/IMG_4361.jpg)   
 ![](img/rpi.jpg)   
-そこに解凍したuf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
+Writing the uf2 file, it will automatically reboot and be recognized as a drive called PRK Firmware.  
 ![](img/prd.jpg)   
-そのドライブにこちらのkeymap.rbをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。 
+Drag and drop this keymap.rb onto the drive.
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.1/keymap.rb)  
+Detouch the USB cable.
 
-書き込みが終わったら一旦USBケーブルは外します。  
-
-## はんだ付け
+## Soldering
 はんだ付けのやり方は動画で見るとわかりやすいです。  
 パーツは思ったより壊れないので落ち着いて作業すると失敗しにくいです。  
  - ホームセンターのDCMさんの解説動画(58秒～) https://www.youtube.com/watch?v=JFQg_ObITYE&t=58s  
