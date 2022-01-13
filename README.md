@@ -1,4 +1,4 @@
-# Shotgun チェリーパイ ビルドガイド（[English](https://github.com/Taro-Hayashi/Handyman/blob/main/README_EN.md)）
+# Shotgun チェリーパイ ビルドガイド（[English](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/README_EN.md)）
 - [キット内容](#キット内容)
 - [準備](#準備)
 - [はんだ付け](#はんだ付け)
