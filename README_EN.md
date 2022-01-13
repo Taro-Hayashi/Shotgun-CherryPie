@@ -197,7 +197,9 @@ kbd.add_layer :default, %i[
   KC_Q  KC_R  KC_S  KC_T
 ]
 ~~~
-Overwrite and save to update.
+
+Change KC_* to change keys.  
+Overwrite and save to update.  
 
 ### Rotary Encoder
 ~~~
@@ -221,8 +223,7 @@ kbd.add_layer :lower, %i[
   KC_NO  KC_NO  KC_NO  KC_NO
 ]
 ~~~
-
-Layer key is same as layer name.
+Layer key is same as layer name.  
 
 ### Tap and hold key
 ~~~
@@ -257,18 +258,18 @@ JSON for Remap/VIA
  - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_plates.zip)  
 
 ### Thanks
-Used foostan's footprint.
+Used foostan's footprint.  
 https://github.com/foostan/kbd/  
 https://github.com/foostan/kbd/blob/master/LICENSE  
 
-Used Yoichiro's footprint.
+Used Yoichiro's footprint.  
 https://github.com/yoichiro/yoichiro-kbd  
 https://github.com/yoichiro/yoichiro-kbd/blob/main/LICENSE 
 
-Sekigon's qmk firmware branch 
+Sekigon's qmk firmware branch  
 https://github.com/sekigon-gonnoc/qmk_firmware/tree/rp2040
 
-PRK Firmware
+PRK Firmware  
 https://github.com/picoruby/prk_firmware/
 
 - BOOTH: https://tarohayashi.booth.pm/items/3430753
