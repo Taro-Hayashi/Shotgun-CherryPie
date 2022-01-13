@@ -239,6 +239,7 @@ kbd.define_mode_key :UNDO,   [ %i(KC_Z KC_LCTL), :nil, 150, 150 ]
 kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 ~~~
   
+Completed. Thank you for your time.  
 ![](img/done.jpg)  
 
 ## Misc
