@@ -89,7 +89,7 @@ If use LED, install first.
 
 ### Diodes and tactile switch
 
-Install the diodes from D1 to D26.
+Install the diodes from D1 to D20.
 ![](img/IMG_4392.jpg)   
 Diodes have a direction.  
   
