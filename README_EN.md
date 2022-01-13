@@ -17,19 +17,19 @@
 |7|Short screws|4|4mm|
 |8|Long screws|4|8mm|
 |9|Spacers|4|8mm|
-|10|Diodes20|1N4148|
+|10|Diodes|20|1N4148|
 |11|Tactile switch|1||
 |12|Hotswap socket|20||
 |13|Rubber feet|4||
 
-### キット以外に必要なもの
-|部品名|数|||
-|-|-|-|-|
-|Raspberry Pi Pico|1||[遊舎工房](https://shop.yushakobo.jp/products/raspberry-pi-pico)、[秋月電子通商](https://akizukidenshi.com/catalog/g/gM-16132/)、[共立エレショップ](https://eleshop.jp/shop/g/gL25313/)|
-|コンスルー 20ピン（高さ2 mmか2.5 mm）|2|[12、13ピンを4本でも代用できます。](conthrough.md)|[遊舎工房](https://shop.yushakobo.jp/products/31?variant=40815837610145)、[共立エレショップ](https://eleshop.jp/shop/g/gKB6127/)|
-|キースイッチ|～20|Cherry MX互換のもの|[遊舎工房](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)、[TALPKEYBOARD](https://talpkeyboard.net/?category_id=59cf8860ed05e668db003f5d)、[Daily Craft Keyboard](https://shop.dailycraft.jp/collections/mx-switches)|
-|キーキャップ|～20|Cherry MX互換のもの|[遊舎工房](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)、[TALPKEYBOARD](https://talpkeyboard.net/?category_id=59e2acfaed05e644fd004008)|
-|Micro USB ケーブル|1||[遊舎工房](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m)、[TALPKEYBOARD](https://talpkeyboard.net/items/5df82904a551d528d7360c34)、[Daily Craft Keyboard](https://shop.dailycraft.jp/products/usb_cable)|
+### Additional required
+|Name|Quantities||
+|-|-|-|
+|Raspberry Pi Pico|1|[Yushakobo](https://shop.yushakobo.jp/en/products/raspberry-pi-pico)|
+|Conthrough|2|[Usage](conthrough_EN.md)|[Yushakobo](https://shop.yushakobo.jp/en/products/31?_pos=1&_sid=ca92edae3&_ss=r&variant=40815837610145)|
+|Switches|11 - 20|Cherry MX|
+|Keycaps|11 - 20|Cherry MX|
+|Micro-USB Cable|1|[Yushakobo](https://shop.yushakobo.jp/en/products/usb-cable-micro-b-0-8m)|
 
 ### オプション
 |部品名|数|||
