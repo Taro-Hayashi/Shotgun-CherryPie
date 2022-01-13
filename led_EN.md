@@ -1,4 +1,4 @@
-## LEDの取り付け方
+## LED installation
   
 Align the notch of the LED with the corner of the silk print.  
 ![](img/IMG_4367.jpg)    
