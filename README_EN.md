@@ -1,5 +1,6 @@
 # Shotgun チェリーパイ Build Manual（[日本語](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/README.md)）
 - [Contens](#Contens)
+- [Preparation](#Preparation)
 - [Soldering](#Soldering)
 - [Assembling](#Assembling)
 - [Customise](#Customise)
@@ -35,34 +36,11 @@
 |部品名|数|||
 |-|-|-|-|
 |Stabilizer||2U, PCB mounted|[Yushakobo](https://shop.yushakobo.jp/en/collections/all-keyboard-parts/Stabilizer)|
-|Rotary emcoders||EC11/EC12|[Yushakobo](https://shop.yushakobo.jp/en/search?q=%E3%83%AD%E3%83%BC%E3%82%BF%E3%83%AA%E3%83%BC%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC+%E3%83%8E%E3%83%96%E4%BB%98%E3%81%8D)|
+|Rotary emcoders||EC11/EC12||
 |knobs||Outer diameter up to 19mm||
 |SK6812MINI-E|28||[Yushakobo](https://shop.yushakobo.jp/en/products/sk6812mini-e-10)|
 
-### 必要な工具
-|工具名|
-|-|
-|はんだごて|
-|こて先クリーナー（こて台）|
-|鉛入りはんだ|
-|ピンセット|
-|精密ドライバー|
-|ニッパー等ダイオードの足を切れるもの|
-
-### あると便利な工具
-|工具名|
-|-|
-|耐熱シリコンマット|
-|温度調節可能なはんだごて|
-|斜めに切ったタイプのこて先|
-|フラックス|
-|フラックスリムーバー、IPA|
-|テスター|
-|マスキングテープ|
-|はんだ吸い取り線|
-|はんだ吸い取り器|
-
-## 準備
+## Preparation
 ### レイアウトを決める  
 このキットはいろいろなレイアウトから選んでお使いいただけます。  
 ![](img/layout.jpg)   
