@@ -41,24 +41,22 @@
 |SK6812MINI-E|28||[Yushakobo](https://shop.yushakobo.jp/en/products/sk6812mini-e-10)|
 
 ## Preparation
-### レイアウトを決める  
-このキットはいろいろなレイアウトから選んでお使いいただけます。  
+### Determine key layout  
+This kit has a variety of layouts to choose from.  
 ![](img/layout.jpg)   
-色のついているところが交換可能になっています。  
   
-ビルドガイドではロータリーエンコーダーを1つ、幅が2倍（2U）のキーを二つ使ったテンキーにします。  
-![](img/test.jpg)   
-キット、その他必要なものに追加でロータリーエンコーダーとノブを一つずつ、スタビライザーを2つ用意しました。  
+
+In this manual, we use rotary encoder and 2 2U keys.  
+![](img/test.jpg)    
 ![](img/IMG_4358.jpg)   
 
 ### ファームウェアの書き込み
-最新版のPRKファームウェアのzipファイルをダウンロード、解凍します。
+Download PRK Firmware.
  - [Releases・picoruby/prk_firmware](https://github.com/picoruby/prk_firmware/releases)  
-
-Assetsをクリックすると出てきます。
+Click "Assets"
 ![](img/zip.jpg) 
 
-Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。  
+Connect the Raspberry Pi Pico to the PC while holding down the BOOTSEL button, it will be recognized as a USB memory device called RPI-RP2.    
 ![](img/IMG_4361.jpg)   
 ![](img/rpi.jpg)   
 そこに解凍したuf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
