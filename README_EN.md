@@ -1,28 +1,26 @@
-# Shotgun チェリーパイ ビルドガイド
-- [キット内容](#キット内容)
-- [準備](#準備)
-- [はんだ付け](#はんだ付け)
-- [組み立て](#組み立て)
-- [キーマップのカスタマイズ](#キーマップのカスタマイズ)
-- [その他](#その他)
+# Shotgun チェリーパイ Build Manual
+- [Contens](#Contens)
+- [Soldering](#Soldering)
+- [Assembling](#Assembling)
+- [Customise](#Customise)
 
-## キット内容
+## Contents
 ![](img/IMG_4355.jpg)  
-||部品名|数| |
+||Name|Quamtities| |
 |-|-|-|-|
-|1|メインボード|1|白・PCB|
-|2|トッププレート|1||
-|3|ボトムプレート|1||
-|4|ミドルプレート1|1|透明アクリル、5mm|
-|5|ミドルプレート2|1|3mm|
-|6|ミドルプレート3|1|3mm|
-|7|ネジ（短）|4|M2、4mm|
-|8|ネジ（長）|4|8mm|
-|9|スペーサー|4|8mm|
-|10|ダイオード|20|1N4148|
-|11|リセットスイッチ|1||
-|12|Cherry MX ホットスワップソケット|20||
-|13|ゴム足|4||
+|1|Mainboard|1|
+|2|Top plate|1||
+|3|Bottom plate|1||
+|4|Middle plate #1|1||
+|5|Middle plate #2|1||
+|6|Middle plate #3|1||
+|7|Short screws|4|4mm|
+|8|Long screws|4|8mm|
+|9|Spacers|4|8mm|
+|10|Diodes20|1N4148|
+|11|Tactile switch|1||
+|12|Hotswap socket|20||
+|13|Rubber feet|4||
 
 ### キット以外に必要なもの
 |部品名|数|||
