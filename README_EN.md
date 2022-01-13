@@ -180,15 +180,11 @@ Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレ
 早速USBケーブルでPCと接続しましょう。
 
 ## Customise
-ビルドガイドと同じレイアウトにするのであればこちらをそのまままお使いください。  
- - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/keymap.rb)
-
-最初にダウンロードしたものとファイル名が同じなので気を付けてください。
-同様のテンキーとして使う場合もひな形にすると楽になると思います。
+Keycodes are here.
+- https://github.com/Taro-Hayashi/PRKFirmware0.9.7Keycode/blob/main/README.md
 
 ### Change keys
-PRK Firmwareドライブのkeymap.rbを開きます。  
-
+Open keymap.rb in PRK Firmware drive.
 ~~~
 kbd.add_layer :default, %i[
   KC_A  KC_B  KC_C  KC_D
@@ -198,12 +194,7 @@ kbd.add_layer :default, %i[
   KC_Q  KC_R  KC_S  KC_T
 ]
 ~~~
-ここのKC_*を書き換えてキーを設定します。  
-  
-キーコードはこちらに載せていますので参考にしてください（バージョンによって違う可能性があります）。  
-- https://github.com/Taro-Hayashi/PRKFirmware0.9.7Keycode  
-
-上書き保存をするとその場で変更が反映されます。  
+Overwrite and save to update.
 
 ### Rotary Encoder
 ~~~
@@ -216,8 +207,6 @@ encoder_1.counterclockwise do
 end
 kbd.append encoder_1
 ~~~
-kbd.send_keyのKC_*を変更すると該当のロータリーエンコーダーのキーが変更されます。  
-ロータリーエンコーダーはUSB差込側から順に1～5が割り振られています。  
 
 ### Add layer
 ~~~
@@ -229,49 +218,40 @@ kbd.add_layer :lower, %i[
   KC_NO  KC_NO  KC_NO  KC_NO
 ]
 ~~~
-レイヤーの名前を変更したキーマップを追加するとレイヤーが増えます。  
-レイヤーの名前をキーコードとして使うとそのままレイヤー変更キーとして使えます。  
-  
-好きな名前のキーコード名を設定し（例では0_LOW）、長押しでレイヤーを変更するキーにすることもできます。  
+
 ~~~
 kbd.define_mode_key :0_LOW, [ :KC_KP_0, :lower, 150, 150 ]
 ~~~
 
-### 同時押しのキーコード
+### Copmposite key
 ~~~
 kbd.define_mode_key :UNDO,   [ %i(KC_Z KC_LCTL), :nil, 150, 150 ]
 ~~~
-例えばCtrl＋Zであればこのように定義します。  
 
-### 文字列を入力するキーコード
+### String key
 ~~~
 kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 ~~~
-あっているかわかりませんがこう定義するとaaaaが入力されました。  
-00キーの場合上の同時押しの方が早かったのでそちらを使っています。  
-  
-キーの設定が終わったら完成です！  
   
 ![](img/done.jpg)  
 
-## Etc
+## Misc
 ### Switch pusher
 小袋のアクリル片とスペーサーを組み合わせると裏面のボタンを押す治具を作れます。
 ![](img/switchpusher.jpg)  
 ※アクリルの形状は違うことがあります。
 
-### 他の対応ファームウェアについて
-#### QMK Firmware
+### QMK Firmware
 Install qmk uf2 file.
 - [shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_via.uf2)
 
 JSON for Remap/VIA
  - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)
 
-### Misc
-Plates data
+### Plates data
  - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_plates.zip)  
 
+### Thanks
 Used foostan's footprint.
 https://github.com/foostan/kbd/  
 https://github.com/foostan/kbd/blob/master/LICENSE  
