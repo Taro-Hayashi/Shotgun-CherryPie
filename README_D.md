@@ -25,12 +25,13 @@
 |11|リセットスイッチ|1||
 |12|Cherry MX ホットスワップソケット|20||
 |13|ゴム足|4||
+|-|40Pピンヘッダ|1||
 
 ### キット以外に必要なもの
 |部品名|数|||
 |-|-|-|-|
 |Raspberry Pi Pico|1||[遊舎工房](https://shop.yushakobo.jp/products/raspberry-pi-pico) / [秋月電子通商](https://akizukidenshi.com/catalog/g/gM-16132/) / [共立エレショップ](https://eleshop.jp/shop/g/gL25313/)|
-|コンスルー20ピン (高さ2 mmか2.5 mm)|2|[12ピンを4本でも代用できます。](conthrough.md)|[遊舎工房](https://shop.yushakobo.jp/products/31?variant=40815837610145) / [共立エレショップ](https://eleshop.jp/shop/g/gKB6127/)|
+|コンスルー20ピン (高さ2 mmか2.5 mm)|2|[手に入らない場合](conthrough.md)|[遊舎工房](https://shop.yushakobo.jp/products/31?variant=40815837610145) / [共立エレショップ](https://eleshop.jp/shop/g/gKB6127/)|
 |キースイッチ||CherryMX互換|[遊舎工房](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) / [TALPKEYBOARD](https://talpkeyboard.net/?category_id=59cf8860ed05e668db003f5d) / [DailyCraftKeyboard](https://shop.dailycraft.jp/collections/mx-switches)|
 |キーキャップ||CherryMX互換|[遊舎工房](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97) / [TALPKEYBOARD](https://talpkeyboard.net/?category_id=59e2acfaed05e644fd004008)|
 |Micro-USB ケーブル|1|||
@@ -138,7 +139,7 @@ D1~D20まで取り付けます。
 ![](img/IMG_4397.jpg)   
 
 ### ソケットのはんだ付け
-使うソケットの足に予備はんだをします。あらかじめ薄くはんだを乗せます。  
+使うソケットのパッドに予備はんだをします。あらかじめ薄くはんだを乗せます。  
 ![](img/IMG_4401.jpg)    
 ソケットを置いたらピンセットで押さえつけながらはんだを注いでいきます。入り組んでいて表面積が多いので多めに必要になります。  
 ![](img/IMG_4405.jpg)     
@@ -147,10 +148,10 @@ D1~D20まで取り付けます。
 ![](img/IMG_4407.jpg)   
 裏から見ると左右が逆になっているのでレイアウトに注意しましょう。  
 
-### ロータリーエンコーダーのはんだ付け
+### （オプション）ロータリーエンコーダーのはんだ付け
 足を折らないようにホールに通します。  
 ![](img/IMG_4410.jpg)   
-クリップの部分ははんだ付けしなくて大丈夫です。  
+クリップの部分ははんだ付けしなくても大丈夫です。  
 ![](img/IMG_4412.jpg)   
 
 ### 動作確認
@@ -163,7 +164,7 @@ Raspberry Pi Picoを差し込んでUSBケーブルを繋ぎます。
 Raspberry Pi Picoを取り外して次の工程に進みましょう。  
   
 ## 組み立て
-### スタビライザーの組み立てと取り付け
+### （オプション）スタビライザーの組み立てと取り付け
 スタビライザーがあると2Uのキーの押下が安定します。無くても使えるのでお好みでお使いください。  
   
 小さい方のパーツの穴が二つ開いている側を、大きいパーツの穴が開いている方向に合わせて組み合わせます。  
@@ -335,4 +336,6 @@ https://github.com/picoruby/prk_firmware/
 ### 販売ページ
 - BOOTH: https://tarohayashi.booth.pm/items/3430753
 - 遊舎工房: https://shop.yushakobo.jp/products/3415
+
+
 
