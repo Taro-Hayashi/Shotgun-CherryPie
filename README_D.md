@@ -101,19 +101,6 @@ Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接
 パーツは思ったより壊れないので落ち着いて作業すると失敗しにくいです。  
  - ホームセンターのDCMさんの解説動画(58秒～) https://www.youtube.com/watch?v=JFQg_ObITYE&t=58s  
   
-### Raspberry Pi Picoのはんだ付け
-
-まずはRaspberry Pi Picoにコンスルーをはんだ付けします。  
-コンスルーを基板裏に立てます。窓が高く、同じ方向を向くようにします。  
-![](img/IMG_4383.jpg)   
-基板側ははんだ付けしません。  
-  
-![](img/IMG_4385.jpg)   
-立てたコンスルーにRaspberry Pi Picoを乗せたらはんだ付けします。    
-![](img/IMG_4386.jpg)   
-これで抜き差しできるようになりました。  
-できるだけ垂直に力を加えてRaspberry Pi Picoを抜きます。  
-
 ### LEDのはんだ付け
 LEDを取り付ける場合はメインボードに最初にはんだ付けします。  
  - [LEDの取り付け方](led.md)  
@@ -155,8 +142,7 @@ D1~D20まで取り付けます。
 ![](img/IMG_4412.jpg)   
 
 ### 動作確認
-Raspberry Pi Picoを差し込んでUSBケーブルを繋ぎます。  
-  
+Raspberry Pi Picoを差し込んでUSBケーブルを繋ぎます。
 ![](img/IMG_4414s.jpg)   
 ソケットをピンセットで短絡したり、スイッチを挿して押したりしてキーが入力されるか調べます。  
   
