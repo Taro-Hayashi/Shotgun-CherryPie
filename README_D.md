@@ -1,6 +1,6 @@
 
 # Shotgun チェリーパイ ビルドガイド（[English](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/README_EN.md)）
-※2022年3月からピンヘッダが同梱になり、コンスルーが必須ではなくなりました。コンスルーを使用する場合のビルドガイドは[こちら](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/README_OLD.md)。
+※2022年3月からピンヘッダが同梱になり、コンスルーが必須ではなくなりました。以前のコンスルーを使用するビルドガイドは[こちら](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/README_OLD.md)。
 - [キット内容](#キット内容)
 - [準備](#準備)
 - [はんだ付け](#はんだ付け)
@@ -9,7 +9,7 @@
 - [その他](#その他)
 
 ## キット内容
-![](img/IMG_4355.jpg)  
+![](img/IMG_4355C.jpg)  
 ||部品名|数| |
 |-|-|-|-|
 |1|メインボード|1||
