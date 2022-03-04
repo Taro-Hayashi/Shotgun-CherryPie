@@ -292,8 +292,7 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 ![](img/switchpusher.jpg)  
 ※アクリルの形状は違うことがあります。
 
-### 他の対応ファームウェアについて
-#### QMKファームウェア
+### QMKファームウェア
 こちらのuf2ファイルをインストールしてください。
 - [shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_via.uf2)
 
