@@ -148,7 +148,7 @@ Raspberry Pi Picoを取り外せなくなるので隠れてしまうダイオー
   
 ピンヘッダを基板に立てます。どちら側でも構いませんが長い方を挿しました。
 ![](img/IMG_6041.JPEG)   
-TX0、VBUS位置を合わせてRaspberry Pi Picoを乗せ、はんだ付けします。  
+GP0、VBUS位置を合わせてRaspberry Pi Picoを乗せ、はんだ付けします。  
 ![](img/IMG_6042.JPEG)   
 表面の足を切りはんだ付けします。  
 ![](img/IMG_6044.JPEG)   
