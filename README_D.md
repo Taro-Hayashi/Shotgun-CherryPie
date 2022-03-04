@@ -306,12 +306,6 @@ QMKは公式にはRaspberry Pi Picoには対応していません。使用して
 Remap/VIAを使ってGUIでキーを入れ替えることができます。
  - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)
 
-#### KMKファームウェア
-キーボードとして使えることは確認済みですが、私の理解が及ばないためLEDやロータリーエンコーダーの使いかたがよくわからず解説が書けませんでした。
-
-#### ZMKファームウェア
-まだ試せていません。
-
 ### プレートのデータ
  - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_plates.zip)  
 
