@@ -1,6 +1,6 @@
 
 # Shotgun チェリーパイ ビルドガイド（[English](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/README_EN.md)）
-※2022年2月からピンヘッダが同梱になり、コンスルーが必須ではなくなりました。以前のビルドガイドはこちら。
+※2022年3月からピンヘッダが同梱になり、コンスルーが必須ではなくなりました。コンスルーを使用する場合のビルドガイドは[こちら](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/README_OLD.md)。
 - [キット内容](#キット内容)
 - [準備](#準備)
 - [はんだ付け](#はんだ付け)
@@ -25,12 +25,12 @@
 |11|リセットスイッチ|1||
 |12|Cherry MX ホットスワップソケット|20||
 |13|ゴム足|4||
+|-|40Pピンヘッダ|1||
 
 ### キット以外に必要なもの
 |部品名|数|||
 |-|-|-|-|
 |Raspberry Pi Pico|1||[遊舎工房](https://shop.yushakobo.jp/products/raspberry-pi-pico) / [秋月電子通商](https://akizukidenshi.com/catalog/g/gM-16132/) / [共立エレショップ](https://eleshop.jp/shop/g/gL25313/)|
-|コンスルー20ピン (高さ2 mmか2.5 mm)|2|[12ピンを4本でも代用できます。](conthrough.md)|[遊舎工房](https://shop.yushakobo.jp/products/31?variant=40815837610145) / [共立エレショップ](https://eleshop.jp/shop/g/gKB6127/)|
 |キースイッチ||CherryMX互換|[遊舎工房](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) / [TALPKEYBOARD](https://talpkeyboard.net/?category_id=59cf8860ed05e668db003f5d) / [DailyCraftKeyboard](https://shop.dailycraft.jp/collections/mx-switches)|
 |キーキャップ||CherryMX互換|[遊舎工房](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97) / [TALPKEYBOARD](https://talpkeyboard.net/?category_id=59e2acfaed05e644fd004008)|
 |Micro-USB ケーブル|1|||
@@ -42,6 +42,7 @@
 |ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[遊舎工房](https://shop.yushakobo.jp/search?q=%E3%83%AD%E3%83%BC%E3%82%BF%E3%83%AA%E3%83%BC%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC+%E3%83%8E%E3%83%96%E4%BB%98%E3%81%8D) / [TALPKEYBOARD](https://talpkeyboard.net/items/5f3f1a597df28129f2fd4b0f) / [DailyCraftKeyboard](https://shop.dailycraft.jp/products/encoder_low) / [Amazon](https://www.amazon.co.jp/s?k=EC11+%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC&language=ja_JP)|
 |ノブ|～5|外径19mmまで|[DailyCraftKeyboard](https://shop.dailycraft.jp/products/encoder_lowprofile_knob) / [Amazon](https://www.amazon.co.jp/s?k=%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC+%E3%83%8E%E3%83%96)|
 |SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房](https://shop.yushakobo.jp/products/sk6812mini-e-10) / [秋月電子通商](https://akizukidenshi.com/catalog/g/gI-15478/)|
+|コンスルー20ピン (高さ2 mmか2.5 mm)|2|[遊舎工房](https://shop.yushakobo.jp/products/31?variant=40815837610145) / [共立エレショップ](https://eleshop.jp/shop/g/gKB6127/)|
 
 
 ### 必要な工具
@@ -100,19 +101,6 @@ Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接
 パーツは思ったより壊れないので落ち着いて作業すると失敗しにくいです。  
  - ホームセンターのDCMさんの解説動画(58秒～) https://www.youtube.com/watch?v=JFQg_ObITYE&t=58s  
   
-### Raspberry Pi Picoのはんだ付け
-
-まずはRaspberry Pi Picoにコンスルーをはんだ付けします。  
-コンスルーを基板裏に立てます。窓が高く、同じ方向を向くようにします。  
-![](img/IMG_4383.jpg)   
-基板側ははんだ付けしません。  
-  
-![](img/IMG_4385.jpg)   
-立てたコンスルーにRaspberry Pi Picoを乗せたらはんだ付けします。    
-![](img/IMG_4386.jpg)   
-これで抜き差しできるようになりました。  
-できるだけ垂直に力を加えてRaspberry Pi Picoを抜きます。  
-
 ### LEDのはんだ付け
 LEDを取り付ける場合はメインボードに最初にはんだ付けします。  
  - [LEDの取り付け方](led.md)  
@@ -138,7 +126,7 @@ D1~D20まで取り付けます。
 ![](img/IMG_4397.jpg)   
 
 ### ソケットのはんだ付け
-使うソケットの足に予備はんだをします。あらかじめ薄くはんだを乗せます。  
+使うソケットのパッドに予備はんだをします。あらかじめ薄くはんだを乗せます。  
 ![](img/IMG_4401.jpg)    
 ソケットを置いたらピンセットで押さえつけながらはんだを注いでいきます。入り組んでいて表面積が多いので多めに必要になります。  
 ![](img/IMG_4405.jpg)     
@@ -147,15 +135,14 @@ D1~D20まで取り付けます。
 ![](img/IMG_4407.jpg)   
 裏から見ると左右が逆になっているのでレイアウトに注意しましょう。  
 
-### ロータリーエンコーダーのはんだ付け
+### （オプション）ロータリーエンコーダーのはんだ付け
 足を折らないようにホールに通します。  
 ![](img/IMG_4410.jpg)   
-クリップの部分ははんだ付けしなくて大丈夫です。  
+クリップの部分ははんだ付けしなくても大丈夫です。  
 ![](img/IMG_4412.jpg)   
 
 ### 動作確認
-Raspberry Pi Picoを差し込んでUSBケーブルを繋ぎます。  
-  
+Raspberry Pi Picoを差し込んでUSBケーブルを繋ぎます。
 ![](img/IMG_4414s.jpg)   
 ソケットをピンセットで短絡したり、スイッチを挿して押したりしてキーが入力されるか調べます。  
   
@@ -163,7 +150,7 @@ Raspberry Pi Picoを差し込んでUSBケーブルを繋ぎます。
 Raspberry Pi Picoを取り外して次の工程に進みましょう。  
   
 ## 組み立て
-### スタビライザーの組み立てと取り付け
+### （オプション）スタビライザーの組み立てと取り付け
 スタビライザーがあると2Uのキーの押下が安定します。無くても使えるのでお好みでお使いください。  
   
 小さい方のパーツの穴が二つ開いている側を、大きいパーツの穴が開いている方向に合わせて組み合わせます。  
@@ -335,4 +322,6 @@ https://github.com/picoruby/prk_firmware/
 ### 販売ページ
 - BOOTH: https://tarohayashi.booth.pm/items/3430753
 - 遊舎工房: https://shop.yushakobo.jp/products/3415
+
+
 
