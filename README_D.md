@@ -101,7 +101,7 @@ Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接
 パーツは思ったより壊れないので落ち着いて作業すると失敗しにくいです。  
  - ホームセンターのDCMさんの解説動画(58秒～) https://www.youtube.com/watch?v=JFQg_ObITYE&t=58s  
   
-### LEDのはんだ付け
+### （オプション）LEDのはんだ付け
 LEDを取り付ける場合はメインボードに最初にはんだ付けします。  
  - [LEDの取り付け方](led.md)  
 
