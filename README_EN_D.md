@@ -114,7 +114,6 @@ Cut and solder the surface legs.
 Plug in the Raspberry Pi Pico and connect it to PC.  
 ![](img/IMG_4414s.jpg)   
    
-After testing, remove the Raspberry Pi Pico.  
 ## Assembling
 ### Stabilizers
 ![](img/IMG_4416.jpg)  
@@ -134,10 +133,10 @@ Install Switches.
 ![](img/IMG_4440.jpg)  
 
 Attach spacers with short screws.  
-![](img/IMG_4447.jpg)  
+![](img/IMG_6346.jpg)  
 
 Place thicker middle plate #1 and thiner middle plate #2 on it.  
-![](img/IMG_4448.jpg)  
+![](img/IMG_6349.jpg)   
 
 Attach the Raspberry Pi Pico and put the middle plate #3.   
 ![](img/IMG_4451.jpg)  
