@@ -33,7 +33,7 @@
 |Micro-USB Cable|1||[Yushakobo](https://shop.yushakobo.jp/en/products/usb-cable-micro-b-0-8m)|
 
 ### オプション
-|部品名|数|||
+|Name|Quantities|||
 |-|-|-|-|
 |Stabilizer||2U, PCB mounted|[Yushakobo](https://shop.yushakobo.jp/en/collections/all-keyboard-parts/Stabilizer)|
 |Rotary emcoders||EC11/EC12||
