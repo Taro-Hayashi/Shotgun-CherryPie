@@ -105,7 +105,7 @@ Be careful to keep the socket close to the board at the blue frame.
 ### Raspberry Pi Pico
 Stand the pin header on the back side of the board.  
 ![](img/IMG_6041.JPEG)   
-Place and soloder the Pro Micro. 
+Place and soloder the Raspberry Pi Pico. 
 ![](img/IMG_6042.JPEG)   
 Cut and solder the surface legs.  
 ![](img/IMG_6044.JPEG)   
