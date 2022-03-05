@@ -39,7 +39,7 @@
 |Rotary emcoders||EC11/EC12||
 |knobs||Outer diameter up to 19mm||
 |SK6812MINI-E|28||[Yushakobo](https://shop.yushakobo.jp/en/products/sk6812mini-e-10)|
-|Conthrough|2|[Usage](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/conthrough2_en.md)|[Yushakobo](https://shop.yushakobo.jp/en/products/31?_pos=1&_sid=ca92edae3&_ss=r&variant=40815837610145)|
+|Conthrough|2|[Usage](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/conthrough2_EN.md)|[Yushakobo](https://shop.yushakobo.jp/en/products/31?_pos=1&_sid=ca92edae3&_ss=r&variant=40815837610145)|
 
 ## Preparation
 ### Determine key layout  
