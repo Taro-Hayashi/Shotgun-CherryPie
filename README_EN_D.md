@@ -138,7 +138,7 @@ Attach spacers with short screws.
 Place thicker middle plate #1 and thiner middle plate #2 on it.  
 ![](img/IMG_6349.jpg)   
 
-Attach the Raspberry Pi Pico and put the middle plate #3.   
+Put the middle plate #3.   
 ![](img/IMG_4451.jpg)  
 
 Fasten the back plate with long screws and put the rubber feet.  
