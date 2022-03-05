@@ -70,20 +70,6 @@ Detouch the USB cable.
 
 ## Soldering
 
-### Raspberry Pi Pico and conthrough
-
-Stand the consule on the back side of the board.No soldering on the board side.  
-![](img/IMG_4383.jpg)   
-Make sure that the windows of the conthrough are high and facing the same direction.  
-
-Place the Pro Micro on it.
-![](img/IMG_4385.jpg)   
-
-Solder the Pro Micro.  
-![](img/IMG_4386.jpg)   
-  
-pull out the Raspberry Pi Pico.  
-
 ### LED
 If use LED, install first.  
  - [LED Installation](led_EN.md)  
@@ -115,6 +101,14 @@ Be careful to keep the socket close to the board at the blue frame.
 ### Rotary encoder  
 ![](img/IMG_4410.jpg)     
 ![](img/IMG_4412.jpg)   
+
+### Raspberry Pi Pico
+Stand the pin header on the back side of the board.  
+![](img/IMG_6041.JPEG)   
+Place and soloder the Pro Micro. 
+![](img/IMG_6042.JPEG)   
+Cut and solder the surface legs.  
+![](img/IMG_6044.JPEG)   
 
 ### Testing
 Plug in the Raspberry Pi Pico and connect it to PC.  
