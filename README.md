@@ -156,7 +156,7 @@ GP0、VBUS位置を合わせてRaspberry Pi Picoを乗せ、はんだ付けし�
 ![](img/IMG_6044.JPEG)   
 
 ### 動作確認
-Raspberry Pi Picoを差し込んでUSBケーブルを繋ぎます。
+Raspberry Pi PicoにUSBケーブルを繋ぎます。
 ![](img/IMG_4414s.jpg)   
 ソケットをピンセットで短絡したり、スイッチを挿して押したりしてキーが入力されるか調べます。  
   
