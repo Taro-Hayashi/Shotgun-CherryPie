@@ -289,9 +289,9 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 
 ## そのほか
 ### おまけ
+※2022/7月から付属しなくなりました。付属する在庫が残っていることがあります。
 小袋のアクリル片とスペーサーを組み合わせると裏面のボタンを押す治具を作れます。
-![](img/switchpusher.jpg)  
-※アクリルの形状は違うことがあります。
+![](img/switchpusher.jpg) 
 
 ### QMKファームウェア
 こちらのuf2ファイルをインストールしてください。
