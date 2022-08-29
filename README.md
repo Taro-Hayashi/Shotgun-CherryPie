@@ -299,7 +299,8 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 
  - ファームウェアのコード https://github.com/Taro-Hayashi/Shotgun-CherryPie/tree/main/qmk/keyboards/shotgun_cp  
 
-Remap/VIAを使ってGUIでキーを入れ替えることができます。
+Remap/VIAを使ってキーを入れ替えることができます。
+ - [Remap](https://remap-keys.app)
  - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)
 
 ### プレートのデータ
