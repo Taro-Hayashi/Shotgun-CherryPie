@@ -44,7 +44,7 @@
 |SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
 
 専用のアクリルケースもあります。  
-https://github.com/Taro-Hayashi/Shotgun-CherryPie-AcrylicCase/blob/main/README.md
+- [Shotgun チェリーパイ アクリル積層ケース](https://github.com/Taro-Hayashi/Shotgun-CherryPie-AcrylicCase/blob/main/README.md)  
 
 
 ### 必要な工具
