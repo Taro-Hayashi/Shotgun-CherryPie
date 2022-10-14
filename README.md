@@ -293,7 +293,7 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 
 ### QMKファームウェア
 こちらのuf2ファイルをインストールしてください。  
-- [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.1/tarohayashi_shotgun_cp_via.uf2)
+- [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)
   
 Remap/VIAを使ってキーを入れ替えることができます。  
  - [Remap](https://remap-keys.app)  
