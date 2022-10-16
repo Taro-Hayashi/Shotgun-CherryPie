@@ -1,10 +1,11 @@
-# Shotgun チェリーパイ ビルドガイド（[English](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/README_EN.md)）
+
+# Shotgun チェリーパイ ビルドガイド（[English](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/README_EN.md)） 
 - [キット内容](#キット内容)
 - [準備](#準備)
 - [はんだ付け](#はんだ付け)
 - [組み立て](#組み立て)
 - [キーマップのカスタマイズ](#キーマップのカスタマイズ)
-- [その他](#その他)
+- [そのほか](#そのほか)
 
 ## キット内容
 ![](img/IMG_4355C.jpg)  
@@ -23,15 +24,12 @@
 |11|リセットスイッチ|1||
 |12|Cherry MX ホットスワップソケット|20||
 |13|ゴム足|4||
-|-|ピンヘッダ|||
-
-※2022年3月販売分からピンヘッダが同梱になりました。
+|-|40Pピンヘッダ|1||
 
 ### キット以外に必要なもの
 |部品名|数|||
 |-|-|-|-|
-|Raspberry Pi Pico|1||[遊舎工房](https://shop.yushakobo.jp/products/raspberry-pi-pico) / [秋月電子通商](https://akizukidenshi.com/catalog/g/gM-16132/) / [共立エレショップ](https://eleshop.jp/shop/g/gL25313/)|
-|コンスルー20ピン (高さ2 mmか2.5 mm)|2|[手に入らない場合](conthrough.md)|[遊舎工房](https://shop.yushakobo.jp/products/31?variant=40815837610145) / [共立エレショップ](https://eleshop.jp/shop/g/gKB6127/)|
+|Raspberry Pi Pico|1||[遊舎工房](https://shop.yushakobo.jp/products/raspberry-pi-pico)|
 |キースイッチ||CherryMX互換|[遊舎工房](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) / [TALPKEYBOARD](https://talpkeyboard.net/?category_id=59cf8860ed05e668db003f5d) / [DailyCraftKeyboard](https://shop.dailycraft.jp/collections/mx-switches)|
 |キーキャップ||CherryMX互換|[遊舎工房](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97) / [TALPKEYBOARD](https://talpkeyboard.net/?category_id=59e2acfaed05e644fd004008)|
 |Micro-USB ケーブル|1|||
@@ -39,10 +37,14 @@
 ### オプション
 |部品名|数|||
 |-|-|-|-|
+|コンスルー20ピン (高さ2 mmか2.5 mm)|2|[使い方](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/conthrough2.md)|[遊舎工房](https://shop.yushakobo.jp/products/31?variant=40815837610145)|
 |スタビライザー|必要数|2U、PCBマウント|[遊舎工房](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer) / [TALPKEYBOARD](https://talpkeyboard.net/?category_id=5f884b9b3313d216eb50558a)|
-|ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[遊舎工房](https://shop.yushakobo.jp/search?q=%E3%83%AD%E3%83%BC%E3%82%BF%E3%83%AA%E3%83%BC%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC+%E3%83%8E%E3%83%96%E4%BB%98%E3%81%8D) / [TALPKEYBOARD](https://talpkeyboard.net/items/5f3f1a597df28129f2fd4b0f) / [DailyCraftKeyboard](https://shop.dailycraft.jp/products/encoder_low) / [Amazon](https://www.amazon.co.jp/s?k=EC11+%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC&language=ja_JP)|
-|ノブ|～5|外径19mmまで|[DailyCraftKeyboard](https://shop.dailycraft.jp/products/encoder_lowprofile_knob) / [Amazon](https://www.amazon.co.jp/s?k=%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC+%E3%83%8E%E3%83%96)|
-|SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房](https://shop.yushakobo.jp/products/sk6812mini-e-10) / [秋月電子通商](https://akizukidenshi.com/catalog/g/gI-15478/)|
+|ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[遊舎工房](https://shop.yushakobo.jp/search?q=%E3%83%AD%E3%83%BC%E3%82%BF%E3%83%AA%E3%83%BC%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC+%E3%83%8E%E3%83%96%E4%BB%98%E3%81%8D) / [TALPKEYBOARD](https://talpkeyboard.net/items/5f3f1a597df28129f2fd4b0f) / [DailyCraftKeyboard](https://shop.dailycraft.jp/products/encoder_low)|
+|ノブ|外径19mmまで||[遊舎工房](https://shop.yushakobo.jp/products/3733) / [DailyCraftKeyboard](https://shop.dailycraft.jp/products/encoder_lowprofile_knob)|
+|SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
+
+専用のアクリルケースもあります。  
+- [Shotgun チェリーパイ アクリル積層ケース](https://github.com/Taro-Hayashi/Shotgun-CherryPie-AcrylicCase/blob/main/README.md)  
 
 
 ### 必要な工具
@@ -101,20 +103,7 @@ Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接
 パーツは思ったより壊れないので落ち着いて作業すると失敗しにくいです。  
  - ホームセンターのDCMさんの解説動画(58秒～) https://www.youtube.com/watch?v=JFQg_ObITYE&t=58s  
   
-### Raspberry Pi Picoのはんだ付け
-
-まずはRaspberry Pi Picoにコンスルーをはんだ付けします。  
-コンスルーを基板裏に立てます。窓が高く、同じ方向を向くようにします。  
-![](img/IMG_4383.jpg)   
-基板側ははんだ付けしません。  
-  
-![](img/IMG_4385.jpg)   
-立てたコンスルーにRaspberry Pi Picoを乗せたらはんだ付けします。    
-![](img/IMG_4386.jpg)   
-これで抜き差しできるようになりました。  
-できるだけ垂直に力を加えてRaspberry Pi Picoを抜きます。  
-
-### LEDのはんだ付け
+### （オプション）LEDのはんだ付け
 LEDを取り付ける場合はメインボードに最初にはんだ付けします。  
  - [LEDの取り付け方](led.md)  
 
@@ -144,7 +133,7 @@ D1~D20まで取り付けます。
 ソケットを置いたらピンセットで押さえつけながらはんだを注いでいきます。入り組んでいて表面積が多いので多めに必要になります。  
 ![](img/IMG_4405.jpg)     
 
-2mmのコンスルーを使う場合、青枠の部分にあるソケットは基板になるべく密着するようにはんだ付けしてください。  
+青枠の部分にあるソケットは基板になるべく密着するようにはんだ付けしてください。  
 ![](img/IMG_4407.jpg)   
 裏から見ると左右が逆になっているのでレイアウトに注意しましょう。  
 
@@ -154,14 +143,24 @@ D1~D20まで取り付けます。
 クリップの部分ははんだ付けしなくても大丈夫です。  
 ![](img/IMG_4412.jpg)   
 
-### 動作確認
-Raspberry Pi Picoを差し込んでUSBケーブルを繋ぎます。  
+### Raspberry Pi Picoのはんだ付け
+ピンヘッダを20ピンずつに切るか折るかします。
+![](img/IMG_6040.JPEG)   
+Raspberry Pi Picoを取り外せなくなるので隠れてしまうダイオードの方向やソケットのはんだ付けを改めて確認してください。  
   
+ピンヘッダを基板に立てます。どちら側でも構いませんが長い方を挿しました。
+![](img/IMG_6041.JPEG)   
+GP0、VBUS位置を合わせてRaspberry Pi Picoを乗せ、はんだ付けします。  
+![](img/IMG_6042.JPEG)   
+表面の足を切りはんだ付けします。  
+![](img/IMG_6044.JPEG)   
+
+### 動作確認
+Raspberry Pi PicoにUSBケーブルを繋ぎます。
 ![](img/IMG_4414s.jpg)   
 ソケットをピンセットで短絡したり、スイッチを挿して押したりしてキーが入力されるか調べます。  
   
 問題がなければはんだ付けは終了です。お疲れ様でした。  
-Raspberry Pi Picoを取り外して次の工程に進みましょう。  
   
 ## 組み立て
 ### （オプション）スタビライザーの組み立てと取り付け
@@ -184,7 +183,8 @@ Raspberry Pi Picoを取り外して次の工程に進みましょう。
 ![](img/IMG_4426.jpg)  
 
 ### プレートの取り付け
-傷が付かないように裏返しに組み立てられて梱包されているので一度すべてのネジ、スペーサーを外してください。  
+傷が付かないように裏返しに組み立てられて梱包されているので一度すべてのネジ、スペーサーを外してください。
+アクリルプレートからは保護フィルムをはがします。割れやすいパーツもあるので気をつけてください。  
 
 メインボードにトッププレートを乗せます。裏表、上下左右に気を付けましょう。  
 ![](img/IMG_4437.jpg)  
@@ -197,14 +197,13 @@ Raspberry Pi Picoを取り外して次の工程に進みましょう。
 トッププレートは浮いていますが、スイッチのツメに引っかかっているため安定しているはずです。  
 
 裏返して4隅にスペーサーを、ネジ（短）で取り付けます。  
-![](img/IMG_4447.jpg)  
+![](img/IMG_6346.jpg)  
 
 ミドルプレート1（5mm厚、穴が長方形に近い）、ミドルプレート2（3mm厚、穴が少し狭い）の順にスペーサーに通します。  
-![](img/IMG_4448.jpg)  
-アクリルからは保護フィルムをはがします。割れやすいパーツもあるので気をつけてください。  
+![](img/IMG_6349.jpg)  
+Raspberry Pi PicoのUSB端子を避ける時に割れないように気を付けてください。
 
-
-Raspberry Pi Picoをピンを曲げないように取り付けてミドルプレート3を乗せます。  
+ミドルプレート3を乗せます。  
 ![](img/IMG_4451.jpg)  
 
 バックプレートをネジ（長）で組付けてゴム足を4隅に貼ります。  
@@ -290,30 +289,20 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
   
 ![](img/done.jpg)  
 
-## その他
-### おまけ
-小袋のアクリル片とスペーサーを組み合わせると裏面のボタンを押す治具を作れます。
-![](img/switchpusher.jpg)  
-※アクリルの形状は違うことがあります。
+## そのほか
 
-### 他の対応ファームウェアについて
-#### QMKファームウェア
-こちらのuf2ファイルをインストールしてください。
-- [shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_via.uf2)
+### QMKファームウェア
+こちらのuf2ファイルをインストールしてください。  
+- [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)
+  
+Remap/VIAを使ってキーを入れ替えることができます。  
+ - [Remap](https://remap-keys.app)  
 
-QMKは公式にはRaspberry Pi Picoには対応していません。使用しているQMKファームウェアはせきごん様が独自にRP2040への対応を実現したものです。  
-基本的な機能は実装済みのものを配布していますが、ご自分でコンパイルをしたい場合はこちらのページを参考にしてください。  
- - [RP2040対応のQMK(非公式)を動かす](https://scrapbox.io/self-made-kbds-ja/RP2040%E5%AF%BE%E5%BF%9C%E3%81%AEQMK(%E9%9D%9E%E5%85%AC%E5%BC%8F)%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99)
- - [ファームウェアのコード](https://github.com/Taro-Hayashi/Shotgun-CherryPie/tree/main/qmk/keyboards/shotgun_cp)
-
-Remap/VIAを使ってGUIでキーを入れ替えることができます。
+Via用JSONファイル  
  - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)
-
-#### KMKファームウェア
-キーボードとして使えることは確認済みですが、私の理解が及ばないためLEDやロータリーエンコーダーの使いかたがよくわからず解説が書けませんでした。
-
-#### ZMKファームウェア
-まだ試せていません。
+  
+ファームウェアのコード. 
+ - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
 
 ### プレートのデータ
  - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_plates.zip)  
@@ -338,4 +327,3 @@ https://github.com/picoruby/prk_firmware/
 ### 販売ページ
 - BOOTH: https://tarohayashi.booth.pm/items/3430753
 - 遊舎工房: https://shop.yushakobo.jp/products/3415
-
