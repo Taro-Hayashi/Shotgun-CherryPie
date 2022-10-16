@@ -1,12 +1,12 @@
 # Shotgun チェリーパイ Build Manual（[日本語](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/README.md)）
-- [Contens](#Contens)
+- [Contents](#Contens)
 - [Preparation](#Preparation)
 - [Soldering](#Soldering)
 - [Assembling](#Assembling)
 - [Customise](#Customise)
 
 ## Contents
-![](img/IMG_4355.jpg)  
+![](img/IMG_4355C.jpg)  
 ||Name|Quamtities| |
 |-|-|-|-|
 |1|Mainboard|1|
@@ -20,23 +20,24 @@
 |9|Spacers|4|8mm|
 |10|Diodes|20|1N4148|
 |11|Tactile switch|1||
-|12|Hotswap socket|20||
+|12|Hotswap sockets|20||
 |13|Rubber feet|4||
+|-|Pin header|1||
 
 ### Additional required
 |Name|Quantities|||
 |-|-|-|-|
 |Raspberry Pi Pico|1||[Yushakobo](https://shop.yushakobo.jp/en/products/raspberry-pi-pico)|
-|Conthrough|2||[Yushakobo](https://shop.yushakobo.jp/en/products/31?_pos=1&_sid=ca92edae3&_ss=r&variant=40815837610145)|
 |Switches|11 - 20|Cherry MX|[Yushakobo](https://shop.yushakobo.jp/en/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)|
 |Keycaps|11 - 20|Cherry MX|[Yushakobo](https://shop.yushakobo.jp/en/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|
 |Micro-USB Cable|1||[Yushakobo](https://shop.yushakobo.jp/en/products/usb-cable-micro-b-0-8m)|
 
-### オプション
+### Optional
 |Name|Quantities|||
 |-|-|-|-|
+|Conthrough|2|[Usage](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/conthrough2_EN.md)|[Yushakobo](https://shop.yushakobo.jp/en/products/31?_pos=1&_sid=ca92edae3&_ss=r&variant=40815837610145)|
 |Stabilizer||2U, PCB mounted|[Yushakobo](https://shop.yushakobo.jp/en/collections/all-keyboard-parts/Stabilizer)|
-|Rotary emcoders||EC11/EC12||
+|Rotary encoders||EC11/EC12||
 |knobs||Outer diameter up to 19mm||
 |SK6812MINI-E|28||[Yushakobo](https://shop.yushakobo.jp/en/products/sk6812mini-e-10)|
 
@@ -68,20 +69,6 @@ Drag and drop this keymap.rb onto the drive.
 Detouch the USB cable.
 
 ## Soldering
-
-### Raspberry Pi Pico and conthrough
-
-Stand the consule on the back side of the board.No soldering on the board side.  
-![](img/IMG_4383.jpg)   
-Make sure that the windows of the conthrough are high and facing the same direction.  
-
-Place the Pro Micro on it.
-![](img/IMG_4385.jpg)   
-
-Solder the Pro Micro.  
-![](img/IMG_4386.jpg)   
-  
-pull out the Raspberry Pi Pico.  
 
 ### LED
 If use LED, install first.  
@@ -115,11 +102,18 @@ Be careful to keep the socket close to the board at the blue frame.
 ![](img/IMG_4410.jpg)     
 ![](img/IMG_4412.jpg)   
 
+### Raspberry Pi Pico
+Stand the pin header on the back side of the board.  
+![](img/IMG_6041.JPEG)   
+Place and soloder the Raspberry Pi Pico. 
+![](img/IMG_6042.JPEG)   
+Cut and solder the surface legs.  
+![](img/IMG_6044.JPEG)   
+
 ### Testing
 Plug in the Raspberry Pi Pico and connect it to PC.  
 ![](img/IMG_4414s.jpg)   
    
-After testing, remove the Raspberry Pi Pico.  
 ## Assembling
 ### Stabilizers
 ![](img/IMG_4416.jpg)  
@@ -139,12 +133,12 @@ Install Switches.
 ![](img/IMG_4440.jpg)  
 
 Attach spacers with short screws.  
-![](img/IMG_4447.jpg)  
+![](img/IMG_6346.jpg)  
 
 Place thicker middle plate #1 and thiner middle plate #2 on it.  
-![](img/IMG_4448.jpg)  
+![](img/IMG_6349.jpg)   
 
-Attach the Raspberry Pi Pico and put the middle plate #3.   
+Put the middle plate #3.   
 ![](img/IMG_4451.jpg)  
 
 Fasten the back plate with long screws and put the rubber feet.  
