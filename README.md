@@ -244,8 +244,8 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 ## そのほか
 ### QMKファームウェア
 こちらのuf2ファイルをインストールしてください。  
- - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)
-ファームウェアのコード. 
+ - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)  
+ファームウェアのコード  
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
 ### Via用JSONファイル  
  - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)
