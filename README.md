@@ -95,7 +95,8 @@ Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接
 ![](img/prd.jpg)   
 そのドライブにこちらのkeymap.rbとprk-conf.txtをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。 
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)  
- - [prk-conf.txt](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/prk-conf.txt) 
+ - [prk-conf.txt](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/prk-conf.txt)  
+
 ![](img/folder.jpg)  
 書き込みが終わったら一旦USBケーブルは外します。  
 
