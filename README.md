@@ -95,9 +95,9 @@ Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接
 ![](img/prd.jpg)   
 そのドライブにこちらのkeymap.rbとprk-conf.txtをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。 
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)  
- - [prk-conf.txt](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/prk-conf.txt) 
+ - [prk-conf.txt](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/prk-conf.txt)  
 
-![](folder.jpg)
+![](img/folder.jpg)  
 書き込みが終わったら一旦USBケーブルは外します。  
 
 ## はんだ付け
@@ -223,7 +223,7 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 左を選んで進んでいくとアドレスバーからメッセージが出てキーボードを選択できます。   
 ![](img/remap1.png) 
 
-左側の半分のサイズのキーがロータリーエンコーダーに対応しています。
+左側の半分のサイズのキーでロータリーエンコーダーの設定ができます。
 ![](img/default.png)  
 
 エンターキーを長押している間はレイヤー2に切り替わり、LEDの調節が出来ます。
@@ -234,12 +234,13 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 
 ### キーのサイズを合わせる
 レイアウトオプションから2Uキーの設定をすることができます。
-![](img/layout.png)  
+![](img/keymap.png)  
 
 ### キーマップの保存と復元
 ⇔アイコンで作ったキーマップを保存することができます。  
 いくつかサンプルをご用意しました。自分のレイアウトを公開することもできるので是非お試しください。
-![](img/keymap.png)  
+![](img/layout.png)  
+
 ## そのほか
 ### QMKファームウェア
 こちらのuf2ファイルをインストールしてください。  
