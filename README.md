@@ -93,9 +93,11 @@ Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接
 ![](img/rpi.jpg)   
 そこに解凍したuf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
 ![](img/prd.jpg)   
-そのドライブにこちらのkeymap.rbをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。 
- - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.1/keymap.rb)  
+そのドライブにこちらのkeymap.rbとprk-conf.txtをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。 
+ - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)  
+ - [prk-conf.txt](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/prk-conf.txt) 
 
+![](folder.jpg)
 書き込みが終わったら一旦USBケーブルは外します。  
 
 ## はんだ付け
@@ -214,94 +216,38 @@ Raspberry Pi PicoのUSB端子を避ける時に割れないように気を付け
 
 早速USBケーブルでPCと接続しましょう。
 
-## キーマップのカスタマイズ
-ビルドガイドと同じレイアウトにするのであればこちらをそのまままお使いください。  
- - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/keymap.rb)
+## キーのカスタマイズ
+RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。  
+- Remap https://remap-keys.app/
 
-最初にダウンロードしたものとファイル名が同じなので気を付けてください。  
-同様のテンキーとして使う場合もひな形にすると楽になると思います。  
+左を選んで進んでいくとアドレスバーからメッセージが出てキーボードを選択できます。   
+![](img/remap1.png) 
 
-### キーの変更
-PRK Firmwareドライブのkeymap.rbを開きます。  
+左側の半分のサイズのキーがロータリーエンコーダーに対応しています。
+![](img/default.png)  
 
-~~~
-kbd.add_layer :default, %i[
-  KC_A  KC_B  KC_C  KC_D
-  KC_E  KC_F  KC_G  KC_H
-  KC_I  KC_J  KC_K  KC_L
-  KC_M  KC_N  KC_O  KC_P
-  KC_Q  KC_R  KC_S  KC_T
-]
-~~~
-ここのKC_*を書き換えてキーを設定します。  
-  
-キーコードはこちらに載せていますので参考にしてください（バージョンによって違う可能性があります）。  
-- https://github.com/Taro-Hayashi/PRKFirmware0.9.7Keycode  
+エンターキーを長押している間はレイヤー2に切り替わり、LEDの調節が出来ます。
+![](img/layer.png)  
 
-上書き保存をするとその場で変更が反映されます。  
+ドラッグアンドドロップでキーマップの変更が終わったら右上のflashボタンを押すと反映されます。  
+![](img/remap3.png)  
 
-### ロータリーエンコーダー
-~~~
-encoder_1 = RotaryEncoder.new(27, 28)
-encoder_1.clockwise do
-  kbd.send_key :KC_1
-end
-encoder_1.counterclockwise do
-  kbd.send_key :KC_2
-end
-kbd.append encoder_1
-~~~
-kbd.send_keyのKC_*を変更すると該当のロータリーエンコーダーのキーが変更されます。  
-ロータリーエンコーダーはUSB差込側から順に1～5が割り振られています。  
+### キーのサイズを合わせる
+レイアウトオプションから2Uキーの設定をすることができます。
+![](img/layout.png)  
 
-### レイヤーの追加
-~~~
-kbd.add_layer :lower, %i[
-  KC_NO  KC_NO  KC_NO  KC_NO
-  KC_NO  KC_NO  KC_NO  KC_NO
-  KC_NO  KC_NO  KC_NO  KC_NO
-  KC_NO  KC_NO  KC_NO  KC_NO
-  KC_NO  KC_NO  KC_NO  KC_NO
-]
-~~~
-レイヤーの名前を変更したキーマップを追加するとレイヤーが増えます。  
-レイヤーの名前をキーコードとして使うとそのままレイヤー変更キーとして使えます。  
-  
-好きな名前のキーコード名を設定し（例では0_LOW）、長押しでレイヤーを変更するキーにすることもできます。  
-~~~
-kbd.define_mode_key :0_LOW, [ :KC_KP_0, :lower, 150, 150 ]
-~~~
-
-### 同時押しのキーコード
-~~~
-kbd.define_composite_key :UNDO,  %i(KC_Z KC_LCTL)
-~~~
-例えばCtrl＋Zであればこのように定義します。  
-
-### 文字列を入力するキーコード
-~~~
-kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
-~~~
-あっているかわかりませんがこう定義するとaaaaが入力されました。  
-00キーの場合上の同時押しの方が早かったのでそちらを使っています。  
-  
-キーの設定が終わったら完成です！  
-  
-![](img/done.jpg)  
-
+### キーマップの保存と復元
+⇔アイコンで作ったキーマップを保存することができます。  
+いくつかサンプルをご用意しました。自分のレイアウトを公開することもできるので是非お試しください。
+![](img/keymap.png)  
 ## そのほか
-
 ### QMKファームウェア
 こちらのuf2ファイルをインストールしてください。  
 - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)
-  
-Remap/VIAを使ってキーを入れ替えることができます。  
- - [Remap](https://remap-keys.app)  
-
-Via用JSONファイル  
+### Via用JSONファイル  
  - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)
   
-ファームウェアのコード. 
+### ファームウェアのコード. 
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
 
 ### プレートのデータ
