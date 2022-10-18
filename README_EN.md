@@ -63,9 +63,11 @@ Connect the Raspberry Pi Pico to the PC while holding down the BOOTSEL button, i
 ![](img/rpi.jpg)   
 Writing the uf2 file, it will automatically reboot and be recognized as a drive called PRK Firmware.  
 ![](img/prd.jpg)   
-Drag and drop this keymap.rb onto the drive.
+Drag and drop this keymap.rb and prk-conf.txt onto the drive.
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.1/keymap.rb)  
+ - [prk-conf.txt](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/prk-conf.txt)  
 
+![](img/folder.jpg)  
 Detouch the USB cable.
 
 ## Soldering
@@ -149,77 +151,38 @@ Install the Keycaps.
 
 Then connect to PC.
 
-## Customise
-These Keycodes are avilable.
-- https://github.com/Taro-Hayashi/PRKFirmware0.9.7Keycode/blob/main/README_EN.md
+## Customise  
 
-Sample keymap from the build manual.
-- https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/keymap.rb
+Access Remap.  
+- Remap https://remap-keys.app/
 
-### Change keys
-Open keymap.rb in PRK Firmware drive.
-~~~
-kbd.add_layer :default, %i[
-  KC_A  KC_B  KC_C  KC_D
-  KC_E  KC_F  KC_G  KC_H
-  KC_I  KC_J  KC_K  KC_L
-  KC_M  KC_N  KC_O  KC_P
-  KC_Q  KC_R  KC_S  KC_T
-]
-~~~
+Select the blue button on the left to proceed.  
+![](img/remap1.png)  
 
-Change KC_* to change keys.  
-Overwrite and save to update.  
-
-### Rotary Encoder
-~~~
-encoder_1 = RotaryEncoder.new(27, 28)
-encoder_1.clockwise do
-  kbd.send_key :KC_1
-end
-encoder_1.counterclockwise do
-  kbd.send_key :KC_2
-end
-kbd.append encoder_1
-~~~
-
-### Add layer
-~~~
-kbd.add_layer :lower, %i[
-  KC_NO  KC_NO  KC_NO  KC_NO
-  KC_NO  KC_NO  KC_NO  KC_NO
-  KC_NO  KC_NO  KC_NO  KC_NO
-  KC_NO  KC_NO  KC_NO  KC_NO
-  KC_NO  KC_NO  KC_NO  KC_NO
-]
-~~~
-Layer key is same as layer name.  
+After Drag-and-Drop the keys, press the flash button in the upper right corner.  
+![](img/remap3.png)  
 
 ### Tap and hold key
-~~~
-kbd.define_mode_key :0_LOW, [ :KC_KP_0, :lower, 150, 150 ]
-~~~
+![](img/func.png)
+||打鍵時|長押し|
+|-|-|-|
+|FUNC1|none|layer #1|
+|FUNC2|none|layer #2|
+|FUNC3|none|layer #3|
+|FUNC4|ENTER|layer #3|
+|FUNC5|B|layer #1|
+|FUNC6|1|layer #3|
+|FUNC7|Q|Alt|
+|FUNC8|A|Control|
+|FUNC9|Z|Shift|
 
-### Copmposite key
-~~~
-kbd.define_mode_key :UNDO,   [ %i(KC_Z KC_LCTL), :nil, 150, 150 ]
-~~~
-
-### String key
-~~~
-kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
-~~~
-  
-Completed. Thank you for your time.  
-![](img/done.jpg)  
+This setting can be changed or added by editing keymap.rb.
 
 ## Misc
-### Switch pusher
-![](img/switchpusher.jpg)  
-
 ### QMK Firmware
 Install qmk uf2 file.
-- [shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_via.uf2)
+ - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)  
+ - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp  
 
 JSON for Remap/VIA
  - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)
