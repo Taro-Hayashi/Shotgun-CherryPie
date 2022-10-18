@@ -232,6 +232,11 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 ドラッグアンドドロップでキーマップの変更が終わったら右上のflashボタンを押すと反映されます。  
 ![](img/remap3.png)  
 
+Remapを使わずにkeymap.rbを編集する場合はPRK FirmwareのWikiや0.9.17以前用のビルドガイドが参考になると思います。
+- PRK Firmware Wiki https://github.com/picoruby/prk_firmware/
+- [README_OLD.md](README_OLD.md)
+
+
 ### キーのサイズを合わせる
 レイアウトオプションから2Uキーの設定をすることができます。
 ![](img/keymap.png)  
