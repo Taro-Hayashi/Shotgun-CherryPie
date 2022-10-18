@@ -164,7 +164,7 @@ After Drag-and-Drop the keys, press the flash button in the upper right corner.
 
 ### Tap and hold key
 ![](img/func.png)
-||打鍵時|長押し|
+||Tap|Hold|
 |-|-|-|
 |FUNC1|none|layer #1|
 |FUNC2|none|layer #2|
