@@ -226,15 +226,8 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 左側の半分のサイズのキーでロータリーエンコーダーの設定ができます。
 ![](img/default.png)  
 
-エンターキーを長押している間はレイヤー2に切り替わり、LEDの調節が出来るように設定してあります。
-![](img/layer.png)  
-
 ドラッグアンドドロップでキーマップの変更が終わったら右上のflashボタンを押すと反映されます。  
 ![](img/remap3.png)  
-
-Remapを使わずにkeymap.rbを編集する場合はPRK FirmwareのWikiや0.9.17以前用のビルドガイドが参考になると思います。
-- PRK Firmware Wiki https://github.com/picoruby/prk_firmware/
-- [README_OLD.md](README_OLD.md)
 
 ### キーのサイズを合わせる
 レイアウトオプションから2Uキーの設定をすることができます。
@@ -242,8 +235,32 @@ Remapを使わずにkeymap.rbを編集する場合はPRK FirmwareのWikiや0.9.1
 
 ### キーマップの保存と復元
 ⇔アイコンで作ったキーマップを保存することができます。  
-いくつかサンプルをご用意しました。自分のレイアウトを公開することもできるので是非お試しください。
+いくつかサンプルをご用意しました。自分のレイアウトを公開することもできるので是非お試しください。  
 ![](img/layout.png)  
+
+### レイヤー（とMod-Tap）キーの設定
+エンターキーを長押している間はレイヤー2に切り替わり、LEDの調節が出来るように設定してあります。  
+![](img/layer.png)  
+PRKファームウェアではレイヤー切り替えはSPECIALタブのFUNCキーで設定します。長押し時に修飾キーになる所謂Mod-TapもRemapの機能ではなくFUNCキーで設定します。
+![](img/func.png)
+||打鍵時|長押し|
+|-|-|-|
+|FUNC1|なし|1|
+|FUNC2|なし|2|
+|FUNC3|なし|3|
+|FUNC4|ENTER|3|
+|FUNC5|B|1|
+|FUNC6|1|3|
+|FUNC7|Q|Alt|
+|FUNC8|A|Control|
+|FUNC9|Z|Shift|
+
+この設定はkeymap.rbを編集することで変更、追加が可能です。
+
+### 1からキーマップを書く
+Remapを使わずにkeymap.rbを編集する場合はPRK FirmwareのWikiや0.9.17以前用のビルドガイドが参考になると思います。
+- PRK Firmware Wiki https://github.com/picoruby/prk_firmware/wiki/Tutorial
+- [README_OLD.md](README_OLD.md)
 
 ## そのほか
 ### QMKファームウェア
