@@ -241,7 +241,7 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 ### レイヤー（とMod-Tap）キーの設定
 エンターキーを長押している間はレイヤー2に切り替わり、LEDの調節が出来るように設定してあります。  
 ![](img/layer.png)  
-PRKファームウェアではレイヤー切り替えはSPECIALタブのFUNCキーで設定します。長押し時に修飾キーになる所謂Mod-TapもRemapの機能ではなくFUNCキーで設定します。
+レイヤー切り替えはSPECIALタブのFUNCキーで設定します。長押し時に修飾キーになる所謂Mod-TapもRemapの機能ではなくFUNCキーで設定します。
 ![](img/func.png)
 ||打鍵時|長押し|
 |-|-|-|
@@ -258,7 +258,7 @@ PRKファームウェアではレイヤー切り替えはSPECIALタブのFUNCキ
 この設定はkeymap.rbを編集することで変更、追加が可能です。
 
 ### 1からキーマップを書く
-Remapを使わずにkeymap.rbを編集する場合はPRK FirmwareのWikiや0.9.17以前用のビルドガイドが参考になると思います。
+Remapを使わずにkeymap.rbを編集する場合はPRKファームウェアのWikiや0.9.17以前用のビルドガイドが参考になると思います。
 - PRK Firmware Wiki https://github.com/picoruby/prk_firmware/wiki/Tutorial
 - [README_OLD.md](README_OLD.md)
 
