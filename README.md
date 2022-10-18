@@ -226,7 +226,7 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 左側の半分のサイズのキーでロータリーエンコーダーの設定ができます。
 ![](img/default.png)  
 
-エンターキーを長押している間はレイヤー2に切り替わり、LEDの調節が出来ます。
+エンターキーを長押している間はレイヤー2に切り替わり、LEDの調節が出来るように設定してあります。
 ![](img/layer.png)  
 
 ドラッグアンドドロップでキーマップの変更が終わったら右上のflashボタンを押すと反映されます。  
@@ -235,7 +235,6 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 Remapを使わずにkeymap.rbを編集する場合はPRK FirmwareのWikiや0.9.17以前用のビルドガイドが参考になると思います。
 - PRK Firmware Wiki https://github.com/picoruby/prk_firmware/
 - [README_OLD.md](README_OLD.md)
-
 
 ### キーのサイズを合わせる
 レイアウトオプションから2Uキーの設定をすることができます。
