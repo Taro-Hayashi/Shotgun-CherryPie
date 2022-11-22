@@ -64,7 +64,7 @@ Connect the Raspberry Pi Pico to the PC while holding down the BOOTSEL button, i
 Writing the uf2 file, it will automatically reboot and be recognized as a drive called PRK Firmware.  
 ![](img/prd.jpg)   
 Drag and drop this keymap.rb and prk-conf.txt onto the drive.
- - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.1/keymap.rb)  
+ - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)  
  - [prk-conf.txt](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/prk-conf.txt)  
 
 ![](img/folder.jpg)  
