@@ -52,22 +52,14 @@ In this manual, we use rotary encoder and 2 2U keys.
 ![](img/IMG_4358.jpg)   
 
 ### Write firmware
-Download PRK Firmware.
- - [Releases・picoruby/prk_firmware](https://github.com/picoruby/prk_firmware/releases)  
-
-Click "Assets"
-![](img/zip.jpg) 
+Download uf2 file.
+ - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)  
 
 Connect the Raspberry Pi Pico to the PC while holding down the BOOTSEL button, it will be recognized as a USB memory device called RPI-RP2.    
 ![](img/IMG_4361.jpg)   
 ![](img/rpi.jpg)   
-Writing the uf2 file, it will automatically reboot and be recognized as a drive called PRK Firmware.  
-![](img/prd.jpg)   
-Drag and drop this keymap.rb and prk-conf.txt onto the drive.
- - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)  
- - [prk-conf.txt](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/prk-conf.txt)  
+Writing the uf2 file, it will automatically reboot.
 
-![](img/folder.jpg)  
 Detouch the USB cable.
 
 ## Soldering
@@ -162,26 +154,9 @@ Select the blue button on the left to proceed.
 After Drag-and-Drop the keys, press the flash button in the upper right corner.  
 ![](img/remap3.png)  
 
-### Tap and hold key
-![](img/func.png)
-||Tap|Hold|
-|-|-|-|
-|FUNC1|none|layer #1|
-|FUNC2|none|layer #2|
-|FUNC3|none|layer #3|
-|FUNC4|ENTER|layer #3|
-|FUNC5|B|layer #1|
-|FUNC6|1|layer #3|
-|FUNC7|Q|Alt|
-|FUNC8|A|Control|
-|FUNC9|Z|Shift|
-
-This setting can be changed or added by editing keymap.rb.
-
 ## Misc
 ### QMK Firmware
 Install qmk uf2 file.
- - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)  
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp  
 
 JSON for Remap/VIA
