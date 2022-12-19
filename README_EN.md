@@ -155,11 +155,10 @@ After Drag-and-Drop the keys, press the flash button in the upper right corner.
 ![](img/remap3.png)  
 
 ## Misc
-### QMK Firmware
-Install qmk uf2 file.
+### Codes
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp  
 
-JSON for Remap/VIA
+### JSON for Remap/VIA
  - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)
 
 ### Plates data
