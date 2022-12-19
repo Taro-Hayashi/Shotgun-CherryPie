@@ -233,8 +233,8 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 
 ### PRK Firmware
 ビルドガイドではファームウェアにQMK Firmwareを使っていますが、Raspberry Pi Picoをキーボードとして使う方法はほかにも複数あります。  
-PRK Firmwareをインストールする場合はこちらのバージョンのビルドガイドを参考にしてください。
-[README_PRK](README_PRK.md)
+PRK Firmwareをインストールする場合はこちらのバージョンのビルドガイドを参考にしてください。  
+ - [README_PRK](README_PRK.md)
 
 ### Via用JSONファイル  
  - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)  
