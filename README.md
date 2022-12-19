@@ -82,22 +82,14 @@
 ![](img/IMG_4358.jpg)   
 
 ### ファームウェアの書き込み
-最新版のPRKファームウェアのzipファイルをダウンロード、解凍します。
- - [Releases・picoruby/prk_firmware](https://github.com/picoruby/prk_firmware/releases)  
-
-Assetsをクリックすると出てきます。
-![](img/zip.jpg) 
+こちらのuf2ファイルをダウンロードしてください。  
+ - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)  
 
 Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。  
 ![](img/IMG_4361.jpg)   
 ![](img/rpi.jpg)   
-そこに解凍したuf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
-![](img/prd.jpg)   
-そのドライブにこちらのkeymap.rbとprk-conf.txtをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。 
- - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)  
- - [prk-conf.txt](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/prk-conf.txt)  
+そこに解凍したuf2ファイルを書き込むと、Raspberry Pi Picoをキーボードとして使えるようになります。 
 
-![](img/folder.jpg)  
 書き込みが終わったら一旦USBケーブルは外します。  
 
 ## はんだ付け
@@ -263,10 +255,6 @@ Remapを使わずにkeymap.rbを編集する場合はPRKファームウェアの
 - [README_OLD.md](README_OLD.md)
 
 ## そのほか
-### QMKファームウェア
-こちらのuf2ファイルをインストールしてください。  
- - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)  
- 
 ファームウェアのコード  
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
 
