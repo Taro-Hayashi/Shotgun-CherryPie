@@ -82,13 +82,13 @@
 ![](img/IMG_4358.jpg)   
 
 ### ファームウェアの書き込み
-こちらのuf2ファイルをダウンロードしてください。  
+こちらのファイルをダウンロードしてください。  
  - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)  
 
 Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。  
 ![](img/IMG_4361.jpg)   
 ![](img/rpi.jpg)   
-そこに解凍したuf2ファイルを書き込むと、Raspberry Pi Picoをキーボードとして使えるようになります。 
+ここにダウンロードしたuf2ファイルを書き込むと、Raspberry Pi Picoをキーボードとして使えるようになります。 
 
 書き込みが終わったら一旦USBケーブルは外します。  
 
@@ -230,36 +230,17 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 いくつかサンプルをご用意しました。自分のレイアウトを公開することもできるので是非お試しください。  
 ![](img/layout.png)  
 
-### レイヤー（とMod-Tap）キーの設定
-エンターキーを長押している間はレイヤー2に切り替わり、LEDの調節が出来るように設定してあります。  
-![](img/layer.png)  
-レイヤー切り替えはSPECIALタブのFUNCキーで設定します。長押し時に修飾キーになる所謂Mod-TapもRemapの機能ではなくFUNCキーで設定します。
-![](img/func.png)
-||打鍵時|長押し|
-|-|-|-|
-|FUNC1|なし|レイヤー1|
-|FUNC2|なし|レイヤー2|
-|FUNC3|なし|レイヤー3|
-|FUNC4|ENTER|レイヤー3|
-|FUNC5|B|レイヤー1|
-|FUNC6|1|レイヤー3|
-|FUNC7|Q|Alt|
-|FUNC8|A|Control|
-|FUNC9|Z|Shift|
-
-この設定はkeymap.rbを編集することで変更、追加が可能です。
-
-### 1からキーマップを書く
-Remapを使わずにkeymap.rbを編集する場合はPRKファームウェアのWikiや0.9.17以前用のビルドガイドが参考になると思います。
-- PRK Firmware Wiki https://github.com/picoruby/prk_firmware/wiki/Tutorial
-- [README_OLD.md](README_OLD.md)
-
 ## そのほか
-ファームウェアのコード  
+### ファームウェアのコード  
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
 
+### PRK Firmware
+ビルドガイドではファームウェアにQMK Firmwareを使っていますが、Raspberry Pi Picoをキーボードとして使う方法はほかにも複数あります。  
+PRK Firmwareをインストールする場合はこちらのバージョンのビルドガイドを参考にしてください。
+[README_PRK](README_PRK.md)
+
 ### Via用JSONファイル  
- - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)
+ - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)  
   
 ### プレートのデータ
  - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_plates.zip)  
