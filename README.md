@@ -5,7 +5,7 @@
 - [はんだ付け](#はんだ付け)
 - [組み立て](#組み立て)
 - [キーのカスタマイズ](#キーのカスタマイズ)
-- [そのほか](#そのほか)
+- [その他](#その他)
 
 ## キット内容
 ![](img/IMG_4355C.jpg)  
@@ -228,7 +228,7 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 いくつかサンプルをご用意しました。自分のレイアウトを公開することもできるので是非お試しください。  
 ![](img/layout.png)  
 
-## そのほか
+## その他
 ### ファームウェアのコード  
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
 
@@ -260,7 +260,7 @@ https://github.com/sekigon-gonnoc/qmk_firmware/tree/rp2040
 hasumikin様がPRK Firmwareでロータリーエンコーダーを複数個使用できるようにして、感度も上げてくださいました。  
 https://github.com/picoruby/prk_firmware/
 
-### 販売ページ
+### 販売サイト
 - BOOTH: https://tarohayashi.booth.pm/items/3430753
 - 遊舎工房: https://shop.yushakobo.jp/products/3415
 
