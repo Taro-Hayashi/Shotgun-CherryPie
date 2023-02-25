@@ -232,19 +232,10 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 
 ## PRK Firmwareを使う
 ビルドガイドではファームウェアに説明が簡単なQMK Firmwareを使っています。Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あります。
+
 ### ファームウェアの書き込み
-最新版のPRKファームウェアのzipファイルをダウンロード、解凍します。
+最新版のPRKファームウェアのzipファイルをダウンロードして書き込んでください。
  - [Releases・picoruby/prk_firmware](https://github.com/picoruby/prk_firmware/releases)  
-
-Assetsをクリックすると出てきます。
-![](img/zip.jpg) 
-
-Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。  
-![](img/IMG_4361.jpg)   
-![](img/rpi.jpg)   
-そこに解凍したuf2ファイルを書き込むと、自動的に再起動して代わりにPRK Firmwareというドライブとして認識されます。  
-![](img/prd.jpg)   
-
 
 ### キーマップの書き込み
 PRK Firmwareドライブにこちらのkeymap.rbをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。 
