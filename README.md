@@ -254,9 +254,7 @@ kbd.add_layer :default, %i[
 ]
 ~~~
 ここのKC_*を書き換えてキーを設定します。  
-  
-キーコードはこちらに載せていますので参考にしてください（バージョンによって違う可能性があります）。  
-- https://github.com/Taro-Hayashi/PRKFirmware0.9.7Keycode  
+- キーコード（PRK Firmware Wiki） https://github.com/picoruby/prk_firmware/wiki/Keycodes_ja  
 
 上書き保存をするとその場で変更が反映されます。  
 
