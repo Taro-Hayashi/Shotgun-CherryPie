@@ -5,6 +5,7 @@
 - [はんだ付け](#はんだ付け)
 - [組み立て](#組み立て)
 - [キーのカスタマイズ](#キーのカスタマイズ)
+- [PRK Firmwareを使う](#PRK-Firmwareを使う)
 - [その他](#その他)
 
 ## キット内容
@@ -228,14 +229,15 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 いくつかサンプルをご用意しました。自分のレイアウトを公開することもできるので是非お試しください。  
 ![](img/layout.png)  
 
+
+## PRK Firmwareを使う
+ビルドガイドではファームウェアに説明が簡単なQMK Firmwareを使っています。Paspberry Pi Picoを
+ - [README_PRK](README_PRK.md)
+
+
 ## その他
 ### ファームウェアのコード  
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
-
-### PRK Firmware
-ビルドガイドではファームウェアにQMK Firmwareを使っていますが、Raspberry Pi Picoをキーボードとして使う方法はほかにも複数あります。  
-PRK Firmwareをインストールする場合はこちらのバージョンのビルドガイドを参考にしてください。  
- - [README_PRK](README_PRK.md)
 
 ### Via用JSONファイル  
  - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)  
