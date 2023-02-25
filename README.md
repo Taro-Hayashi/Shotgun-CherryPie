@@ -231,7 +231,7 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 
 
 ## PRK Firmwareを使う
-ビルドガイドではファームウェアに説明が簡単なQMK Firmwareを使っています。Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あります。
+ビルドガイドでは説明が簡単なQMK Firmwareを使いました。Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あります。PRK Firmwareはその一つで日本人によって開発が続いています。
 
 ### ファームウェアの書き込み
 最新版のPRKファームウェアのzipファイルをダウンロードして書き込んでください。
