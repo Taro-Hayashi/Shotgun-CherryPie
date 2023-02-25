@@ -305,7 +305,7 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 ~~~  
 
 #### VIA/Remap対応
-- [サンプルのkeymap.rb[(https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)
+- [サンプルのkeymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)
 - [prk-conf.txt（PRK Firmwareドライブに入れてください）](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)
   
   
