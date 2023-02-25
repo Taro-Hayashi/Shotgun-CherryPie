@@ -237,8 +237,7 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 最新版のPRKファームウェアのzipファイルをダウンロードして書き込んでください。
  - [Releases・picoruby/prk_firmware](https://github.com/picoruby/prk_firmware/releases)  
 
-### キーマップの書き込み
-PRK Firmwareドライブにこちらのkeymap.rbをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。 
+出現したPRK Firmwareドライブにこちらのkeymap.rbをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。 
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.1/keymap.rb)  
 
 
