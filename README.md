@@ -231,7 +231,7 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 
 
 ## PRK Firmwareを使う
-ビルドガイドでは説明が簡単なQMK Firmwareを使いました。Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あります。PRK Firmwareはその一つで日本人によって開発が続いています。
+前項まででキーボードとしては完成です。説明が簡単なQMK Firmwareを使いましたがPaspberry Pi Picoをキーボードとして扱う方法は他にも複数あります。PRK Firmwareはその一つで日本人によって開発が続いていますので紹介します。
 
 ### ファームウェアの書き込み
 最新版のPRKファームウェアのzipファイルをダウンロードして書き込んでください。
@@ -305,8 +305,8 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 ~~~  
 
 #### VIA/Remap対応
--[サンプルのkeymap.rb[(https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)
--[prk-conf.txt（PRK Firmwareドライブに入れてください）](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)
+- [サンプルのkeymap.rb[(https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)
+- [prk-conf.txt（PRK Firmwareドライブに入れてください）](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)
   
   
 その他にもいろいろな機能があるのでPRK Firmwareのwikiをご覧ください。
