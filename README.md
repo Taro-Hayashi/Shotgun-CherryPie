@@ -5,7 +5,6 @@
 - [はんだ付け](#はんだ付け)
 - [組み立て](#組み立て)
 - [キーのカスタマイズ](#キーのカスタマイズ)
-- [PRK Firmwareを使う](#PRK-Firmwareを使う)
 - [その他](#その他)
 
 ## キット内容
@@ -230,10 +229,12 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 ![](img/layout.png)  
 
 
-## PRK Firmwareを使う
+## その他
+
+### PRK Firmwareを使う
 前項まででキーボードとしては完成です。Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あります。PRK Firmwareはその一つです。ご興味があればお試しください。
 
-### ファームウェアの書き込み
+#### ファームウェアの書き込み
 最新版のPRKファームウェアのzipファイルをダウンロードして書き込んでください。
  - [Releases・picoruby/prk_firmware](https://github.com/picoruby/prk_firmware/releases)  
 
@@ -241,7 +242,7 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
  - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.1/keymap.rb)  
 
 
-### キーのカスタマイズ
+####キーのカスタマイズ
 PRK Firmwareドライブのkeymap.rbを開きます。  
 
 ~~~
@@ -310,8 +311,6 @@ kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
 - https://github.com/picoruby/prk_firmware/wiki/Tutorial_ja
 
 
-
-## その他
 ### ファームウェアのコード  
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
 
