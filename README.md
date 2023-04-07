@@ -36,13 +36,13 @@
 
 ### オプション
 
-|部品名|数|||
-|-|-|-|-|
+|部品名|数||
+|-|-|-|
 |[スタビライザー](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|必要数|2U、PCBマウント|
 |[ロータリーエンコーダー](https://shop.yushakobo.jp/products/3762)|～5|EC11/EC12/ロープロファイル|
 |[ノブ](https://shop.yushakobo.jp/products/3733)|〜5|外径19mmまで|
 |[SK6812MINI-E](https://shop.yushakobo.jp/products/sk6812mini-e-10)|12、もしくは28|12個で裏面のみ、28個で両面になります。|
-- [Raspberry Pi Pico互換品とコンスルーの対応表](promicro.md)  
+- [Raspberry Pi Pico互換品とコンスルーの対応表](conthrough2.md)  
 - [Shotgun チェリーパイ アクリル積層ケース](https://github.com/Taro-Hayashi/Shotgun-CherryPie-AcrylicCase/blob/main/README.md)  
 
 
