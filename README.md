@@ -71,7 +71,7 @@
  - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)  
 
 Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。  
-![](img/IMG_3493.jpeg)   
+![](img/IMG_3493.jpg)   
 ![](img/rpi.jpg)   
 ここにダウンロードしたuf2ファイルを書き込むと、Raspberry Pi Picoをキーボードとして使えるようになります。 
 
