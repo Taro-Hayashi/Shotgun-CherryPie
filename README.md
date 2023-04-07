@@ -30,18 +30,18 @@
 |部品名|数||
 |-|-|-|
 |[Raspberry Pi Pico](https://shop.yushakobo.jp/products/raspberry-pi-pico)|1|
-|[キースイッチ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)||CherryMX互換|
-|[キーキャップ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|
+|[キースイッチ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)|〜20|CherryMX互換|
+|[キーキャップ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|〜20||
 |[Micro-USB ケーブル](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m)|1||
 
 ### オプション
 |部品名|数|||
 |-|-|-|-|
-|コンスルー20ピン (高さ2 mmか2.5 mm)|2|[使い方](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/conthrough2.md)|[遊舎工房](https://shop.yushakobo.jp/products/31?variant=40815837610145)|
-|スタビライザー|必要数|2U、PCBマウント|[遊舎工房](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer) / [TALPKEYBOARD](https://talpkeyboard.net/?category_id=5f884b9b3313d216eb50558a)|
-|ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[遊舎工房](https://shop.yushakobo.jp/search?q=%E3%83%AD%E3%83%BC%E3%82%BF%E3%83%AA%E3%83%BC%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC+%E3%83%8E%E3%83%96%E4%BB%98%E3%81%8D) / [TALPKEYBOARD](https://talpkeyboard.net/items/5f3f1a597df28129f2fd4b0f) / [DailyCraftKeyboard](https://shop.dailycraft.jp/products/encoder_low)|
-|ノブ|外径19mmまで||[遊舎工房](https://shop.yushakobo.jp/products/3733) / [DailyCraftKeyboard](https://shop.dailycraft.jp/products/encoder_lowprofile_knob)|
-|SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
+|[コンスルー20ピン](https://talpkeyboard.net/items/6326b97df308654990631828)|2|[使い方](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/conthrough2.md)|
+|[スタビライザー](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|必要数|2U、PCBマウント|
+|[ロータリーエンコーダ](https://shop.yushakobo.jp/products/3762|～5|EC11/EC12/ロープロファイル|
+|[ノブ](https://shop.yushakobo.jp/products/3733)|外径19mmまで|
+|[SK6812MINI-E](https://shop.yushakobo.jp/products/sk6812mini-e-10)|12、もしくは28|12個で裏面のみ、28個で両面になります。|
 
 専用のアクリルケースもあります。  
 - [Shotgun チェリーパイ アクリル積層ケース](https://github.com/Taro-Hayashi/Shotgun-CherryPie-AcrylicCase/blob/main/README.md)  
