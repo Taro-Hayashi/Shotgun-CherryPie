@@ -39,7 +39,7 @@
 |-|-|-|-|
 |[コンスルー20ピン](https://talpkeyboard.net/items/6326b97df308654990631828)|2|[使い方](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/conthrough2.md)|
 |[スタビライザー](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|必要数|2U、PCBマウント|
-|[ロータリーエンコーダ](https://shop.yushakobo.jp/products/3762|～5|EC11/EC12/ロープロファイル|
+|[ロータリーエンコーダー](https://shop.yushakobo.jp/products/3762)|～5|EC11/EC12/ロープロファイル|
 |[ノブ](https://shop.yushakobo.jp/products/3733)|〜5|外径19mmまで|
 |[SK6812MINI-E](https://shop.yushakobo.jp/products/sk6812mini-e-10)|12、もしくは28|12個で裏面のみ、28個で両面になります。|
 
