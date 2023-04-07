@@ -187,7 +187,6 @@ Raspberry Pi PicoのUSB端子を避ける時に割れないように気を付け
 ![](img/IMG_3617.jpeg)
 
 早速USBケーブルでPCと接続しましょう。
-LEDは標準設定では左下のキー（0）を押しながら右上のキー（-）を押すと消すことができます。
 
 ## キーのカスタマイズ
 RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。  
