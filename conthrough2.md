@@ -1,3 +1,13 @@
+# Pro Micro互換品とコンスルーの対応表
+
+
+||ピンヘッダ|[コンスルー](https://talpkeyboard.net/items/6326b97df308654990631828)|
+|-|-|-|
+|Raspberry Pi Pico|○|○|
+|Raspberry Pi Pico W|○|○|
+|Raspberry Pi Pico H|×|×|
+
+
 ## コンスルーの使い方
 
 コンスルーを使用するとRaspberry Pi Picoを抜き差しできるようになり、はんだ付けの途中で動作を確認したりRaspberry Pi Picoを他のキットに使いまわせるようになります。  
