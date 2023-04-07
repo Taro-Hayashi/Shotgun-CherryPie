@@ -35,9 +35,10 @@
 |[Micro-USB ケーブル](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m)|1||
 
 ### オプション
+ - [Raspberry Pi Pico互換品とコンスルーの対応表](promicro.md)  
+ 
 |部品名|数|||
 |-|-|-|-|
-|[コンスルー20ピン](https://talpkeyboard.net/items/6326b97df308654990631828)|2|[使い方](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/conthrough2.md)|
 |[スタビライザー](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)|必要数|2U、PCBマウント|
 |[ロータリーエンコーダー](https://shop.yushakobo.jp/products/3762)|～5|EC11/EC12/ロープロファイル|
 |[ノブ](https://shop.yushakobo.jp/products/3733)|〜5|外径19mmまで|
