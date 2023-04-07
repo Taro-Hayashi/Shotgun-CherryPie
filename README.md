@@ -20,30 +20,29 @@
 |7|ネジ（短）|4|4mm|
 |8|ネジ（長）|4|8mm|
 |9|スペーサー|4|7mm|
-|10|ダイオード|20|1N4148|
-|11|リセットスイッチ|1||
-|12|Cherry MX ホットスワップソケット|20||
-|13|ゴム足|4||
-|-|40Pピンヘッダ|1||
+|10|リセットスイッチ|1||
+|11|ゴム足|4||
+|12|40Pピンヘッダ|1||
+|13|ダイオード|20|1N4148|
+|14|Cherry MX ホットスワップソケット|20||
 
 ### キット以外に必要なもの
-|部品名|数|||
-|-|-|-|-|
-|Raspberry Pi Pico|1||[遊舎工房](https://shop.yushakobo.jp/products/raspberry-pi-pico)|
-|キースイッチ||CherryMX互換|[遊舎工房](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) / [TALPKEYBOARD](https://talpkeyboard.net/?category_id=59cf8860ed05e668db003f5d) / [DailyCraftKeyboard](https://shop.dailycraft.jp/collections/mx-switches)|
-|キーキャップ||CherryMX互換|[遊舎工房](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97) / [TALPKEYBOARD](https://talpkeyboard.net/?category_id=59e2acfaed05e644fd004008)|
-|Micro-USB ケーブル|1|||
+|部品名|数||
+|-|-|-|
+|[Raspberry Pi Pico](https://shop.yushakobo.jp/products/raspberry-pi-pico)|1||
+|[キースイッチ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)|〜20|CherryMX互換|
+|[キーキャップ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|〜20|スイッチに合うもの|
+|[Micro-USB ケーブル](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m)|1|データ転送対応のもの|
 
 ### オプション
-|部品名|数|||
-|-|-|-|-|
-|コンスルー20ピン (高さ2 mmか2.5 mm)|2|[使い方](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/conthrough2.md)|[遊舎工房](https://shop.yushakobo.jp/products/31?variant=40815837610145)|
-|スタビライザー|必要数|2U、PCBマウント|[遊舎工房](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer) / [TALPKEYBOARD](https://talpkeyboard.net/?category_id=5f884b9b3313d216eb50558a)|
-|ロータリーエンコーダ|～5|EC11/EC12/ロープロファイル|[遊舎工房](https://shop.yushakobo.jp/search?q=%E3%83%AD%E3%83%BC%E3%82%BF%E3%83%AA%E3%83%BC%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC+%E3%83%8E%E3%83%96%E4%BB%98%E3%81%8D) / [TALPKEYBOARD](https://talpkeyboard.net/items/5f3f1a597df28129f2fd4b0f) / [DailyCraftKeyboard](https://shop.dailycraft.jp/products/encoder_low)|
-|ノブ|外径19mmまで||[遊舎工房](https://shop.yushakobo.jp/products/3733) / [DailyCraftKeyboard](https://shop.dailycraft.jp/products/encoder_lowprofile_knob)|
-|SK6812MINI-E|12、もしくは28|12個で裏面のみ、28個で両面になります。|[遊舎工房](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
 
-専用のアクリルケースもあります。  
+|部品名|数||
+|-|-|-|
+|[スタビライザー](https://shop.yushakobo.jp/products/a0500st)|必要数|2U、PCBマウント|
+|[ロータリーエンコーダー](https://shop.yushakobo.jp/products/3762)|～5|EC11/EC12/ロープロファイル|
+|[ノブ](https://shop.yushakobo.jp/products/3733)|〜5|外径19mmまで|
+|LED（[SK6812MINI-E](https://shop.yushakobo.jp/products/sk6812mini-e-10)）|12、もしくは28|12個で裏面のみ、28個で両面|
+- [Raspberry Pi Pico互換品とコンスルーの対応表](conthrough2.md)  
 - [Shotgun チェリーパイ アクリル積層ケース](https://github.com/Taro-Hayashi/Shotgun-CherryPie-AcrylicCase/blob/main/README.md)  
 
 
@@ -65,14 +64,14 @@
 ビルドガイドではロータリーエンコーダーを1つ、幅が2倍（2U）のキーを二つ使ったテンキーにします。  
 ![](img/test.jpg)   
 キット、その他必要なものに追加でロータリーエンコーダーとノブを一つずつ、スタビライザーを2つ用意しました。  
-![](img/IMG_4358.jpg)   
+![](img/IMG_3497.jpeg)   
 
 ### ファームウェアの書き込み
 こちらのファイルをダウンロードしてください。  
  - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)  
 
 Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。  
-![](img/IMG_4361.jpg)   
+![](img/IMG_3493.jpeg)   
 ![](img/rpi.jpg)   
 ここにダウンロードしたuf2ファイルを書き込むと、Raspberry Pi Picoをキーボードとして使えるようになります。 
 
@@ -217,85 +216,10 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 
 ## その他
 
-### PRK Firmwareを使う
-前項まででキーボードとしては完成です。Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あります。PRK Firmwareはその一つです。ご興味があればお試しください。
-
-#### ファームウェアの書き込み
-最新版のPRKファームウェアのzipファイルをダウンロードして書き込んでください。
- - [Releases・picoruby/prk_firmware](https://github.com/picoruby/prk_firmware/releases)  
-
-出現したPRK Firmwareドライブにこちらのkeymap.rbをドラッグアンドドロップするとRaspberry Pi Picoをキーボードとして使えるようになります。 
- - [keymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.1/keymap.rb)  
-
-
-####キーのカスタマイズ
-PRK Firmwareドライブのkeymap.rbを開きます。  
-
-~~~
-kbd.add_layer :default, %i[
-  KC_A  KC_B  KC_C  KC_D
-  KC_E  KC_F  KC_G  KC_H
-  KC_I  KC_J  KC_K  KC_L
-  KC_M  KC_N  KC_O  KC_P
-  KC_Q  KC_R  KC_S  KC_T
-]
-~~~
-ここのKC_*を書き換えてキーを設定します。  
-- キーコード（PRK Firmware Wiki） https://github.com/picoruby/prk_firmware/wiki/Keycodes_ja  
-
-上書き保存をするとその場で変更が反映されます。  
-
-#### ロータリーエンコーダー
-~~~
-encoder_1 = RotaryEncoder.new(27, 28)
-encoder_1.clockwise do
-  kbd.send_key :KC_1
-end
-encoder_1.counterclockwise do
-  kbd.send_key :KC_2
-end
-kbd.append encoder_1
-~~~
-kbd.send_keyのKC_*を変更すると該当のロータリーエンコーダーのキーが変更されます。  
-ロータリーエンコーダーはUSB差込側から順に1～5が割り振られています。  
-
-#### レイヤーの追加
-~~~
-kbd.add_layer :lower, %i[
-  KC_NO  KC_NO  KC_NO  KC_NO
-  KC_NO  KC_NO  KC_NO  KC_NO
-  KC_NO  KC_NO  KC_NO  KC_NO
-  KC_NO  KC_NO  KC_NO  KC_NO
-  KC_NO  KC_NO  KC_NO  KC_NO
-]
-~~~
-レイヤーの名前を変更したキーマップを追加するとレイヤーが増えます。  
-レイヤーの名前をキーコードとして使うとそのままレイヤー変更キーとして使えます。  
-  
-好きな名前のキーコード名を設定し（例では0_LOW）、長押しでレイヤーを変更するキーにすることもできます。  
-~~~
-kbd.define_mode_key :0_LOW, [ :KC_KP_0, :lower, 150, 150 ]
-~~~
-
-#### 同時押しのキーコード
-~~~
-kbd.define_composite_key :UNDO,  %i(KC_Z KC_LCTL)
-~~~
-例えばCtrl＋Zであればこのように定義します。  
-
-#### 文字列を入力するキーコード
-~~~
-kbd.define_mode_key :TEST, [ Proc.new { kbd.macro "aaaa" }, :KC_NO, 300, nil ]
-~~~  
-
-#### VIA/Remap対応
-- [サンプルのkeymap.rb](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)
-- [prk-conf.txt（PRK Firmwareドライブに入れてください）](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.18/keymap.rb)
-  
-  
-その他にもいろいろな機能があるのでPRK Firmwareのwikiをご覧ください。
-- https://github.com/picoruby/prk_firmware/wiki/Tutorial_ja
-
+### PRK Firmware
+Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あります。PRK Firmwareはその一つでキー入れ替えの試行錯誤が手軽なところが特徴です。ご興味があればお試しください。
+- [PRK Firmware](https://github.com/picoruby/prk_firmware/)
+- [使い方](prk.md)
 
 ### ファームウェアのコード  
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
