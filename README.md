@@ -212,7 +212,7 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 ## その他
 
 ### PRK Firmware
-Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あります。PRK Firmwareはその一つでキー入れ替えの試行錯誤が手軽なところが特徴です。ご興味があればお試しください。
+Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あります。PRK Firmwareはその一つでキー入れ替えの試行錯誤が手軽なところが特徴です。
 - [PRK Firmware](https://github.com/picoruby/prk_firmware/)
 - [使い方](prk.md)
 
