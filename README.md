@@ -42,7 +42,6 @@
 |[ロータリーエンコーダー](https://shop.yushakobo.jp/products/3762)|～5|EC11/EC12/ロープロファイル|
 |[ノブ](https://shop.yushakobo.jp/products/3733)|〜5|外径19mmまで|
 |LED（[SK6812MINI-E](https://shop.yushakobo.jp/products/sk6812mini-e-10)）|12、もしくは28|12個で裏面のみ、28個で両面|
-- [Raspberry Pi Pico互換品とコンスルーの対応表](conthrough2.md)  
 - [Shotgun チェリーパイ アクリル積層ケース](https://github.com/Taro-Hayashi/Shotgun-CherryPie-AcrylicCase/blob/main/README.md)  
 
 
