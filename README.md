@@ -194,7 +194,7 @@ Raspberry Pi PicoのUSB端子を避ける時に割れないように気を付け
 
 ## キーのカスタマイズ
 RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。  
-- Remap https://qmk018.remap-keys.app
+- Remap https://remap-keys.app
 
 左を選んで進んでいくとアドレスバーからメッセージが出てキーボードを選択できます。   
 ![](img/remap1.png) 
