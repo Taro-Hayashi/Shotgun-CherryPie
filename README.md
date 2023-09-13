@@ -216,7 +216,6 @@ RemapにGoogle ChromeかMicrosoft Edgeでアクセスしてください。
 ### PRK Firmware
 Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あります。PRK Firmwareはその一つでキー入れ替えの試行錯誤が手軽なところが特徴です。
 - [PRK Firmware](https://github.com/picoruby/prk_firmware/)
-- [使い方](prk.md)
 
 ### ファームウェアのコード  
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
