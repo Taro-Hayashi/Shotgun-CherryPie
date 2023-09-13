@@ -68,7 +68,7 @@
 
 ### ファームウェアの書き込み
 こちらのファイルをダウンロードしてください。  
- - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)  
+ - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/latest/download/tarohayashi_shotgun_cp_via.uf2)  
 
 Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。  
 ![](img/IMG_3493.jpg)   
@@ -222,10 +222,10 @@ Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あり
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
 
 ### Via用JSONファイル  
- - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)  
+ - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/latestdownload/shotgun_cp.json)  
   
 ### プレートのデータ
- - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_plates.zip)  
+ - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/latest/download/shotgun_cp_plates.zip)  
 
 発注先のルールに沿ってデータを修正してください。  
 
