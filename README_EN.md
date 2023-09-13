@@ -53,7 +53,7 @@ In this manual, we use rotary encoder and 2 2U keys.
 
 ### Write firmware
 Download uf2 file.
- - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.18.13/tarohayashi_shotgun_cp_via.uf2)  
+ - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/latest/download/tarohayashi_shotgun_cp_via.uf2)  
 
 Connect the Raspberry Pi Pico to the PC while holding down the BOOTSEL button, it will be recognized as a USB memory device called RPI-RP2.    
 ![](img/IMG_4361.jpg)   
@@ -159,10 +159,10 @@ After Drag-and-Drop the keys, press the flash button in the upper right corner.
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp  
 
 ### JSON for Remap/VIA
- - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp.json)
+ - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/latest/download/shotgun_cp.json)
 
 ### Plates data
- - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/download/0.9.8/shotgun_cp_plates.zip)  
+ - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/latest/download/shotgun_cp_plates.zip)  
 
 ### Thanks
 Used foostan's footprint.  
