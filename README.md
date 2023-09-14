@@ -224,9 +224,6 @@ Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あり
 ### ファームウェアのコード  
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
 
-### Via用JSONファイル  
- - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/latestdownload/shotgun_cp.json)  
-  
 ### プレートのデータ
  - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/latest/download/shotgun_cp_plates.zip)  
 
