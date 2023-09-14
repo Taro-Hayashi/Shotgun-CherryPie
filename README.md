@@ -67,8 +67,8 @@
 ![](img/IMG_3497.jpeg)   
 
 ### ファームウェアの書き込み
-こちらのファイルをダウンロードしてください。  
- - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/latest/download/tarohayashi_shotgun_cp_via.uf2)  
+こちらからファームウェアをダウンロードしてください。  
+ - https://remap-keys.app/keyboards/q5bqybPPk6Kp4dkMvccf 
 
 Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。  
 ![](img/IMG_3493.jpg)   
