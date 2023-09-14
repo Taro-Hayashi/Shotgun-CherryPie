@@ -68,7 +68,7 @@
 
 ### ファームウェアの書き込み
 こちらからファームウェアをダウンロードしてください。  
- - https://remap-keys.app/keyboards/q5bqybPPk6Kp4dkMvccf 
+ - https://remap-keys.app/catalog/q5bqybPPk6Kp4dkMvccf/firmware
 
 Raspberry Pi Picoを、BOOTSELボタン押しながらUSBケーブルでPCと接続すると、RPI-RP2というUSBメモリとして認識されます。  
 ![](img/IMG_3493.jpg)   
