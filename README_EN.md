@@ -53,7 +53,7 @@ In this manual, we use rotary encoder and 2 2U keys.
 
 ### Write firmware
 Download uf2 file.
- - [tarohayashi_shotgun_cp_via.uf2](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/latest/download/tarohayashi_shotgun_cp_via.uf2)  
+- https://remap-keys.app/catalog/q5bqybPPk6Kp4dkMvccf/firmware
 
 Connect the Raspberry Pi Pico to the PC while holding down the BOOTSEL button, it will be recognized as a USB memory device called RPI-RP2.    
 ![](img/IMG_4361.jpg)   
