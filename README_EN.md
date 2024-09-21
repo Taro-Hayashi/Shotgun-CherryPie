@@ -12,7 +12,7 @@
 |1|Mainboard|1|
 |2|Top plate|1||
 |3|Bottom plate|1||
-|4|Middle plate #1|1||
+|4|Middle plate #1|1~2||
 |5|Middle plate #2|1||
 |6|Middle plate #3|1||
 |7|Short screws|4|4mm|
