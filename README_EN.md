@@ -19,7 +19,7 @@
 |8|Long screws|4|8mm|
 |9|Spacers|4|8mm|
 |10|Diodes|20|1N4148|
-|11|Tactile switch|1||
+|11|Tactile switch|1|Currently not in use|
 |12|Hotswap sockets|20||
 |13|Rubber feet|4||
 |-|Pin header|1||
@@ -68,7 +68,7 @@ Detouch the USB cable.
 If use LED, install first.
  - [LED Installation](led_EN.md)
 
-### Diodes and tactile switch
+### Diodes
 
 Install the diodes from D1 to D20.
 ![](img/IMG_4392.jpg)
@@ -79,9 +79,6 @@ Bend the legs parallel to the diode to prevent interference with the key switch 
 
 Solder and cut the legs.
 ![](img/IMG_4396.jpg)
-
-Solder Tactile Switches.
-![](img/IMG_4397.jpg)
 
 ### Hotswap sockets
 Apply a thin layer of solder beforehand.
