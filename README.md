@@ -29,7 +29,7 @@
 ### キット以外に必要なもの
 |部品名|数||
 |-|-|-|
-|Raspberry Pi Pico|1|[秋月電子通商](https://akizukidenshi.com/catalog/g/g116132/)、[BOOTH（Type-C版）](https://tarohayashi.booth.pm/items/3430753)|
+|Raspberry Pi Pico|1|[秋月電子通商](https://akizukidenshi.com/catalog/g/g116132/)、[遊舎工房（Pico W)](https://shop.yushakobo.jp/products/7497?_pos=1&_sid=91510bcf1&_ss=r)、[BOOTH（Type-C版）](https://tarohayashi.booth.pm/items/3430753)|
 |[キースイッチ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)|〜20|CherryMX互換|
 |[キーキャップ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|〜20|スイッチに合うもの|
 |USB ケーブル|1|データ転送対応のもの|
