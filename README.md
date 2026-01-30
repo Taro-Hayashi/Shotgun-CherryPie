@@ -30,7 +30,7 @@
 
 ![](img/omake.jpg)
 
-モデルデータ（CC-BYライセンス）
+プリントする場合はこちら（CC-BYライセンス）
 - https://github.com/Taro-Hayashi/Shotgun-CherryPie/tree/main/step
 
 
