@@ -3,6 +3,7 @@
 - [Preparation](#Preparation)
 - [Soldering](#Soldering)
 - [Assembling](#Assembling)
+- [Assembling the 3D Printer Case](#Assembling-the-3D Printer-Case)
 - [Customise](#Customise)
 
 ## Contents
@@ -24,10 +25,15 @@
 |13|Rubber feet|4||
 |-|Pin header|1||
 
+### 3D Printer Case
+
+![](img/IMG_3478.jpg)
+
+
 ### Additional required
 |Name|Quantities|||
 |-|-|-|-|
-|Raspberry Pi Pico|1||[Yushakobo](https://shop.yushakobo.jp/en/products/raspberry-pi-pico)|
+|Raspberry Pi Pico|1|||
 |Switches|11 - 20|Cherry MX|[Yushakobo](https://shop.yushakobo.jp/en/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)|
 |Keycaps|11 - 20|Cherry MX|[Yushakobo](https://shop.yushakobo.jp/en/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|
 |Micro-USB Cable|1||[Yushakobo](https://shop.yushakobo.jp/en/products/usb-cable-micro-b-0-8m)|
@@ -150,6 +156,15 @@ Select the blue button on the left to proceed.
 
 After Drag-and-Drop the keys, press the flash button in the upper right corner.
 ![](img/remap3.png)
+
+
+## Assembling the 3D Printer Case
+Attach spacers to the switch plate.
+![](img/3dp1.jpg)
+Place it inside the case, secure it with screws from the back, and attach rubber feet.
+![](img/3dp2.jpg)
+Complete.
+![](img/3dp3.jpg)
 
 ## Misc
 ### Codes

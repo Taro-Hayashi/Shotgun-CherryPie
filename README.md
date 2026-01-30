@@ -5,6 +5,7 @@
 - [はんだ付け](#はんだ付け)
 - [組み立て](#組み立て)
 - [キーのカスタマイズ](#キーのカスタマイズ)
+- [3Dプリンターケースの組み立て](#3Dプリンターケースの組み立て)
 - [その他](#その他)
 
 ## キット内容
@@ -25,14 +26,19 @@
 |13|ダイオード|20|1N4148|
 |14|Cherry MX ホットスワップソケット|20||
 
+### （おまけ）3Dプリンターケース
+
+![](img/IMG_3478.jpg)
 
 ### キット以外に必要なもの
 |部品名|数||
 |-|-|-|
-|Raspberry Pi Pico|1|[秋月電子通商](https://akizukidenshi.com/catalog/g/g116132/)、[遊舎工房（Pico W)](https://shop.yushakobo.jp/products/7497?_pos=1&_sid=91510bcf1&_ss=r)、[BOOTH（Type-C版）](https://tarohayashi.booth.pm/items/3430753)|
+|Raspberry Pi Pico|1|[秋月電子通商](https://akizukidenshi.com/catalog/g/g116132/)、[BOOTH（Type-C版）](https://tarohayashi.booth.pm/items/3430753)|
 |[キースイッチ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)|〜20|CherryMX互換|
 |[キーキャップ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|〜20|スイッチに合うもの|
 |USB ケーブル|1|データ転送対応のもの|
+※遊舎工房さんの[Raspberry Pi Pico 互換ボード Type-C](https://shop.yushakobo.jp/products/10925)は3Dプリンターケースにのみ対応しています。
+
 
 ### オプション
 
@@ -212,6 +218,15 @@ FUNCTIONSタブのVIA USER KEYにあらかじめ用意されたショートカ�
 ⇔アイコンで作ったキーマップを保存することができます。
 いくつかサンプルをご用意しました。自分のレイアウトを公開することもできるので是非お試しください。
 ![](img/layout.png)
+
+
+## 3Dプリンターケースの組み立て
+スイッチプレートにスペーサーを付けた状態にします。
+![](img/3dp1.jpg)
+ケースに入れて裏面でネジ止め、ゴム足を貼ります。
+![](img/3dp2.jpg)
+完成です。
+![](img/3dp3.jpg)
 
 
 ## その他
