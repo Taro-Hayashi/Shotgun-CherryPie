@@ -37,6 +37,7 @@
 |[キースイッチ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)|〜20|CherryMX互換|
 |[キーキャップ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|〜20|スイッチに合うもの|
 |USB ケーブル|1|データ転送対応のもの|
+
 ※遊舎工房さんの[Raspberry Pi Pico 互換ボード Type-C](https://shop.yushakobo.jp/products/10925)は3Dプリンターケースにのみ対応しています。
 
 
