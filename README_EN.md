@@ -27,7 +27,7 @@
 
 ### 3D Printer Case
 
-![](img/IMG_3478.jpg)
+![](img/omake.jpg)
 
 
 ### Additional required
