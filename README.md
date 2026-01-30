@@ -30,10 +30,6 @@
 
 ![](img/omake.jpg)
 
-プリントする場合はこちら（CC-BYライセンス）
-- https://github.com/Taro-Hayashi/Shotgun-CherryPie/tree/main/step
-
-
 ### キット以外に必要なもの
 |部品名|数||
 |-|-|-|
@@ -53,7 +49,6 @@
 |[ロータリーエンコーダー](https://shop.yushakobo.jp/products/3762)|～5|EC11/EC12/ロープロファイル|
 |[ノブ](https://shop.yushakobo.jp/products/3733)|〜5|外径19mmまで|
 |LED（[SK6812MINI-E](https://shop.yushakobo.jp/products/sk6812mini-e-10)）|12、もしくは28|12個で裏面のみ、28個で両面|
-- [Shotgun チェリーパイ アクリル積層ケース](https://github.com/Taro-Hayashi/Shotgun-CherryPie-AcrylicCase/blob/main/README.md)
 
 
 ### 必要な工具
@@ -243,10 +238,15 @@ Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あり
 ### ファームウェアのコード
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
 
+### 3Dプリントケースのデータ
+- https://github.com/Taro-Hayashi/Shotgun-CherryPie/tree/main/step
+
 ### プレートのデータ
  - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/latest/download/shotgun_cp_plates.zip)
 
-発注先のルールに沿ってデータを修正してください。
+### アクリル積層ケース
+ - [Shotgun チェリーパイ アクリル積層ケース](https://github.com/Taro-Hayashi/Shotgun-CherryPie-AcrylicCase/blob/main/README.md)
+
 
 ### 謝辞
 foostan様のフットプリントを流用、改変して使わせていただきました。
