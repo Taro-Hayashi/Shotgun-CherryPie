@@ -3,7 +3,7 @@
 - [Preparation](#Preparation)
 - [Soldering](#Soldering)
 - [Assembling](#Assembling)
-- [Assembling the 3D Printer Case](#Assembling-the-3D Printer-Case)
+- [Assembling the 3D Printer Case](#Assembling-the-3D-Printer-Case)
 - [Customise](#Customise)
 
 ## Contents
