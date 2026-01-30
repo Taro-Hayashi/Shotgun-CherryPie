@@ -31,7 +31,7 @@
 ![](img/omake.jpg)
 
 モデルデータ（CC-BYライセンス）
-- 
+- https://github.com/Taro-Hayashi/Shotgun-CherryPie/tree/main/step
 
 
 ### キット以外に必要なもの
