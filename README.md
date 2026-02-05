@@ -26,7 +26,7 @@
 |13|ダイオード|20|1N4148|
 |14|Cherry MX ホットスワップソケット|20||
 
-### 付属3Dプリンターケース
+### 3Dプリンター製カバー
 
 ![](img/omake.jpg)
 
@@ -238,7 +238,7 @@ Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あり
 ### ファームウェアのコード
  - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
 
-### 3Dプリントケースのデータ
+### 3Dプリント製カバーのデータ
 - https://github.com/Taro-Hayashi/Shotgun-CherryPie/tree/main/step
 
 ### プレートのデータ
