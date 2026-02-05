@@ -3,7 +3,7 @@
 - [Preparation](#Preparation)
 - [Soldering](#Soldering)
 - [Assembling](#Assembling)
-- [Assembling the 3D Printer Case](#Assembling-the-3D-Printer-Case)
+- [Assembling the 3D Printed Cover](#Assembling-the-3D-Printed-Cover)
 - [Customise](#Customise)
 
 ## Contents
@@ -24,8 +24,7 @@
 |12|Hotswap sockets|20||
 |13|Rubber feet|4||
 |-|Pin header|1||
-
-### 3D Printer Case
+|-|3D Printed cover|1||
 
 ![](img/omake.jpg)
 
@@ -160,7 +159,7 @@ After Drag-and-Drop the keys, press the flash button in the upper right corner.
 ![](img/remap3.png)
 
 
-## Assembling the 3D Printer Case
+## Assembling the 3D Printed Cover
 Attach spacers to the switch plate.
 ![](img/3dp1.jpg)
 Place it inside the case, secure it with screws from the back, and attach rubber feet.
