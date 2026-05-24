@@ -169,7 +169,7 @@ Complete.
 
 ## Misc
 ### Codes
- - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
+- [qmk_firmware](qmk_firmware)
 
 ### JSON for Remap/VIA
  - [shotgun_cp.json](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/latest/download/shotgun_cp.json)

@@ -1,0 +1,280 @@
+{
+  "name": "Shotgun CherryPie",
+  "vendorId": "0xFEED",
+  "productId": "0x0892",
+  "lighting": "qmk_rgblight",
+  "matrix": { "rows": 5, "cols": 4 },
+  "customKeycodes": [
+    {
+      "name": "Cmd / Ctrl",
+      "title": "MacOS/iOS:Command, Windows:Control",
+      "shortName": "Cmd / Ctrl"
+    },
+    {
+      "name": "Undo",
+      "title": "MacOS/iOS:Cmd+Z, Windows:Ctrl+Z",
+      "shortName": "Undo"
+    },
+    {
+      "name": "Redo",
+      "title": "MacOS/iOS:Shift+Cmd+Z, Windows:Shift+Ctrl+Z",
+      "shortName": "Redo"
+    },
+    {
+      "name": "Copy",
+      "title": "MacOS/iOS:Cmd+C, Windows:Ctrl+C",
+      "shortName": "Copy"
+    },
+    {
+      "name": "Cut",
+      "title": "MacOS/iOS:Cmd+X, Windows:Ctrl+X",
+      "shortName": "Cut"
+    },
+    {
+      "name": "Paste",
+      "title": "MacOS/iOS:Cmd+V, Windows:Ctrl+V",
+      "shortName": "Paste"
+    },
+    {
+      "name": "Scale Up",
+      "title": "MacOS/iOS:Cmd++, Windows:Ctrl++",
+      "shortName": "Scale Up"
+    },
+    {
+      "name": "Scale Down",
+      "title": "MacOS/iOS:Cmd+-, Windows:Ctrl+-",
+      "shortName": "Scale Down"
+    },
+    {
+      "name": "Scale Reset",
+      "title": "MacOS/iOS:Cmd+0, Windows:Ctrl+0",
+      "shortName": "Scale Reset"
+    },
+    {
+      "name": "Captcha",
+      "title": "MacOS/iOS:Shift+Cmd+4, Windows:Shift+Win+S",
+      "shortName": "Captcha"
+    },
+    {
+      "name": "Save",
+      "title": "MacOS/iOS:Cmd+S, Windows:Ctrl+S",
+      "shortName": "Save"
+    },
+    {
+      "name": "Save As",
+      "title": "MacOS/iOS:Shift+Cmd+S, Windows:Shift+Ctrl+S",
+      "shortName": "Save As"
+    },
+    {
+      "name": "Next Tab",
+      "title": "MacOS/iOS:Ctrl+Tab, Windows:Ctrl+Tab",
+      "shortName": "Next Tab"
+    },
+    {
+      "name": "Prev Tab",
+      "title": "MacOS/iOS:Shift+Ctrl+Tab, Windows:Shift+Ctrl+Tab",
+      "shortName": "Prev Tab"
+    },
+    {
+      "name": "Close Tab",
+      "title": "MacOS/iOS:Cmd+W, Windows:Ctrl+W",
+      "shortName": "Close Tab"
+    },
+    {
+      "name": "Restore Tab",
+      "title": "MacOS/iOS:Shift+Cmd+T, Windows:Shift+Ctrl+T",
+      "shortName": "Restore Tab"
+    },
+    {
+      "name": "Next App",
+      "title": "MacOS/iOS:Cmd+Tab, Windows:ALt+Tab",
+      "shortName": "Next App"
+    },
+    {
+      "name": "Prev App",
+      "title": "MacOS/iOS:Shift+Cmd+Z, Windows:Shift+Alt+Tab",
+      "shortName": "Prev App"
+    },
+    {
+      "name": "Search",
+      "title": "MacOS/iOS:Cmd+Space, Windows:Win+S",
+      "shortName": "Search"
+    },
+    { "name": "iPad Home", "title": "Command+H", "shortName": "iPad Home" },
+    {
+      "name": "iPad Dock",
+      "title": "Command+Option+D",
+      "shortName": "iPad Dock"
+    },
+    {
+      "name": "RGB Layers",
+      "title": "Toggle RGB Layers",
+      "shortName": "RGB Layers"
+    },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" },
+    { "name": "-", "title": "Not Assigned", "shortName": "-" }
+  ],
+  "layouts": {
+    "labels": [
+      ["Right", "4 keys", "Enter", "Plus", "Both", "Middle"],
+      "Top 2U",
+      "Bottom 2U"
+    ],
+    "keymap": [
+      [
+        {
+          "x": 5.5,
+          "c": "#aaaaaa",
+          "w": 2
+        },
+        "0,3\n\n\n1,1"
+      ],
+      [
+        {
+          "y": 0.25,
+          "x": 2.25,
+          "c": "#cccccc",
+          "a": 7
+        },
+        "e0",
+        {
+          "x": 0.25,
+          "a": 4
+        },
+        "0,0",
+        "0,1",
+        "0,2\n\n\n1,0",
+        "0,3\n\n\n1,0"
+      ],
+      [
+        {
+          "x": 2.25,
+          "a": 7
+        },
+        "e1",
+        {
+          "x": 0.25,
+          "a": 4
+        },
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3\n\n\n0,0",
+        {
+          "x": 0.25
+        },
+        "1,3\n\n\n0,1",
+        {
+          "c": "#aaaaaa",
+          "h": 2
+        },
+        "1,3\n\n\n0,2",
+        {
+          "h": 2
+        },
+        "1,3\n\n\n0,3",
+        {
+          "c": "#cccccc"
+        },
+        "1,3\n\n\n0,4"
+      ],
+      [
+        {
+          "x": 2.25,
+          "a": 7
+        },
+        "e2",
+        {
+          "x": 0.25,
+          "a": 4
+        },
+        "2,0",
+        "2,1",
+        "2,2",
+        "2,3\n\n\n0,0",
+        {
+          "x": 0.25
+        },
+        "2,3\n\n\n0,1",
+        {
+          "x": 2,
+          "c": "#aaaaaa",
+          "h": 2
+        },
+        "2,3\n\n\n0,4"
+      ],
+      [
+        {
+          "x": 2.25,
+          "c": "#cccccc",
+          "a": 7
+        },
+        "e3",
+        {
+          "x": 0.25,
+          "a": 4
+        },
+        "3,0",
+        "3,1",
+        "3,2",
+        "3,3\n\n\n0,0",
+        {
+          "x": 0.25,
+          "c": "#aaaaaa",
+          "h": 2
+        },
+        "3,3\n\n\n0,1",
+        {
+          "c": "#cccccc"
+        },
+        "3,3\n\n\n0,2",
+        {
+          "c": "#aaaaaa",
+          "h": 2
+        },
+        "3,3\n\n\n0,3"
+      ],
+      [
+        {
+          "x": 2.25,
+          "c": "#cccccc",
+          "a": 7
+        },
+        "e4",
+        {
+          "x": 0.25,
+          "a": 4
+        },
+        "4,0",
+        "4,1\n\n\n2,0",
+        "4,2\n\n\n2,0",
+        "4,3\n\n\n0,0",
+        {
+          "x": 1.25
+        },
+        "4,3\n\n\n0,2",
+        {
+          "x": 1
+        },
+        "4,3\n\n\n0,4"
+      ],
+      [
+        {
+          "y": 0.25,
+          "x": 4.5,
+          "c": "#aaaaaa",
+          "w": 2
+        },
+        "4,1\n\n\n2,1"
+      ]
+    ]
+  }
+}

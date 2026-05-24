@@ -233,7 +233,7 @@ Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あり
 - [PRK Firmware](https://github.com/picoruby/prk_firmware/)
 
 ### ファームウェアのコード
- - https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/shotgun_cp
+ - [qmk_firmware](qmk_firmware)
 
 ### 3Dプリント製カバーのデータ
 - https://github.com/Taro-Hayashi/Shotgun-CherryPie/tree/main/step
