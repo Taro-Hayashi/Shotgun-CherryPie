@@ -242,7 +242,7 @@ Paspberry Pi Picoをキーボードとして扱う方法は他にも複数あり
  - [shotgun_cp_plates.zip](https://github.com/Taro-Hayashi/Shotgun-CherryPie/releases/latest/download/shotgun_cp_plates.zip)
 
 ### アクリル積層ケース
- - [Shotgun チェリーパイ アクリル積層ケース](https://github.com/Taro-Hayashi/Shotgun-CherryPie-AcrylicCase/blob/main/README.md)
+ - [Shotgun チェリーパイ アクリル積層ケース](AcrylicCase/README.md)
 
 
 ### 謝辞
