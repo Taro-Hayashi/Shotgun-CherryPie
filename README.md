@@ -32,6 +32,9 @@
 
 ![](img/omake.jpg)
 
+Step
+- https://github.com/Taro-Hayashi/Shotgun-CherryPie/tree/main/step
+
 ### キット以外に必要なもの
 |部品名|数||
 |-|-|-|
