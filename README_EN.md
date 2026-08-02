@@ -25,6 +25,9 @@
 |13|Rubber feet|4||
 |-|Pin header|1||
 |-|3D Printed cover|1||
+|-|Raspberry Pi Pico (Type-C compatible board)|1|Yushakobo kits only|
+
+Since August 2026, kits sold by Yushakobo include a Raspberry Pi Pico-compatible board with a Type-C connector.
 
 ![](img/omake.jpg)
 
@@ -34,10 +37,10 @@ Step
 ### Additional required
 |Name|Quantities|||
 |-|-|-|-|
-|Raspberry Pi Pico|1|||
 |Switches|11 - 20|Cherry MX|[Yushakobo](https://shop.yushakobo.jp/en/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)|
 |Keycaps|11 - 20|Cherry MX|[Yushakobo](https://shop.yushakobo.jp/en/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|
-|Micro-USB Cable|1||[Yushakobo](https://shop.yushakobo.jp/en/products/usb-cable-micro-b-0-8m)|
+|USB cable|1|Must support data transfer||
+|Raspberry Pi Pico (if not included)|1|Some compatible boards may not fit||
 
 ### Optional
 |Name|Quantities|||
