@@ -26,7 +26,8 @@
 |13|ダイオード|20|1N4148|
 |14|Cherry MX ホットスワップソケット|20||
 |15|3Dプリンター製カバー|20||
-||Raspberry Pi Pico（Type-C、互換品）|20|遊舎工房のみ|
+|Raspberry Pi Pico（Type-C、互換品）|20|遊舎工房キットのみ|
+
 2026年8月より遊舎工房さん取り扱いキットではRaspberry Pi Pico（Type-C）互換品が同梱されています。
 BOOTHは同封無しと同封ありを選択可能です。
 
@@ -38,6 +39,7 @@ BOOTHは同封無しと同封ありを選択可能です。
 |[キースイッチ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)|〜20|CherryMX互換|
 |[キーキャップ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|〜20|スイッチに合うもの|
 |USB ケーブル|1|データ転送対応のもの|
+|Raspberyy Pi Pico|1|同梱でない場合。互換品には適合しないものがあります。|
 
 ### オプション
 
