@@ -26,7 +26,9 @@
 |13|ダイオード|20|1N4148|
 |14|Cherry MX ホットスワップソケット|20||
 |15|3Dプリンター製カバー|20||
-||Raspberry Pi Pico（Type-C、互換品）|20||
+||Raspberry Pi Pico（Type-C、互換品）|20|遊舎工房のみ|
+2026年8月より遊舎工房さん取り扱いキットではRaspberry Pi Pico（Type-C）互換品が同梱されています。
+BOOTHは同封無しと同封ありを選択可能です。
 
 ![](img/omake.jpg)
 
