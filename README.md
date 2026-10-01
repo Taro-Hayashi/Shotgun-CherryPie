@@ -1,4 +1,3 @@
-
 # Shotgun チェリーパイ ビルドガイド（[English](https://github.com/Taro-Hayashi/Shotgun-CherryPie/blob/main/README_EN.md)）
 - [キット内容](#キット内容)
 - [準備](#準備)
@@ -36,21 +35,24 @@ Step
 - https://github.com/Taro-Hayashi/Shotgun-CherryPie/tree/main/step
 
 ### キット以外に必要なもの
+
+リンクにはアフィリエイトリンクを含みます。
+
 |部品名|数||
 |-|-|-|
-|[キースイッチ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)|〜20|CherryMX互換|
-|[キーキャップ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)|〜20|スイッチに合うもの|
+|キースイッチ（[遊舎工房](https://shop.yushakobo.jp/collections/cherry-mx-clone)、[TALPKEYBOARD](https://shop.talpkeyboard.com/collections/keyswitch?ref=tarohayashi)）|〜20|CherryMX互換|
+|キーキャップ（[遊舎工房](https://shop.yushakobo.jp/collections/keycaps)、[TALPKEYBOARD](https://shop.talpkeyboard.com/collections/keycaps?ref=tarohayashi)）|〜20|スイッチに合うもの|
 |USB ケーブル|1|データ転送対応のもの|
-|Raspberyy Pi Pico（同梱でない場合）|1|互換品には適合しないものがあります。|
+|Raspberry Pi Pico（同梱でない場合）|1|互換品には適合しないものがあります。|
 
 ### オプション
 
 |部品名|数||
 |-|-|-|
-|[スタビライザー](https://shop.yushakobo.jp/products/a0500st)|必要数|2U、PCBマウント|
-|[ロータリーエンコーダー](https://shop.yushakobo.jp/products/3762)|～5|EC11/EC12/ロープロファイル|
-|[ノブ](https://shop.yushakobo.jp/products/3733)|〜5|外径19mmまで|
-|LED（[SK6812MINI-E](https://shop.yushakobo.jp/products/sk6812mini-e-10)）|12、もしくは28|12個で裏面のみ、28個で両面|
+|スタビライザー（[遊舎工房](https://shop.yushakobo.jp/products/a0500st)）|必要数|2U、PCBマウント|
+|ロータリーエンコーダー（[遊舎工房](https://shop.yushakobo.jp/products/3762)）|～5|EC11/EC12/ロープロファイル|
+|ノブ（[遊舎工房](https://shop.yushakobo.jp/products/3733)）|〜5|外径19mmまで|
+|LED SK6812MINI-E（[遊舎工房](https://shop.yushakobo.jp/products/sk6812mini-e-10)）|12、もしくは28|12個で裏面のみ、28個で両面|
 
 
 ### 必要な工具
@@ -65,13 +67,13 @@ Step
 ## 準備
 ### レイアウトを決める
 このキットはいろいろなレイアウトから選んでお使いいただけます。
-![](img/layout.jpg)
-色のついているところが交換可能になっています。
+![](img/layout.jpg)  
+色のついているところが交換可能になっています。  
 
-ビルドガイドではロータリーエンコーダーを1つ、幅が2倍（2U）のキーを二つ使ったテンキーにします。
-![](img/test.jpg)  
-キット、その他必要なものに追加でロータリーエンコーダーとノブを一つずつ、スタビライザーを2つ用意しました。
-![](img/IMG_3497.jpeg)  
+ビルドガイドではロータリーエンコーダーを1つ、幅が2倍（2U）のキーを二つ使ったテンキーにします。  
+![](img/test.jpg)    
+キット、その他必要なものに追加でロータリーエンコーダーとノブを一つずつ、スタビライザーを2つ用意しました。  
+![](img/IMG_3497.jpeg)    
 
 ### テスト用ファームウェアの書き込み
 こちらからテスト用ファームウェアをダウンロードしてください。
